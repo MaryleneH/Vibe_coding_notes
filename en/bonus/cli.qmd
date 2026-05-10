@@ -10,16 +10,19 @@ The Gemini CLI is a powerful tool designed to bring advanced AI capabilities dir
 **Why is it useful?** It allows developers and system administrators to automate repetitive tasks, analyze local files, and chain AI commands together without having to write full Python or Node.js applications. It's incredibly fast, requires zero boilerplate code, and integrates perfectly with your existing Bash or PowerShell scripts.
 
 **When to use it:** 
+
 - Quick, one-off tasks (e.g., "Summarize this error log").
 - Automating local workflows (e.g., "Translate all markdown files in this folder").
 - Piping output from other terminal tools directly into the AI.
 
 **When NOT to use it:**
+
 - Building user-facing, full-stack applications (use the Gemini API instead).
 - Iterating on complex prompt design (Google AI Studio is better for visual prototyping).
 - Handling large-scale, distributed requests where database state and complex logic are required.
 
 **Key steps to mastery:**
+
 1. Master standard input/output (piping) to feed data to the model.
 2. Understand how to inject context using the `--media` flag.
 3. Learn to enforce structured outputs (JSON) so your scripts can safely parse the AI's response.
