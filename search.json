@@ -2,23 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Vibe Coding Mastery",
+    "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "This is a 21-day journey to becoming a “Vibe Coding” expert. You’ll learn how to leverage Google AI Studio and the Gemini Python SDK to build real applications and AI agents from scratch.\n\n\n\nWeek 1: Foundations - Master advanced prompting and the Gemini API.\nWeek 2: Agents - Teach Gemini to use tools and build your Sacristan Assistant.\nWeek 3: Advanced & Deploy - AI-assisted coding, UIs, and deployment.\n\nPrerequisites: - A basic understanding of logic. - Python installed on your machine. - A Google account to access Google AI Studio.\nGet started by navigating to Week 1, Day 1."
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Sacristan Agent.\n\n Start Your Journey →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prerequisites\n\n\n\n\nPython installed (&gt;= 3.10)\nA Google Account for Google AI Studio\nAn IDE (VS Code or Cursor)\nA basic understanding of logic\n\n\n\n\n\n\n\n\n\nTip⏱️ Time Commitment\n\n\n\nJust 2 hours a day. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding."
   },
   {
-    "objectID": "index.html#curriculum-overview",
-    "href": "index.html#curriculum-overview",
-    "title": "Vibe Coding Mastery",
+    "objectID": "index.html#the-future-of-coding-is-here",
+    "href": "index.html#the-future-of-coding-is-here",
+    "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "Week 1: Foundations - Master advanced prompting and the Gemini API.\nWeek 2: Agents - Teach Gemini to use tools and build your Sacristan Assistant.\nWeek 3: Advanced & Deploy - AI-assisted coding, UIs, and deployment.\n\nPrerequisites: - A basic understanding of logic. - Python installed on your machine. - A Google account to access Google AI Studio.\nGet started by navigating to Week 1, Day 1."
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Sacristan Agent.\n\n Start Your Journey →"
   },
   {
     "objectID": "week2/index.html",
     "href": "week2/index.html",
     "title": "Week2: Agents",
     "section": "",
-    "text": "Overview\nWelcome to Week2!",
+    "text": "Agents Overview\nWelcome to Week2 of the Vibe Coding Mastery journey!\nThis week, we will focus on Agents. You’ll explore how to guide AI models effectively and translate natural language instructions into functional code and tools.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\nProject Building: We culminate the week with a mini-project.\n\nLet’s dive into Day 1: Introduction to Function Calling!",
     "crumbs": [
       "Home",
       "Week 2: Agents"
@@ -29,7 +29,55 @@
     "href": "week2/day3.html",
     "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "Building your First Agent\nContent for week2, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 3. Today, we are diving deep into Building your First Agent.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind building your first agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Building your First Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Building your First Agent in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Building your First Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 3: Building your First Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day3.html#learning-objectives",
+    "href": "week2/day3.html#learning-objectives",
+    "title": "Day 3: Building your First Agent",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind building your first agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 3: Building your First Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day3.html#core-concepts",
+    "href": "week2/day3.html#core-concepts",
+    "title": "Day 3: Building your First Agent",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Building your First Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Building your First Agent in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 3: Building your First Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day3.html#hands-on-exercise",
+    "href": "week2/day3.html#hands-on-exercise",
+    "title": "Day 3: Building your First Agent",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 3: Building your First Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day3.html#wrap-up",
+    "href": "week2/day3.html#wrap-up",
+    "title": "Day 3: Building your First Agent",
+    "section": "",
+    "text": "Today we covered Building your First Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -41,7 +89,55 @@
     "href": "week2/day7.html",
     "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Review & Rest\nContent for week2, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind review & rest. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Review & Rest)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Review & Rest in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Sacristan Agent’s tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Review & Rest. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week2/day7.html#learning-objectives",
+    "href": "week2/day7.html#learning-objectives",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind review & rest. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week2/day7.html#core-concepts",
+    "href": "week2/day7.html#core-concepts",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Review & Rest)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Review & Rest in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week2/day7.html#hands-on-exercise",
+    "href": "week2/day7.html#hands-on-exercise",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Sacristan Agent’s tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week2/day7.html#wrap-up",
+    "href": "week2/day7.html#wrap-up",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "Today we covered Review & Rest. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -53,7 +149,55 @@
     "href": "week2/day5.html",
     "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "Agentic Workflows\nContent for week2, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 5. Today, we are diving deep into Agentic Workflows.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind agentic workflows. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Agentic Workflows)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Agentic Workflows in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Agentic Workflows. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Mini-Project 2: Sacristan Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 5: Agentic Workflows"
+    ]
+  },
+  {
+    "objectID": "week2/day5.html#learning-objectives",
+    "href": "week2/day5.html#learning-objectives",
+    "title": "Day 5: Agentic Workflows",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind agentic workflows. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 5: Agentic Workflows"
+    ]
+  },
+  {
+    "objectID": "week2/day5.html#core-concepts",
+    "href": "week2/day5.html#core-concepts",
+    "title": "Day 5: Agentic Workflows",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Agentic Workflows)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Agentic Workflows in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 5: Agentic Workflows"
+    ]
+  },
+  {
+    "objectID": "week2/day5.html#hands-on-exercise",
+    "href": "week2/day5.html#hands-on-exercise",
+    "title": "Day 5: Agentic Workflows",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 5: Agentic Workflows"
+    ]
+  },
+  {
+    "objectID": "week2/day5.html#wrap-up",
+    "href": "week2/day5.html#wrap-up",
+    "title": "Day 5: Agentic Workflows",
+    "section": "",
+    "text": "Today we covered Agentic Workflows. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Mini-Project 2: Sacristan Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -65,7 +209,7 @@
     "href": "week1/index.html",
     "title": "Week1: Foundations",
     "section": "",
-    "text": "Overview\nWelcome to Week1!",
+    "text": "Foundations Overview\nWelcome to Week1 of the Vibe Coding Mastery journey!\nThis week, we will focus on Foundations. You’ll explore how to guide AI models effectively and translate natural language instructions into functional code and tools.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\nProject Building: We culminate the week with a mini-project.\n\nLet’s dive into Day 1: The Vibe Coding Mindset!",
     "crumbs": [
       "Home",
       "Week 1: Foundations"
@@ -76,7 +220,55 @@
     "href": "week1/day3.html",
     "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "Structured Outputs\nContent for week1, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 3. Today, we are diving deep into Structured Outputs.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind structured outputs. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Structured Outputs)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Structured Outputs in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Structured Outputs. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 3: Structured Outputs"
+    ]
+  },
+  {
+    "objectID": "week1/day3.html#learning-objectives",
+    "href": "week1/day3.html#learning-objectives",
+    "title": "Day 3: Structured Outputs",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind structured outputs. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 3: Structured Outputs"
+    ]
+  },
+  {
+    "objectID": "week1/day3.html#core-concepts",
+    "href": "week1/day3.html#core-concepts",
+    "title": "Day 3: Structured Outputs",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Structured Outputs)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Structured Outputs in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 3: Structured Outputs"
+    ]
+  },
+  {
+    "objectID": "week1/day3.html#hands-on-exercise",
+    "href": "week1/day3.html#hands-on-exercise",
+    "title": "Day 3: Structured Outputs",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 3: Structured Outputs"
+    ]
+  },
+  {
+    "objectID": "week1/day3.html#wrap-up",
+    "href": "week1/day3.html#wrap-up",
+    "title": "Day 3: Structured Outputs",
+    "section": "",
+    "text": "Today we covered Structured Outputs. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -88,7 +280,55 @@
     "href": "week1/day7.html",
     "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Review & Rest\nContent for week1, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind review & rest. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Review & Rest)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Review & Rest in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Review & Rest. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week1/day7.html#learning-objectives",
+    "href": "week1/day7.html#learning-objectives",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind review & rest. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week1/day7.html#core-concepts",
+    "href": "week1/day7.html#core-concepts",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Review & Rest)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Review & Rest in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week1/day7.html#hands-on-exercise",
+    "href": "week1/day7.html#hands-on-exercise",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week1/day7.html#wrap-up",
+    "href": "week1/day7.html#wrap-up",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "Today we covered Review & Rest. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -100,7 +340,55 @@
     "href": "week1/day5.html",
     "title": "Day 5: Transitioning to Code",
     "section": "",
-    "text": "Transitioning to Code\nContent for week1, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 5. Today, we are diving deep into Transitioning to Code.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind transitioning to code. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Transitioning to Code)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Transitioning to Code in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Transitioning to Code. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 5: Transitioning to Code"
+    ]
+  },
+  {
+    "objectID": "week1/day5.html#learning-objectives",
+    "href": "week1/day5.html#learning-objectives",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind transitioning to code. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 5: Transitioning to Code"
+    ]
+  },
+  {
+    "objectID": "week1/day5.html#core-concepts",
+    "href": "week1/day5.html#core-concepts",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Transitioning to Code)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Transitioning to Code in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 5: Transitioning to Code"
+    ]
+  },
+  {
+    "objectID": "week1/day5.html#hands-on-exercise",
+    "href": "week1/day5.html#hands-on-exercise",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 5: Transitioning to Code"
+    ]
+  },
+  {
+    "objectID": "week1/day5.html#wrap-up",
+    "href": "week1/day5.html#wrap-up",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "Today we covered Transitioning to Code. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -112,7 +400,7 @@
     "href": "week3/index.html",
     "title": "Week3: Advanced & Deploy",
     "section": "",
-    "text": "Overview\nWelcome to Week3!",
+    "text": "Advanced & Deploy Overview\nWelcome to Week3 of the Vibe Coding Mastery journey!\nThis week, we will focus on Advanced & Deploy. You’ll explore how to guide AI models effectively and translate natural language instructions into functional code and tools.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\nProject Building: We culminate the week with a mini-project.\n\nLet’s dive into Day 1: AI-Assisted Coding!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy"
@@ -123,7 +411,55 @@
     "href": "week3/day3.html",
     "title": "Day 3: System Architecture",
     "section": "",
-    "text": "System Architecture\nContent for week3, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 3. Today, we are diving deep into System Architecture.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind system architecture. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding System Architecture)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain System Architecture in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered System Architecture. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Generating UIs.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 3: System Architecture"
+    ]
+  },
+  {
+    "objectID": "week3/day3.html#learning-objectives",
+    "href": "week3/day3.html#learning-objectives",
+    "title": "Day 3: System Architecture",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind system architecture. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 3: System Architecture"
+    ]
+  },
+  {
+    "objectID": "week3/day3.html#core-concepts",
+    "href": "week3/day3.html#core-concepts",
+    "title": "Day 3: System Architecture",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding System Architecture)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain System Architecture in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 3: System Architecture"
+    ]
+  },
+  {
+    "objectID": "week3/day3.html#hands-on-exercise",
+    "href": "week3/day3.html#hands-on-exercise",
+    "title": "Day 3: System Architecture",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 3: System Architecture"
+    ]
+  },
+  {
+    "objectID": "week3/day3.html#wrap-up",
+    "href": "week3/day3.html#wrap-up",
+    "title": "Day 3: System Architecture",
+    "section": "",
+    "text": "Today we covered System Architecture. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Generating UIs.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -135,7 +471,55 @@
     "href": "week3/day7.html",
     "title": "Day 7: Deploying & Wrap-up",
     "section": "",
-    "text": "Deploying & Wrap-up\nContent for week3, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 7. Today, we are diving deep into Deploying & Wrap-up.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind deploying & wrap-up. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Deploying & Wrap-up)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Deploying & Wrap-up in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Deploy your backend to a free service (e.g., Render) and your UI to GitHub Pages. Test the live agent in production!\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Deploying & Wrap-up. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 7: Deploying & Wrap-up"
+    ]
+  },
+  {
+    "objectID": "week3/day7.html#learning-objectives",
+    "href": "week3/day7.html#learning-objectives",
+    "title": "Day 7: Deploying & Wrap-up",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind deploying & wrap-up. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 7: Deploying & Wrap-up"
+    ]
+  },
+  {
+    "objectID": "week3/day7.html#core-concepts",
+    "href": "week3/day7.html#core-concepts",
+    "title": "Day 7: Deploying & Wrap-up",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Deploying & Wrap-up)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Deploying & Wrap-up in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 7: Deploying & Wrap-up"
+    ]
+  },
+  {
+    "objectID": "week3/day7.html#hands-on-exercise",
+    "href": "week3/day7.html#hands-on-exercise",
+    "title": "Day 7: Deploying & Wrap-up",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Deploy your backend to a free service (e.g., Render) and your UI to GitHub Pages. Test the live agent in production!\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 7: Deploying & Wrap-up"
+    ]
+  },
+  {
+    "objectID": "week3/day7.html#wrap-up",
+    "href": "week3/day7.html#wrap-up",
+    "title": "Day 7: Deploying & Wrap-up",
+    "section": "",
+    "text": "Today we covered Deploying & Wrap-up. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring the next week’s foundational topics.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -147,7 +531,55 @@
     "href": "week3/day5.html",
     "title": "Day 5: Integrating the Sacristan Agent",
     "section": "",
-    "text": "Integrating the Sacristan Agent\nContent for week3, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 5. Today, we are diving deep into Integrating the Sacristan Agent.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind integrating the sacristan agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Integrating the Sacristan Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Integrating the Sacristan Agent in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Integrating the Sacristan Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 5: Integrating the Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week3/day5.html#learning-objectives",
+    "href": "week3/day5.html#learning-objectives",
+    "title": "Day 5: Integrating the Sacristan Agent",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind integrating the sacristan agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 5: Integrating the Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week3/day5.html#core-concepts",
+    "href": "week3/day5.html#core-concepts",
+    "title": "Day 5: Integrating the Sacristan Agent",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Integrating the Sacristan Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Integrating the Sacristan Agent in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 5: Integrating the Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week3/day5.html#hands-on-exercise",
+    "href": "week3/day5.html#hands-on-exercise",
+    "title": "Day 5: Integrating the Sacristan Agent",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 5: Integrating the Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week3/day5.html#wrap-up",
+    "href": "week3/day5.html#wrap-up",
+    "title": "Day 5: Integrating the Sacristan Agent",
+    "section": "",
+    "text": "Today we covered Integrating the Sacristan Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -159,7 +591,55 @@
     "href": "week3/day4.html",
     "title": "Day 4: Generating UIs",
     "section": "",
-    "text": "Generating UIs\nContent for week3, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 4. Today, we are diving deep into Generating UIs.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind generating uis. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Generating UIs)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Generating UIs in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Generating UIs. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Integrating the Sacristan Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 4: Generating UIs"
+    ]
+  },
+  {
+    "objectID": "week3/day4.html#learning-objectives",
+    "href": "week3/day4.html#learning-objectives",
+    "title": "Day 4: Generating UIs",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind generating uis. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 4: Generating UIs"
+    ]
+  },
+  {
+    "objectID": "week3/day4.html#core-concepts",
+    "href": "week3/day4.html#core-concepts",
+    "title": "Day 4: Generating UIs",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Generating UIs)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Generating UIs in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 4: Generating UIs"
+    ]
+  },
+  {
+    "objectID": "week3/day4.html#hands-on-exercise",
+    "href": "week3/day4.html#hands-on-exercise",
+    "title": "Day 4: Generating UIs",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 4: Generating UIs"
+    ]
+  },
+  {
+    "objectID": "week3/day4.html#wrap-up",
+    "href": "week3/day4.html#wrap-up",
+    "title": "Day 4: Generating UIs",
+    "section": "",
+    "text": "Today we covered Generating UIs. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Integrating the Sacristan Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -171,7 +651,55 @@
     "href": "week3/day2.html",
     "title": "Day 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "Test-Driven Vibe Coding\nContent for week3, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 2. Today, we are diving deep into Test-Driven Vibe Coding.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind test-driven vibe coding. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Test-Driven Vibe Coding)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Test-Driven Vibe Coding in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that generates PyTest cases for your ‘Calculator’ tool. Then use Gemini to fix any failing tests.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Test-Driven Vibe Coding. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring System Architecture.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 2: Test-Driven Vibe Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day2.html#learning-objectives",
+    "href": "week3/day2.html#learning-objectives",
+    "title": "Day 2: Test-Driven Vibe Coding",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind test-driven vibe coding. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 2: Test-Driven Vibe Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day2.html#core-concepts",
+    "href": "week3/day2.html#core-concepts",
+    "title": "Day 2: Test-Driven Vibe Coding",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Test-Driven Vibe Coding)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Test-Driven Vibe Coding in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 2: Test-Driven Vibe Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day2.html#hands-on-exercise",
+    "href": "week3/day2.html#hands-on-exercise",
+    "title": "Day 2: Test-Driven Vibe Coding",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that generates PyTest cases for your ‘Calculator’ tool. Then use Gemini to fix any failing tests.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 2: Test-Driven Vibe Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day2.html#wrap-up",
+    "href": "week3/day2.html#wrap-up",
+    "title": "Day 2: Test-Driven Vibe Coding",
+    "section": "",
+    "text": "Today we covered Test-Driven Vibe Coding. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring System Architecture.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -183,7 +711,55 @@
     "href": "week3/day6.html",
     "title": "Day 6: Final Project Polish",
     "section": "",
-    "text": "Final Project Polish\nContent for week3, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 6. Today, we are diving deep into Final Project Polish.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind final project polish. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Final Project Polish)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Final Project Polish in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Export to Markdown’ tool to your agent and update the UI to visually display the agent’s internal thinking steps.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Final Project Polish. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Deploying & Wrap-up.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 6: Final Project Polish"
+    ]
+  },
+  {
+    "objectID": "week3/day6.html#learning-objectives",
+    "href": "week3/day6.html#learning-objectives",
+    "title": "Day 6: Final Project Polish",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind final project polish. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 6: Final Project Polish"
+    ]
+  },
+  {
+    "objectID": "week3/day6.html#core-concepts",
+    "href": "week3/day6.html#core-concepts",
+    "title": "Day 6: Final Project Polish",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Final Project Polish)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Final Project Polish in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 6: Final Project Polish"
+    ]
+  },
+  {
+    "objectID": "week3/day6.html#hands-on-exercise",
+    "href": "week3/day6.html#hands-on-exercise",
+    "title": "Day 6: Final Project Polish",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Export to Markdown’ tool to your agent and update the UI to visually display the agent’s internal thinking steps.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 6: Final Project Polish"
+    ]
+  },
+  {
+    "objectID": "week3/day6.html#wrap-up",
+    "href": "week3/day6.html#wrap-up",
+    "title": "Day 6: Final Project Polish",
+    "section": "",
+    "text": "Today we covered Final Project Polish. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Deploying & Wrap-up.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -195,7 +771,55 @@
     "href": "week3/day1.html",
     "title": "Day 1: AI-Assisted Coding",
     "section": "",
-    "text": "AI-Assisted Coding\nContent for week3, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 1. Today, we are diving deep into AI-Assisted Coding.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind ai-assisted coding. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding AI-Assisted Coding)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain AI-Assisted Coding in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered AI-Assisted Coding. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Test-Driven Vibe Coding.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 1: AI-Assisted Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day1.html#learning-objectives",
+    "href": "week3/day1.html#learning-objectives",
+    "title": "Day 1: AI-Assisted Coding",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind ai-assisted coding. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 1: AI-Assisted Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day1.html#core-concepts",
+    "href": "week3/day1.html#core-concepts",
+    "title": "Day 1: AI-Assisted Coding",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding AI-Assisted Coding)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain AI-Assisted Coding in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 1: AI-Assisted Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day1.html#hands-on-exercise",
+    "href": "week3/day1.html#hands-on-exercise",
+    "title": "Day 1: AI-Assisted Coding",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 1: AI-Assisted Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day1.html#wrap-up",
+    "href": "week3/day1.html#wrap-up",
+    "title": "Day 1: AI-Assisted Coding",
+    "section": "",
+    "text": "Today we covered AI-Assisted Coding. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Test-Driven Vibe Coding.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 3: Advanced & Deploy",
@@ -207,7 +831,55 @@
     "href": "week1/day4.html",
     "title": "Day 4: Multimodal Magic",
     "section": "",
-    "text": "Multimodal Magic\nContent for week1, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 4. Today, we are diving deep into Multimodal Magic.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind multimodal magic. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Multimodal Magic)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Multimodal Magic in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Multimodal Magic. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "week1/day4.html#learning-objectives",
+    "href": "week1/day4.html#learning-objectives",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind multimodal magic. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "week1/day4.html#core-concepts",
+    "href": "week1/day4.html#core-concepts",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Multimodal Magic)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Multimodal Magic in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "week1/day4.html#hands-on-exercise",
+    "href": "week1/day4.html#hands-on-exercise",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "week1/day4.html#wrap-up",
+    "href": "week1/day4.html#wrap-up",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "Today we covered Multimodal Magic. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -219,7 +891,55 @@
     "href": "week1/day2.html",
     "title": "Day 2: Advanced Prompt Engineering & Reasoning",
     "section": "",
-    "text": "Advanced Prompt Engineering & Reasoning\nContent for week1, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 2. Today, we are diving deep into Advanced Prompt Engineering & Reasoning.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind advanced prompt engineering & reasoning. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Advanced Prompt Engineering & Reasoning)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Advanced Prompt Engineering & Reasoning in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Advanced Prompt Engineering & Reasoning. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "week1/day2.html#learning-objectives",
+    "href": "week1/day2.html#learning-objectives",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind advanced prompt engineering & reasoning. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "week1/day2.html#core-concepts",
+    "href": "week1/day2.html#core-concepts",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Advanced Prompt Engineering & Reasoning)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Advanced Prompt Engineering & Reasoning in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "week1/day2.html#hands-on-exercise",
+    "href": "week1/day2.html#hands-on-exercise",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "week1/day2.html#wrap-up",
+    "href": "week1/day2.html#wrap-up",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "Today we covered Advanced Prompt Engineering & Reasoning. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -231,7 +951,55 @@
     "href": "week1/day6.html",
     "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "Mini-Project 1\nContent for week1, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 1.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind mini-project 1. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Mini-Project 1)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Mini-Project 1 in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Mini-Project 1. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "week1/day6.html#learning-objectives",
+    "href": "week1/day6.html#learning-objectives",
+    "title": "Day 6: Mini-Project 1",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind mini-project 1. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "week1/day6.html#core-concepts",
+    "href": "week1/day6.html#core-concepts",
+    "title": "Day 6: Mini-Project 1",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Mini-Project 1)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Mini-Project 1 in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "week1/day6.html#hands-on-exercise",
+    "href": "week1/day6.html#hands-on-exercise",
+    "title": "Day 6: Mini-Project 1",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "week1/day6.html#wrap-up",
+    "href": "week1/day6.html#wrap-up",
+    "title": "Day 6: Mini-Project 1",
+    "section": "",
+    "text": "Today we covered Mini-Project 1. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -243,7 +1011,55 @@
     "href": "week1/day1.html",
     "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "The Vibe Coding Mindset\nContent for week1, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 1. Today, we are diving deep into The Vibe Coding Mindset.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind the vibe coding mindset. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding The Vibe Coding Mindset)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain The Vibe Coding Mindset in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered The Vibe Coding Mindset. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 1: The Vibe Coding Mindset"
+    ]
+  },
+  {
+    "objectID": "week1/day1.html#learning-objectives",
+    "href": "week1/day1.html#learning-objectives",
+    "title": "Day 1: The Vibe Coding Mindset",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind the vibe coding mindset. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 1: The Vibe Coding Mindset"
+    ]
+  },
+  {
+    "objectID": "week1/day1.html#core-concepts",
+    "href": "week1/day1.html#core-concepts",
+    "title": "Day 1: The Vibe Coding Mindset",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding The Vibe Coding Mindset)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain The Vibe Coding Mindset in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 1: The Vibe Coding Mindset"
+    ]
+  },
+  {
+    "objectID": "week1/day1.html#hands-on-exercise",
+    "href": "week1/day1.html#hands-on-exercise",
+    "title": "Day 1: The Vibe Coding Mindset",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 1: The Vibe Coding Mindset"
+    ]
+  },
+  {
+    "objectID": "week1/day1.html#wrap-up",
+    "href": "week1/day1.html#wrap-up",
+    "title": "Day 1: The Vibe Coding Mindset",
+    "section": "",
+    "text": "Today we covered The Vibe Coding Mindset. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 1: Foundations",
@@ -255,7 +1071,55 @@
     "href": "week2/day4.html",
     "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "Context & Memory\nContent for week2, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 4. Today, we are diving deep into Context & Memory.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind context & memory. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Context & Memory)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Context & Memory in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Context & Memory. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
+    ]
+  },
+  {
+    "objectID": "week2/day4.html#learning-objectives",
+    "href": "week2/day4.html#learning-objectives",
+    "title": "Day 4: Context & Memory",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind context & memory. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
+    ]
+  },
+  {
+    "objectID": "week2/day4.html#core-concepts",
+    "href": "week2/day4.html#core-concepts",
+    "title": "Day 4: Context & Memory",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Context & Memory)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Context & Memory in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
+    ]
+  },
+  {
+    "objectID": "week2/day4.html#hands-on-exercise",
+    "href": "week2/day4.html#hands-on-exercise",
+    "title": "Day 4: Context & Memory",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
+    ]
+  },
+  {
+    "objectID": "week2/day4.html#wrap-up",
+    "href": "week2/day4.html#wrap-up",
+    "title": "Day 4: Context & Memory",
+    "section": "",
+    "text": "Today we covered Context & Memory. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -267,7 +1131,55 @@
     "href": "week2/day2.html",
     "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "Defining Tools\nContent for week2, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 2. Today, we are diving deep into Defining Tools.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind defining tools. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Defining Tools)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Defining Tools in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Defining Tools. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 2: Defining Tools"
+    ]
+  },
+  {
+    "objectID": "week2/day2.html#learning-objectives",
+    "href": "week2/day2.html#learning-objectives",
+    "title": "Day 2: Defining Tools",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind defining tools. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 2: Defining Tools"
+    ]
+  },
+  {
+    "objectID": "week2/day2.html#core-concepts",
+    "href": "week2/day2.html#core-concepts",
+    "title": "Day 2: Defining Tools",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Defining Tools)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Defining Tools in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 2: Defining Tools"
+    ]
+  },
+  {
+    "objectID": "week2/day2.html#hands-on-exercise",
+    "href": "week2/day2.html#hands-on-exercise",
+    "title": "Day 2: Defining Tools",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 2: Defining Tools"
+    ]
+  },
+  {
+    "objectID": "week2/day2.html#wrap-up",
+    "href": "week2/day2.html#wrap-up",
+    "title": "Day 2: Defining Tools",
+    "section": "",
+    "text": "Today we covered Defining Tools. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -279,7 +1191,55 @@
     "href": "week2/day6.html",
     "title": "Day 6: Mini-Project 2: Sacristan Agent",
     "section": "",
-    "text": "Mini-Project 2: Sacristan Agent\nContent for week2, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 2: Sacristan Agent.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind mini-project 2: sacristan agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Mini-Project 2: Sacristan Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Mini-Project 2: Sacristan Agent in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Mini-Project 2: Sacristan Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 6: Mini-Project 2: Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day6.html#learning-objectives",
+    "href": "week2/day6.html#learning-objectives",
+    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind mini-project 2: sacristan agent. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 6: Mini-Project 2: Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day6.html#core-concepts",
+    "href": "week2/day6.html#core-concepts",
+    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Mini-Project 2: Sacristan Agent)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Mini-Project 2: Sacristan Agent in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 6: Mini-Project 2: Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day6.html#hands-on-exercise",
+    "href": "week2/day6.html#hands-on-exercise",
+    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 6: Mini-Project 2: Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day6.html#wrap-up",
+    "href": "week2/day6.html#wrap-up",
+    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "section": "",
+    "text": "Today we covered Mini-Project 2: Sacristan Agent. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",
@@ -291,7 +1251,55 @@
     "href": "week2/day1.html",
     "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "Introduction to Function Calling\nContent for week2, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "text": "Welcome to Day 1. Today, we are diving deep into Introduction to Function Calling.\n\n\nBy the end of this session, you will be able to: 1. Understand the core principles behind introduction to function calling. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.\n\n\n\n(Replace this section with your detailed lecture notes, theory, and explanations regarding Introduction to Function Calling)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Introduction to Function Calling in one sentence.\")\nprint(response.text)\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.\n\n\n\nToday we covered Introduction to Function Calling. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click “Mark as Complete” below to track your progress!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 1: Introduction to Function Calling"
+    ]
+  },
+  {
+    "objectID": "week2/day1.html#learning-objectives",
+    "href": "week2/day1.html#learning-objectives",
+    "title": "Day 1: Introduction to Function Calling",
+    "section": "",
+    "text": "By the end of this session, you will be able to: 1. Understand the core principles behind introduction to function calling. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 1: Introduction to Function Calling"
+    ]
+  },
+  {
+    "objectID": "week2/day1.html#core-concepts",
+    "href": "week2/day1.html#core-concepts",
+    "title": "Day 1: Introduction to Function Calling",
+    "section": "",
+    "text": "(Replace this section with your detailed lecture notes, theory, and explanations regarding Introduction to Function Calling)\n\n\nExplain the first major concept here. Use examples and diagrams where possible.\n\n\n\nProvide code snippets or prompts to demonstrate the idea:\n# Example: Setting up the Gemini SDK\nimport google.generativeai as genai\n\ngenai.configure(api_key=\"YOUR_API_KEY\")\nmodel = genai.GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content(\"Explain Introduction to Function Calling in one sentence.\")\nprint(response.text)",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 1: Introduction to Function Calling"
+    ]
+  },
+  {
+    "objectID": "week2/day1.html#hands-on-exercise",
+    "href": "week2/day1.html#hands-on-exercise",
+    "title": "Day 1: Introduction to Function Calling",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements: - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 1: Introduction to Function Calling"
+    ]
+  },
+  {
+    "objectID": "week2/day1.html#wrap-up",
+    "href": "week2/day1.html#wrap-up",
+    "title": "Day 1: Introduction to Function Calling",
+    "section": "",
+    "text": "Today we covered Introduction to Function Calling. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click “Mark as Complete” below to track your progress!",
     "crumbs": [
       "Home",
       "Week 2: Agents",

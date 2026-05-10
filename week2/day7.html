@@ -74,14 +74,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-23bbe8b5e4efc1e257f6d59dce478b08.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-23bbe8b5e4efc1e257f6d59dce478b08.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4b72030de9ead4bd80fc219790ac1269.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-82afdbbb0ec589b72e187c22e5e890c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-4b72030de9ead4bd80fc219790ac1269.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0a280b5cb3746b885f66bd86584010ef.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dark-bdb52f5aed718d55b1a61c4b37414106.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -114,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../styles.scss">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -256,10 +254,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = false;
+    const authorPrefersDark = true;
     const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -510,7 +506,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#review-rest" id="toc-review-rest" class="nav-link active" data-scroll-target="#review-rest">Review &amp; Rest</a></li>
+  <li><a href="#review-rest" id="toc-review-rest" class="nav-link active" data-scroll-target="#review-rest">Review &amp; Rest</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">🎯 Learning Objectives</a></li>
+  <li><a href="#core-concepts" id="toc-core-concepts" class="nav-link" data-scroll-target="#core-concepts">📖 Core Concepts</a>
+  <ul class="collapse">
+  <li><a href="#key-topic-1" id="toc-key-topic-1" class="nav-link" data-scroll-target="#key-topic-1">Key Topic 1</a></li>
+  <li><a href="#key-topic-2" id="toc-key-topic-2" class="nav-link" data-scroll-target="#key-topic-2">Key Topic 2</a></li>
+  </ul></li>
+  <li><a href="#hands-on-exercise" id="toc-hands-on-exercise" class="nav-link" data-scroll-target="#hands-on-exercise">💻 Hands-on Exercise</a></li>
+  <li><a href="#wrap-up" id="toc-wrap-up" class="nav-link" data-scroll-target="#wrap-up">✅ Wrap-up</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -539,17 +545,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="review-rest" class="level1">
 <h1>Review &amp; Rest</h1>
-<p>Content for week2, Day 7 goes here.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example python code block</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hello_vibe():</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Vibe Coding!"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Welcome to <strong>Day 7</strong>. Today, we are diving deep into <strong>Review &amp; Rest</strong>.</p>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">🎯 Learning Objectives</h2>
+<p>By the end of this session, you will be able to: 1. Understand the core principles behind review &amp; rest. 2. Implement these concepts using the Google Gemini ecosystem. 3. Successfully complete today’s hands-on exercise.</p>
+</section>
+<section id="core-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="core-concepts">📖 Core Concepts</h2>
+<p><em>(Replace this section with your detailed lecture notes, theory, and explanations regarding Review &amp; Rest)</em></p>
+<section id="key-topic-1" class="level3">
+<h3 class="anchored" data-anchor-id="key-topic-1">Key Topic 1</h3>
+<p>Explain the first major concept here. Use examples and diagrams where possible.</p>
+</section>
+<section id="key-topic-2" class="level3">
+<h3 class="anchored" data-anchor-id="key-topic-2">Key Topic 2</h3>
+<p>Provide code snippets or prompts to demonstrate the idea:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example: Setting up the Gemini SDK</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> google.generativeai <span class="im">as</span> genai</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>genai.configure(api_key<span class="op">=</span><span class="st">"YOUR_API_KEY"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> genai.GenerativeModel(<span class="st">'gemini-1.5-pro'</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> model.generate_content(<span class="st">"Explain Review &amp; Rest in one sentence."</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(response.text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="hands-on-exercise" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-exercise">💻 Hands-on Exercise</h2>
+<p>It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:</p>
+<p><strong>Task:</strong> Review the Sacristan Agent’s tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.</p>
+<p><strong>Requirements:</strong> - Use the Gemini SDK or AI Studio. - Ensure the output is well-formatted and handles errors gracefully. - Test it with at least two different edge cases.</p>
+</section>
+<section id="wrap-up" class="level2">
+<h2 class="anchored" data-anchor-id="wrap-up">✅ Wrap-up</h2>
+<p>Today we covered Review &amp; Rest. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring <strong>the next week’s foundational topics</strong>.</p>
+<p>Make sure to click “Mark as Complete” below to track your progress!</p>
 
 
 </section>
+</section>
 
 </main> <!-- /main -->
-<div id="progress-container" style="margin-top: 50px; padding: 20px; border-top: 1px solid #ddd; text-align: center;">
-  <button id="mark-complete-btn" class="btn btn-primary" style="display:none;" onclick="toggleComplete()">Mark as Complete</button>
+<div id="progress-container" style="margin-top: 60px; padding: 30px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+  <button id="mark-complete-btn" class="btn btn-outline-primary" style="display:none; border-radius: 30px; padding: 10px 25px; font-weight: 600; transition: all 0.3s ease;" onclick="toggleComplete()">Mark as Complete</button>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -560,8 +597,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           btn.style.display = "inline-block";
           const isComplete = localStorage.getItem("completed_" + path);
           if (isComplete === "true") {
-            btn.textContent = "✅ Completed";
-            btn.classList.replace("btn-primary", "btn-success");
+            btn.innerHTML = "✨ Completed";
+            btn.classList.replace("btn-outline-primary", "btn-success");
+            btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
           }
       }
     }
@@ -574,12 +612,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     
     if (isComplete) {
       localStorage.setItem("completed_" + path, "false");
-      btn.textContent = "Mark as Complete";
-      btn.classList.replace("btn-success", "btn-primary");
+      btn.innerHTML = "Mark as Complete";
+      btn.classList.replace("btn-success", "btn-outline-primary");
+      btn.style.boxShadow = "none";
     } else {
       localStorage.setItem("completed_" + path, "true");
-      btn.textContent = "✅ Completed";
-      btn.classList.replace("btn-primary", "btn-success");
+      btn.innerHTML = "✨ Completed";
+      btn.classList.replace("btn-outline-primary", "btn-success");
+      btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
     }
   }
 </script>
@@ -669,7 +709,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-github-username\.github\.io\/vibe_coding_notes");
+        var filterRegex = new RegExp("https:\/\/maryleneh\.github\.io\/Vibe_coding_notes\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
