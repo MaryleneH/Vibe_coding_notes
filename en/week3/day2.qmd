@@ -22,6 +22,7 @@ By the end of this session, you will be able to:
 When AI writes your code, the biggest danger is silent failure. The code might look correct but contain subtle logic bugs. To counter this, we use Test-Driven Development (TDD) combined with Vibe Coding.
 
 ## The Workflow
+
 1. You write a natural language prompt asking the AI to generate a PyTest file for a specific function (even if the function doesn't exist yet).
 2. You ask the AI to generate the function.
 3. You run the tests.

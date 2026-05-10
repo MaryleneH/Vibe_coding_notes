@@ -22,6 +22,7 @@ By the end of this session, you will be able to:
 An AI Agent is simply a language model wrapped in a `while` loop with access to tools and memory. 
 
 ## The Core Logic
+
 1. **User Prompt:** The user asks a question ("What's the weather in Paris and then calculate 25% of the temperature?").
 2. **AI Decision:** The AI decides it needs to call `get_weather("Paris")`.
 3. **Execution:** Your Python script catches the function call request, executes the actual API call to a weather service, and gets `20°C`.

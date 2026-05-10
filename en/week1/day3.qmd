@@ -26,6 +26,7 @@ The Gemini API allows you to explicitly enforce a response schema. This means yo
 
 ## Why this is a Superpower
 Structured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:
+
 - Save it to a database.
 - Render it in a React UI.
 - Pass it as arguments to another Python function.

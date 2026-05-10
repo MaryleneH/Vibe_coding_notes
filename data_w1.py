@@ -8,6 +8,7 @@ You are no longer writing the code; you are defining the intent, the constraints
 
 ## The Role of the Director
 Think of a movie director. They don't hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:
+
 1. **You provide the context:** "We are building a web server."
 2. **You define the rules:** "It must use FastAPI and run on port 8000."
 3. **The AI executes the vision:** It generates the code instantly.
@@ -40,6 +41,7 @@ The Gemini API allows you to explicitly enforce a response schema. This means yo
 
 ## Why this is a Superpower
 Structured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:
+
 - Save it to a database.
 - Render it in a React UI.
 - Pass it as arguments to another Python function.
@@ -77,6 +79,7 @@ Today is about synthesis. You will combine your knowledge of the Gemini SDK, Pro
 
 ## The Objective
 You are no longer just writing snippets; you are architecting a loop. The application must:
+
 1. Accept user input.
 2. Formulate a prompt based on that input.
 3. Call the Gemini API and enforce a JSON schema.
@@ -105,6 +108,7 @@ Vous n'écrivez plus le code ; vous définissez l'intention, les contraintes et 
 
 ## Le Rôle du Réalisateur
 Pensez à un réalisateur de cinéma. Ils ne tiennent pas la caméra eux-mêmes. Au lieu de cela, ils fournissent la vision. Dans le vibe coding :
+
 1. **Vous fournissez le contexte :** "Nous construisons un serveur web."
 2. **Vous définissez les règles :** "Il doit utiliser FastAPI et s'exécuter sur le port 8000."
 3. **L'IA exécute la vision :** Elle génère le code instantanément.
@@ -135,6 +139,7 @@ L'API Gemini vous permet d'imposer explicitement un schéma de réponse ("Struct
 
 ## Pourquoi c'est un Superpouvoir
 Les sorties structurées sont le pont entre l'IA et le logiciel traditionnel. Une fois qu'une IA produit du JSON, vous pouvez :
+
 - Le sauvegarder dans une base de données.
 - Le rendre dans une interface React.
 - Le passer comme argument à une autre fonction Python.
@@ -171,6 +176,7 @@ Aujourd'hui est consacré à la synthèse. Vous allez combiner vos connaissances
 
 ## L'Objectif
 L'application doit :
+
 1. Accepter l'entrée de l'utilisateur.
 2. Formuler un prompt basé sur cette entrée.
 3. Appeler l'API Gemini et imposer un schéma JSON.

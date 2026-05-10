@@ -25,6 +25,7 @@ Vous n'écrivez plus le code ; vous définissez l'intention, les contraintes et 
 
 ## Le Rôle du Réalisateur
 Pensez à un réalisateur de cinéma. Ils ne tiennent pas la caméra eux-mêmes. Au lieu de cela, ils fournissent la vision. Dans le vibe coding :
+
 1. **Vous fournissez le contexte :** "Nous construisons un serveur web."
 2. **Vous définissez les règles :** "Il doit utiliser FastAPI et s'exécuter sur le port 8000."
 3. **L'IA exécute la vision :** Elle génère le code instantanément.

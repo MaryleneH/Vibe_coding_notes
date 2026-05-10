@@ -23,6 +23,7 @@ Today is about synthesis. You will combine your knowledge of the Gemini SDK, Pro
 
 ## The Objective
 You are no longer just writing snippets; you are architecting a loop. The application must:
+
 1. Accept user input.
 2. Formulate a prompt based on that input.
 3. Call the Gemini API and enforce a JSON schema.

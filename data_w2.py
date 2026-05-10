@@ -29,6 +29,7 @@ Defining a tool is like signing a contract with the AI: "If you give me these sp
 An AI Agent is simply a language model wrapped in a `while` loop with access to tools and memory. 
 
 ## The Core Logic
+
 1. **User Prompt:** The user asks a question ("What's the weather in Paris and then calculate 25% of the temperature?").
 2. **AI Decision:** The AI decides it needs to call `get_weather("Paris")`.
 3. **Execution:** Your Python script catches the function call request, executes the actual API call to a weather service, and gets `20°C`.
@@ -59,6 +60,7 @@ So far, you've built a single agent that tries to do everything. As tasks get mo
 
 ## Agentic Workflows
 Instead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.
+
 - **The Planner:** Takes the user's complex request and breaks it down into 5 sequential steps.
 - **The Researcher:** Takes step 1, browses the web, and returns data.
 - **The Coder:** Takes the data and writes a script.
@@ -73,6 +75,7 @@ A "Sacristan" is someone who takes care of a church—keeping it organized and c
 
 ## Tool Arsenal
 You will equip your agent with the following Python tools:
+
 - `list_directory(path)`
 - `read_file(path)`
 - `write_file(path, content)`
@@ -121,6 +124,7 @@ La partie la plus importante de la définition d'un outil est sa **description (
 Un Agent IA est simplement un modèle de langage enveloppé dans une boucle `while` avec un accès à des outils et à de la mémoire.
 
 ## La Logique Principale
+
 1. **Prompt Utilisateur :** L'utilisateur pose une question.
 2. **Décision de l'IA :** L'IA décide d'appeler `get_weather("Paris")`.
 3. **Exécution :** Votre script Python exécute l'appel API réel et obtient `20°C`.

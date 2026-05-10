@@ -23,6 +23,7 @@ So far, you've built a single agent that tries to do everything. As tasks get mo
 
 ## Agentic Workflows
 Instead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.
+
 - **The Planner:** Takes the user's complex request and breaks it down into 5 sequential steps.
 - **The Researcher:** Takes step 1, browses the web, and returns data.
 - **The Coder:** Takes the data and writes a script.

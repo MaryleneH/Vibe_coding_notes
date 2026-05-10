@@ -26,6 +26,7 @@ L'API Gemini vous permet d'imposer explicitement un schéma de réponse ("Struct
 
 ## Pourquoi c'est un Superpouvoir
 Les sorties structurées sont le pont entre l'IA et le logiciel traditionnel. Une fois qu'une IA produit du JSON, vous pouvez :
+
 - Le sauvegarder dans une base de données.
 - Le rendre dans une interface React.
 - Le passer comme argument à une autre fonction Python.

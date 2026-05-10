@@ -23,6 +23,7 @@ A "Sacristan" is someone who takes care of a church—keeping it organized and c
 
 ## Tool Arsenal
 You will equip your agent with the following Python tools:
+
 - `list_directory(path)`
 - `read_file(path)`
 - `write_file(path, content)`

@@ -14,6 +14,7 @@ Instead of thinking about syntax (`for i in range()`), you must think about arch
 When AI writes your code, the biggest danger is silent failure. The code might look correct but contain subtle logic bugs. To counter this, we use Test-Driven Development (TDD) combined with Vibe Coding.
 
 ## The Workflow
+
 1. You write a natural language prompt asking the AI to generate a PyTest file for a specific function (even if the function doesn't exist yet).
 2. You ask the AI to generate the function.
 3. You run the tests.
@@ -85,6 +86,7 @@ Au lieu de penser à la syntaxe, vous devez penser à l'architecture. Le codage 
 Lorsque l'IA écrit votre code, le plus grand danger est l'échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.
 
 ## Le Workflow
+
 1. Demandez à l'IA de générer des tests PyTest pour une fonction.
 2. Demandez à l'IA de générer la fonction.
 3. Exécutez les tests. S'ils échouent, passez le journal d'erreurs à l'IA pour qu'elle corrige le code. Bouclez jusqu'à ce que tout passe !

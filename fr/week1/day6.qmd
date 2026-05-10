@@ -23,6 +23,7 @@ Aujourd'hui est consacré à la synthèse. Vous allez combiner vos connaissances
 
 ## L'Objectif
 L'application doit :
+
 1. Accepter l'entrée de l'utilisateur.
 2. Formuler un prompt basé sur cette entrée.
 3. Appeler l'API Gemini et imposer un schéma JSON.

@@ -22,6 +22,7 @@ Bienvenue au **Jour 3**. Aujourd'hui, nous plongeons dans **Construire votre Pre
 Un Agent IA est simplement un modèle de langage enveloppé dans une boucle `while` avec un accès à des outils et à de la mémoire.
 
 ## La Logique Principale
+
 1. **Prompt Utilisateur :** L'utilisateur pose une question.
 2. **Décision de l'IA :** L'IA décide d'appeler `get_weather("Paris")`.
 3. **Exécution :** Votre script Python exécute l'appel API réel et obtient `20°C`.

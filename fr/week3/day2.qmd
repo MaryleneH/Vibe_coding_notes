@@ -22,6 +22,7 @@ Bienvenue au **Jour 2**. Aujourd'hui, nous plongeons dans **Test-Driven Vibe Cod
 Lorsque l'IA écrit votre code, le plus grand danger est l'échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.
 
 ## Le Workflow
+
 1. Demandez à l'IA de générer des tests PyTest pour une fonction.
 2. Demandez à l'IA de générer la fonction.
 3. Exécutez les tests. S'ils échouent, passez le journal d'erreurs à l'IA pour qu'elle corrige le code. Bouclez jusqu'à ce que tout passe !
