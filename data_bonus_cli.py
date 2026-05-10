@@ -1,9 +1,30 @@
 en_bonus_cli = """
 # Gemini CLI: Zero to Hero Masterclass
 
-![Gemini CLI Hero](../../assets/gemini_cli_hero.png){width=800px}
+<img src="../../assets/gemini_cli_hero.png" alt="Gemini CLI Hero" style="width: 100%; max-width: 400px; border-radius: 12px; margin-bottom: 20px; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" />
 
 Welcome to the ultimate guide to the **Gemini Command Line Interface (CLI)**. Over the next 6-8 hours, you will transition from learning what the CLI is, to orchestrating complex, automated workflows directly from your terminal.
+
+### The Power of the CLI
+The Gemini CLI is a powerful tool designed to bring advanced AI capabilities directly into your terminal. 
+
+**Why is it useful?** It allows developers and system administrators to automate repetitive tasks, analyze local files, and chain AI commands together without having to write full Python or Node.js applications. It's incredibly fast, requires zero boilerplate code, and integrates perfectly with your existing Bash or PowerShell scripts.
+
+**When to use it:** 
+- Quick, one-off tasks (e.g., "Summarize this error log").
+- Automating local workflows (e.g., "Translate all markdown files in this folder").
+- Piping output from other terminal tools directly into the AI.
+
+**When NOT to use it:**
+- Building user-facing, full-stack applications (use the Gemini API instead).
+- Iterating on complex prompt design (Google AI Studio is better for visual prototyping).
+- Handling large-scale, distributed requests where database state and complex logic are required.
+
+**Key steps to mastery:**
+1. Master standard input/output (piping) to feed data to the model.
+2. Understand how to inject context using the `--media` flag.
+3. Learn to enforce structured outputs (JSON) so your scripts can safely parse the AI's response.
+4. Seamlessly integrate the CLI into standard Shell scripting (loops, variables, conditionals).
 
 ---
 
@@ -266,9 +287,30 @@ You have learned how to install the Gemini CLI, pipe data, use system instructio
 fr_bonus_cli = """
 # Gemini CLI : Masterclass de Zéro à Héros
 
-![Gemini CLI Hero](../../assets/gemini_cli_hero.png){width=800px}
+<img src="../../assets/gemini_cli_hero.png" alt="Gemini CLI Hero" style="width: 100%; max-width: 400px; border-radius: 12px; margin-bottom: 20px; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" />
 
 Bienvenue dans le guide ultime de la **Command Line Interface (CLI) Gemini**. Au cours des 6 à 8 prochaines heures, vous passerez de la découverte de la CLI à l'orchestration de workflows automatisés complexes directement depuis votre terminal.
+
+### La Puissance de la CLI
+La CLI Gemini est un outil puissant conçu pour apporter des capacités d'IA avancées directement dans votre terminal.
+
+**Pourquoi est-ce utile ?** Cela permet aux développeurs et aux administrateurs système d'automatiser des tâches répétitives, d'analyser des fichiers locaux et d'enchaîner des commandes d'IA sans avoir à écrire des applications complètes en Python ou Node.js. C'est incroyablement rapide, ne nécessite aucun boilerplate (code de base), et s'intègre parfaitement avec vos scripts Bash ou PowerShell existants.
+
+**Quand l'utiliser :**
+- Tâches rapides et ponctuelles (ex: "Résume ce fichier log d'erreur").
+- Automatisation de workflows locaux (ex: "Traduire tous les fichiers markdown de ce dossier").
+- Redirection (piping) de la sortie d'autres outils du terminal directement vers l'IA.
+
+**Quand NE PAS l'utiliser :**
+- Création d'applications full-stack destinées aux utilisateurs (utilisez l'API Gemini).
+- Itération sur la conception de prompts complexes (Google AI Studio est meilleur pour le prototypage visuel).
+- Gestion de requêtes à grande échelle et distribuées nécessitant un état en base de données et une logique complexe.
+
+**Étapes clés vers la maîtrise :**
+1. Maîtriser l'entrée/sortie standard (piping) pour fournir des données au modèle.
+2. Comprendre comment injecter du contexte en utilisant le paramètre `--media`.
+3. Apprendre à imposer des sorties structurées (JSON) pour que vos scripts puissent analyser la réponse de l'IA en toute sécurité.
+4. Intégrer de manière transparente la CLI dans le scripting Shell standard (boucles, variables, conditions).
 
 ---
 
