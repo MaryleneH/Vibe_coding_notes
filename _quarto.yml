@@ -52,6 +52,14 @@ website:
             - en/week3/day5.qmd
             - en/week3/day6.qmd
             - en/week3/day7.qmd
+        - section: "Bonus"
+          contents:
+            - text: "Gemini - CLI"
+              href: en/bonus/cli.qmd
+            - text: "Google AI Studio"
+              href: en/bonus/studio.qmd
+            - text: "Antigravity"
+              href: en/bonus/antigravity.qmd
 
     - id: fr
       title: "Programme Français"
@@ -90,6 +98,14 @@ website:
             - fr/week3/day5.qmd
             - fr/week3/day6.qmd
             - fr/week3/day7.qmd
+        - section: "Bonus"
+          contents:
+            - text: "Gemini - CLI"
+              href: fr/bonus/cli.qmd
+            - text: "Google AI Studio"
+              href: fr/bonus/studio.qmd
+            - text: "Antigravity"
+              href: fr/bonus/antigravity.qmd
 
   page-footer:
     center: "Vibe Coding Mastery - 3 Week Journey"

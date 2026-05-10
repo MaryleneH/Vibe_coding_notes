@@ -91,6 +91,14 @@ website:
             - en/week3/day5.qmd
             - en/week3/day6.qmd
             - en/week3/day7.qmd
+        - section: "Bonus"
+          contents:
+            - text: "Gemini - CLI"
+              href: en/bonus/cli.qmd
+            - text: "Google AI Studio"
+              href: en/bonus/studio.qmd
+            - text: "Antigravity"
+              href: en/bonus/antigravity.qmd
 
     - id: fr
       title: "Programme Français"
@@ -129,6 +137,14 @@ website:
             - fr/week3/day5.qmd
             - fr/week3/day6.qmd
             - fr/week3/day7.qmd
+        - section: "Bonus"
+          contents:
+            - text: "Gemini - CLI"
+              href: fr/bonus/cli.qmd
+            - text: "Google AI Studio"
+              href: fr/bonus/studio.qmd
+            - text: "Antigravity"
+              href: fr/bonus/antigravity.qmd
 
   page-footer:
     center: "Vibe Coding Mastery - 3 Week Journey"
@@ -430,5 +446,12 @@ title: "{day_str} {day}: {day_title}"
 {"Make sure to click 'Mark as Complete' below to track your progress!" if lang=="en" else "Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !"}
 """
             create_file(os.path.join(week_dir, f"day{day}.qmd"), day_content)
+            
+    # Generate Bonus Section
+    bonus_dir = os.path.join(lang_dir, "bonus")
+    bonus_intro = "*(Detailed content coming soon)*" if lang == "en" else "*(Contenu détaillé à venir)*"
+    create_file(os.path.join(bonus_dir, "cli.qmd"), f"---\ntitle: 'Gemini - CLI'\n---\n\n{bonus_intro}\n")
+    create_file(os.path.join(bonus_dir, "studio.qmd"), f"---\ntitle: 'Google AI Studio'\n---\n\n{bonus_intro}\n")
+    create_file(os.path.join(bonus_dir, "antigravity.qmd"), f"---\ntitle: 'Antigravity'\n---\n\n{bonus_intro}\n")
 
 print("Bootstrapped successfully.")
