@@ -391,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../fr/week2/day6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Jour 6: Mini-Projet 2 : Agent Sacristain</span></a>
+ <span class="menu-text">Jour 6: Mini-Projet 2 : Agent Community Manager</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -438,7 +438,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../fr/week3/day5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Jour 5: Intégration de l’Agent Sacristain</span></a>
+ <span class="menu-text">Jour 5: Intégration de l’Agent CM</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -513,10 +513,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="concepts-clés" class="level2">
 <h2 class="anchored" data-anchor-id="concepts-clés">📖 Concepts Clés</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Gestion Robuste des Erreurs</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Modes de Défaillance Agentiques</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Gestion Robuste des Erreurs</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Lors de la construction d’agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant). Vous devez implémenter des blocs <code>try/except</code> dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l’erreur <em>à l’IA</em> pour qu’elle puisse réaliser son erreur et essayer une approche différente !</p>
+<p>Lors de la construction d’agents qui appellent des API externes, ils échoueront inévitablement. Ils pourraient être bloqués par la modération de contenu, ou atteindre une limite de quota d’API.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Aujourd’hui, vous allez passer en revue les logs d’exécution de votre Agent Community Manager. Vous devez implémenter des blocs <code>try/except</code> dans vos outils Python. Par exemple, si Imagen rejette un prompt d’image pour des raisons de sécurité, votre code ne doit pas planter. Au lieu de cela, il doit renvoyer l’erreur <em>à l’IA</em> pour qu’elle comprenne son erreur, réécrive un prompt plus sûr, et réessaie !</p>
 </div>
 </div>
 </div>
@@ -524,7 +527,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="exercice-pratique" class="level2">
 <h2 class="anchored" data-anchor-id="exercice-pratique">💻 Exercice Pratique</h2>
 <p>Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :</p>
-<p><strong>Tâche :</strong> Passez en revue les logs d’exécution des ‘tools’ de l’Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l’agent essaie de lire un fichier inexistant ou d’écrire des données non valides.</p>
+<p><strong>Tâche :</strong> Passez en revue les logs d’exécution des ‘tools’ de l’Agent. Ajoutez une gestion des erreurs pour les cas où l’agent atteint une limite de quota API ou un blocage de modération de contenu.</p>
 <p><strong>Exigences :</strong></p>
 <ul>
 <li>Utilisez le SDK Gemini ou AI Studio.</li>

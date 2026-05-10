@@ -78,56 +78,56 @@
   {
     "objectID": "fr/week2/day6.html",
     "href": "fr/week2/day6.html",
-    "title": "Jour 6: Mini-Projet 2 : Agent Sacristain",
+    "title": "Jour 6: Mini-Projet 2 : Agent Community Manager",
     "section": "",
-    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Mini-Projet 2 : Agent Sacristain.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière mini-projet 2 : agent sacristain.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nProjet : L’Agent SacristainL’Arsenal d’OutilsL’Objectif\n\n\nUn “Sacristain” est quelqu’un qui s’occupe de l’organisation et de l’entretien. Pour votre mini-projet, vous allez construire un “Agent Sacristain” pour votre ordinateur.\n\n\nVous l’équiperez d’outils Python pour : list_directory(path), read_file(path) et write_file(path, content).\n\n\nL’agent devra inspecter un dossier, résumer son contenu et générer un rapport Markdown de manière autonome !\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Construisez le cœur de l’Agent Sacristain : donnez-lui des ‘tools’ pour lire des fichiers locaux, lister des répertoires et écrire de petites notes. Testez-le sur un répertoire factice.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Mini-Projet 2 : Agent Sacristain. Demain, nous nous appuierons sur cela en explorant Révision & Repos.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Mini-Projet 2 : Agent Community Manager.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière mini-projet 2 : agent community manager.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nProjet : L’Agent Community ManagerL’Arsenal d’OutilsL’Objectif\n\n\nUn Community Manager est la voix d’une marque. Pour votre mini-projet, vous allez construire un “Agent Community Manager” conçu pour un nouvel auteur de romance. Son but est de générer du contenu engageant pour Instagram.\n\n\nVous l’équiperez d’outils Python connectés aux API Google Cloud :\n\ngenerate_script(topic) : Utilise Gemini pour écrire le scénario d’un Réel Instagram captivant de 30 secondes.\ngenerate_image(prompt) : Utilise Imagen 3 pour générer une image d’illustration.\ngenerate_audio(text) : Utilise Google Cloud TTS pour générer la voix off.\n\n\n\nVous demanderez à votre Agent : “Je sors un nouveau roman ‘enemies-to-lovers’. Génère un Réel Instagram.” L’Agent écrira le scénario de manière autonome, générera une belle image esthétique et produira le fichier audio. Ce projet prouve que vous pouvez construire une IA qui orchestre des workflows créatifs complexes !\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Construisez le cœur de l’Agent Community Manager : donnez-lui des ‘tools’ pour appeler Gemini (scénario), Imagen (images) et Google TTS (voix off). Testez-le avec un prompt d’auteur de romance.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Mini-Projet 2 : Agent Community Manager. Demain, nous nous appuierons sur cela en explorant Révision & Repos.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 2 : Agents",
-      "Jour 6: Mini-Projet 2 : Agent Sacristain"
+      "Jour 6: Mini-Projet 2 : Agent Community Manager"
     ]
   },
   {
     "objectID": "fr/week2/day6.html#objectifs-dapprentissage",
     "href": "fr/week2/day6.html#objectifs-dapprentissage",
-    "title": "Jour 6: Mini-Projet 2 : Agent Sacristain",
+    "title": "Jour 6: Mini-Projet 2 : Agent Community Manager",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière mini-projet 2 : agent sacristain.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière mini-projet 2 : agent community manager.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 2 : Agents",
-      "Jour 6: Mini-Projet 2 : Agent Sacristain"
+      "Jour 6: Mini-Projet 2 : Agent Community Manager"
     ]
   },
   {
     "objectID": "fr/week2/day6.html#concepts-clés",
     "href": "fr/week2/day6.html#concepts-clés",
-    "title": "Jour 6: Mini-Projet 2 : Agent Sacristain",
+    "title": "Jour 6: Mini-Projet 2 : Agent Community Manager",
     "section": "",
-    "text": "Projet : L’Agent SacristainL’Arsenal d’OutilsL’Objectif\n\n\nUn “Sacristain” est quelqu’un qui s’occupe de l’organisation et de l’entretien. Pour votre mini-projet, vous allez construire un “Agent Sacristain” pour votre ordinateur.\n\n\nVous l’équiperez d’outils Python pour : list_directory(path), read_file(path) et write_file(path, content).\n\n\nL’agent devra inspecter un dossier, résumer son contenu et générer un rapport Markdown de manière autonome !",
+    "text": "Projet : L’Agent Community ManagerL’Arsenal d’OutilsL’Objectif\n\n\nUn Community Manager est la voix d’une marque. Pour votre mini-projet, vous allez construire un “Agent Community Manager” conçu pour un nouvel auteur de romance. Son but est de générer du contenu engageant pour Instagram.\n\n\nVous l’équiperez d’outils Python connectés aux API Google Cloud :\n\ngenerate_script(topic) : Utilise Gemini pour écrire le scénario d’un Réel Instagram captivant de 30 secondes.\ngenerate_image(prompt) : Utilise Imagen 3 pour générer une image d’illustration.\ngenerate_audio(text) : Utilise Google Cloud TTS pour générer la voix off.\n\n\n\nVous demanderez à votre Agent : “Je sors un nouveau roman ‘enemies-to-lovers’. Génère un Réel Instagram.” L’Agent écrira le scénario de manière autonome, générera une belle image esthétique et produira le fichier audio. Ce projet prouve que vous pouvez construire une IA qui orchestre des workflows créatifs complexes !",
     "crumbs": [
       "Semaine 2 : Agents",
-      "Jour 6: Mini-Projet 2 : Agent Sacristain"
+      "Jour 6: Mini-Projet 2 : Agent Community Manager"
     ]
   },
   {
     "objectID": "fr/week2/day6.html#exercice-pratique",
     "href": "fr/week2/day6.html#exercice-pratique",
-    "title": "Jour 6: Mini-Projet 2 : Agent Sacristain",
+    "title": "Jour 6: Mini-Projet 2 : Agent Community Manager",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Construisez le cœur de l’Agent Sacristain : donnez-lui des ‘tools’ pour lire des fichiers locaux, lister des répertoires et écrire de petites notes. Testez-le sur un répertoire factice.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Construisez le cœur de l’Agent Community Manager : donnez-lui des ‘tools’ pour appeler Gemini (scénario), Imagen (images) et Google TTS (voix off). Testez-le avec un prompt d’auteur de romance.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 2 : Agents",
-      "Jour 6: Mini-Projet 2 : Agent Sacristain"
+      "Jour 6: Mini-Projet 2 : Agent Community Manager"
     ]
   },
   {
     "objectID": "fr/week2/day6.html#conclusion",
     "href": "fr/week2/day6.html#conclusion",
-    "title": "Jour 6: Mini-Projet 2 : Agent Sacristain",
+    "title": "Jour 6: Mini-Projet 2 : Agent Community Manager",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Mini-Projet 2 : Agent Sacristain. Demain, nous nous appuierons sur cela en explorant Révision & Repos.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Mini-Projet 2 : Agent Community Manager. Demain, nous nous appuierons sur cela en explorant Révision & Repos.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 2 : Agents",
-      "Jour 6: Mini-Projet 2 : Agent Sacristain"
+      "Jour 6: Mini-Projet 2 : Agent Community Manager"
     ]
   },
   {
@@ -465,7 +465,7 @@
     "href": "fr/week3/day1.html",
     "title": "Jour 1: Codage Assisté par l’IA",
     "section": "",
-    "text": "Bienvenue au Jour 1. Aujourd’hui, nous plongeons dans Codage Assisté par l’IA.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nLe Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Sacristain en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 1. Aujourd’hui, nous plongeons dans Codage Assisté par l’IA.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nLe Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 1: Codage Assisté par l'IA"
@@ -498,7 +498,7 @@
     "href": "fr/week3/day1.html#exercice-pratique",
     "title": "Jour 1: Codage Assisté par l’IA",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Sacristain en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 1: Codage Assisté par l'IA"
@@ -520,7 +520,7 @@
     "href": "fr/week3/day6.html",
     "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Finalisation du Projet.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nFinalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Sacristain fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel de read_file…’) et les afficher dans l’UI comme état de chargement.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Exporter vers Markdown’ à votre agent et mettez à jour l’interface pour afficher visuellement les étapes de raisonnement interne de l’agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Finalisation du Projet.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nFinalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 6: Finalisation du Projet"
@@ -542,7 +542,7 @@
     "href": "fr/week3/day6.html#concepts-clés",
     "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Finalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Sacristain fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel de read_file…’) et les afficher dans l’UI comme état de chargement.",
+    "text": "Finalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 6: Finalisation du Projet"
@@ -553,7 +553,7 @@
     "href": "fr/week3/day6.html#exercice-pratique",
     "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Exporter vers Markdown’ à votre agent et mettez à jour l’interface pour afficher visuellement les étapes de raisonnement interne de l’agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 6: Finalisation du Projet"
@@ -630,7 +630,7 @@
     "href": "fr/week3/day4.html",
     "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "Bienvenue au Jour 4. Aujourd’hui, nous plongeons dans Génération d’Interfaces Utilisateur (UIs).\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nGénération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent Sacristain.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 4. Aujourd’hui, nous plongeons dans Génération d’Interfaces Utilisateur (UIs).\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nGénération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
@@ -674,7 +674,7 @@
     "href": "fr/week3/day4.html#conclusion",
     "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent Sacristain.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
@@ -685,7 +685,7 @@
     "href": "en/index.html",
     "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Sacristan Agent.\n\n Start Your Journey →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prerequisites\n\n\n\n\nPython installed (&gt;= 3.10)\nA Google Account for Google AI Studio\nAn IDE (VS Code or Cursor)\nA basic understanding of logic\n\n\n\n\n\n\n\n\n\nTip⏱️ Time Commitment\n\n\n\nJust 2 hours a day. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.",
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prerequisites\n\n\n\n\nPython installed (&gt;= 3.10)\nA Google Account for Google AI Studio\nAn IDE (VS Code or Cursor)\nA basic understanding of logic\n\n\n\n\n\n\n\n\n\nTip⏱️ Time Commitment\n\n\n\nJust 2 hours a day. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.",
     "crumbs": [
       "Welcome to Vibe Coding"
     ]
@@ -695,7 +695,7 @@
     "href": "en/index.html#the-future-of-coding-is-here",
     "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Sacristan Agent.\n\n Start Your Journey →",
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →",
     "crumbs": [
       "Welcome to Vibe Coding"
     ]
@@ -770,7 +770,7 @@
     "href": "en/week2/day7.html",
     "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nAgentic Failure ModesRobust Error Handling\n\n\nWhen building agents, they will inevitably fail. They might get stuck in an infinite loop calling the same tool, or they might try to read a file that doesn’t exist.\n\n\nToday, you will review your Sacristan Agent’s execution logs. You must implement try/except blocks in your Python tools so that if a tool fails (e.g., File Not Found), your code doesn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake and try a different approach!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Sacristan Agent’s tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nAgentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
       "Day 7: Review & Rest"
@@ -792,7 +792,7 @@
     "href": "en/week2/day7.html#core-concepts",
     "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Agentic Failure ModesRobust Error Handling\n\n\nWhen building agents, they will inevitably fail. They might get stuck in an infinite loop calling the same tool, or they might try to read a file that doesn’t exist.\n\n\nToday, you will review your Sacristan Agent’s execution logs. You must implement try/except blocks in your Python tools so that if a tool fails (e.g., File Not Found), your code doesn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake and try a different approach!",
+    "text": "Agentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!",
     "crumbs": [
       "Week 2: Agents",
       "Day 7: Review & Rest"
@@ -803,7 +803,7 @@
     "href": "en/week2/day7.html#hands-on-exercise",
     "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Sacristan Agent’s tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
       "Day 7: Review & Rest"
@@ -825,7 +825,7 @@
     "href": "en/week2/day5.html",
     "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "Welcome to Day 5. Today, we are diving deep into Agentic Workflows.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSingle vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Sacristan Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 5. Today, we are diving deep into Agentic Workflows.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSingle vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
       "Day 5: Agentic Workflows"
@@ -869,7 +869,7 @@
     "href": "en/week2/day5.html#wrap-up",
     "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "Today we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Sacristan Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
       "Day 5: Agentic Workflows"
@@ -1065,7 +1065,7 @@
     "href": "en/week3/day3.html",
     "title": "Day 3: System Architecture",
     "section": "",
-    "text": "Welcome to Day 3. Today, we are diving deep into System Architecture.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind system architecture.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSystem ArchitectureVisualizing with Mermaid.js\n\n\nAn Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.\n\n\nMermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: “Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Sacristan Agent.” This allows you to rapidly prototype system designs.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered System Architecture. Tomorrow, we will build upon this by exploring Generating UIs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 3. Today, we are diving deep into System Architecture.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind system architecture.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSystem ArchitectureVisualizing with Mermaid.js\n\n\nAn Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.\n\n\nMermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: “Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Community Manager Agent.” This allows you to rapidly prototype system designs.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Community Manager Agent. Draw a mermaid.js diagram using Gemini.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered System Architecture. Tomorrow, we will build upon this by exploring Generating UIs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 3: System Architecture"
@@ -1087,7 +1087,7 @@
     "href": "en/week3/day3.html#core-concepts",
     "title": "Day 3: System Architecture",
     "section": "",
-    "text": "System ArchitectureVisualizing with Mermaid.js\n\n\nAn Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.\n\n\nMermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: “Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Sacristan Agent.” This allows you to rapidly prototype system designs.",
+    "text": "System ArchitectureVisualizing with Mermaid.js\n\n\nAn Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.\n\n\nMermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: “Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Community Manager Agent.” This allows you to rapidly prototype system designs.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 3: System Architecture"
@@ -1098,7 +1098,7 @@
     "href": "en/week3/day3.html#hands-on-exercise",
     "title": "Day 3: System Architecture",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design the architecture for a web-based version of the Community Manager Agent. Draw a mermaid.js diagram using Gemini.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 3: System Architecture"
@@ -1173,56 +1173,56 @@
   {
     "objectID": "en/week3/day5.html",
     "href": "en/week3/day5.html",
-    "title": "Day 5: Integrating the Sacristan Agent",
+    "title": "Day 5: Integrating the CM Agent",
     "section": "",
-    "text": "Welcome to Day 5. Today, we are diving deep into Integrating the Sacristan Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind integrating the sacristan agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nConnecting the StackThe API Layer\n\n\nNow you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.\n\n\nYou will use a lightweight framework like Flask or FastAPI to wrap your Sacristan Agent. You will expose a REST endpoint (e.g., POST /chat) that accepts the user’s message from the UI, passes it to the Agent loop, and returns the Agent’s final response back to the frontend.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Integrating the Sacristan Agent. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 5. Today, we are diving deep into Integrating the CM Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind integrating the cm agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nConnecting the StackThe API Layer\n\n\nNow you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.\n\n\nYou will use a lightweight framework like Flask or FastAPI to wrap your Community Manager Agent. You will expose a REST endpoint (e.g., POST /generate_video) that accepts the user’s prompt from the UI, passes it to the Agent loop, and returns the Agent’s finalized video assets (script, images, audio) back to the frontend.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Integrating the CM Agent. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
-      "Day 5: Integrating the Sacristan Agent"
+      "Day 5: Integrating the CM Agent"
     ]
   },
   {
     "objectID": "en/week3/day5.html#learning-objectives",
     "href": "en/week3/day5.html#learning-objectives",
-    "title": "Day 5: Integrating the Sacristan Agent",
+    "title": "Day 5: Integrating the CM Agent",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind integrating the sacristan agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind integrating the cm agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
-      "Day 5: Integrating the Sacristan Agent"
+      "Day 5: Integrating the CM Agent"
     ]
   },
   {
     "objectID": "en/week3/day5.html#core-concepts",
     "href": "en/week3/day5.html#core-concepts",
-    "title": "Day 5: Integrating the Sacristan Agent",
+    "title": "Day 5: Integrating the CM Agent",
     "section": "",
-    "text": "Connecting the StackThe API Layer\n\n\nNow you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.\n\n\nYou will use a lightweight framework like Flask or FastAPI to wrap your Sacristan Agent. You will expose a REST endpoint (e.g., POST /chat) that accepts the user’s message from the UI, passes it to the Agent loop, and returns the Agent’s final response back to the frontend.",
+    "text": "Connecting the StackThe API Layer\n\n\nNow you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.\n\n\nYou will use a lightweight framework like Flask or FastAPI to wrap your Community Manager Agent. You will expose a REST endpoint (e.g., POST /generate_video) that accepts the user’s prompt from the UI, passes it to the Agent loop, and returns the Agent’s finalized video assets (script, images, audio) back to the frontend.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
-      "Day 5: Integrating the Sacristan Agent"
+      "Day 5: Integrating the CM Agent"
     ]
   },
   {
     "objectID": "en/week3/day5.html#hands-on-exercise",
     "href": "en/week3/day5.html#hands-on-exercise",
-    "title": "Day 5: Integrating the Sacristan Agent",
+    "title": "Day 5: Integrating the CM Agent",
     "section": "",
     "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
-      "Day 5: Integrating the Sacristan Agent"
+      "Day 5: Integrating the CM Agent"
     ]
   },
   {
     "objectID": "en/week3/day5.html#wrap-up",
     "href": "en/week3/day5.html#wrap-up",
-    "title": "Day 5: Integrating the Sacristan Agent",
+    "title": "Day 5: Integrating the CM Agent",
     "section": "",
-    "text": "Today we covered Integrating the Sacristan Agent. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Integrating the CM Agent. Tomorrow, we will build upon this by exploring Final Project Polish.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
-      "Day 5: Integrating the Sacristan Agent"
+      "Day 5: Integrating the CM Agent"
     ]
   },
   {
@@ -1230,7 +1230,7 @@
     "href": "en/week3/day4.html",
     "title": "Day 4: Generating UIs",
     "section": "",
-    "text": "Welcome to Day 4. Today, we are diving deep into Generating UIs.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind generating uis.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nGenerating User InterfacesThe Workflow\n\n\nFrontend development often involves hours of tweaking CSS and HTML. With Vibe Coding, you can bypass this completely.\n\n\nYou can take a screenshot of an existing app you like, or draw a wireframe, and prompt Gemini: “Build a responsive React component using Tailwind CSS that looks like this image. Ensure it has a chat input box and a message history area.” You are moving from a Backend Engineer to a Full-Stack Engineer by leveraging the AI’s vast knowledge of UI components.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Generating UIs. Tomorrow, we will build upon this by exploring Integrating the Sacristan Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 4. Today, we are diving deep into Generating UIs.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind generating uis.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nGenerating User InterfacesThe Workflow\n\n\nFrontend development often involves hours of tweaking CSS and HTML. With Vibe Coding, you can bypass this completely.\n\n\nYou can take a screenshot of an existing app you like, or draw a wireframe, and prompt Gemini: “Build a responsive React component using Tailwind CSS that looks like this image. Ensure it has a chat input box and a message history area.” You are moving from a Backend Engineer to a Full-Stack Engineer by leveraging the AI’s vast knowledge of UI components.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Generating UIs. Tomorrow, we will build upon this by exploring Integrating the CM Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 4: Generating UIs"
@@ -1274,7 +1274,7 @@
     "href": "en/week3/day4.html#wrap-up",
     "title": "Day 4: Generating UIs",
     "section": "",
-    "text": "Today we covered Generating UIs. Tomorrow, we will build upon this by exploring Integrating the Sacristan Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Generating UIs. Tomorrow, we will build upon this by exploring Integrating the CM Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 4: Generating UIs"
@@ -1340,7 +1340,7 @@
     "href": "en/week3/day6.html",
     "title": "Day 6: Final Project Polish",
     "section": "",
-    "text": "Welcome to Day 6. Today, we are diving deep into Final Project Polish.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind final project polish.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nFinal Project PolishExposing the “Thoughts”\n\n\nA great product is all about the details. Your Sacristan Agent works, but how is the User Experience (UX)?\n\n\nWhen an Agent executes tools (like reading files), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its “internal thoughts” (e.g., ‘Calling read_file…’) and display them in the UI as a loading state. This dramatically improves the UX.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Export to Markdown’ tool to your agent and update the UI to visually display the agent’s internal thinking steps.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Final Project Polish. Tomorrow, we will build upon this by exploring Deploying & Wrap-up.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 6. Today, we are diving deep into Final Project Polish.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind final project polish.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nFinal Project PolishExposing the “Thoughts”\n\n\nA great product is all about the details. Your Community Manager Agent works, but how is the User Experience (UX)?\n\n\nWhen an Agent executes tools (like generating an image or synthesizing audio), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its “internal thoughts” (e.g., ‘Calling Imagen to generate background…’) and display them in the UI as a loading state. This dramatically improves the UX.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Assemble Video’ tool to your agent and update the UI to visually display the generated script, image storyboards, and audio track.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Final Project Polish. Tomorrow, we will build upon this by exploring Deploying & Wrap-up.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 6: Final Project Polish"
@@ -1362,7 +1362,7 @@
     "href": "en/week3/day6.html#core-concepts",
     "title": "Day 6: Final Project Polish",
     "section": "",
-    "text": "Final Project PolishExposing the “Thoughts”\n\n\nA great product is all about the details. Your Sacristan Agent works, but how is the User Experience (UX)?\n\n\nWhen an Agent executes tools (like reading files), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its “internal thoughts” (e.g., ‘Calling read_file…’) and display them in the UI as a loading state. This dramatically improves the UX.",
+    "text": "Final Project PolishExposing the “Thoughts”\n\n\nA great product is all about the details. Your Community Manager Agent works, but how is the User Experience (UX)?\n\n\nWhen an Agent executes tools (like generating an image or synthesizing audio), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its “internal thoughts” (e.g., ‘Calling Imagen to generate background…’) and display them in the UI as a loading state. This dramatically improves the UX.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 6: Final Project Polish"
@@ -1373,7 +1373,7 @@
     "href": "en/week3/day6.html#hands-on-exercise",
     "title": "Day 6: Final Project Polish",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Export to Markdown’ tool to your agent and update the UI to visually display the agent’s internal thinking steps.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Add an ‘Assemble Video’ tool to your agent and update the UI to visually display the generated script, image storyboards, and audio track.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 6: Final Project Polish"
@@ -1395,7 +1395,7 @@
     "href": "en/week3/day1.html",
     "title": "Day 1: AI-Assisted Coding",
     "section": "",
-    "text": "Welcome to Day 1. Today, we are diving deep into AI-Assisted Coding.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind ai-assisted coding.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Copilot ParadigmWriting Code with Natural Language\n\n\nUp to this point, you have been writing your own Python code to manage the Gemini SDK. Now, we reverse the paradigm: you will use AI (like Cursor, GitHub Copilot, or Gemini in your IDE) to write the code for you.\n\n\nInstead of thinking about syntax (for i in range()), you must think about architecture. AI-assisted coding requires you to write extensive comments describing the input, the logic, and the expected output. The AI acts as your hands, typing out the implementation while you review and guide.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered AI-Assisted Coding. Tomorrow, we will build upon this by exploring Test-Driven Vibe Coding.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 1. Today, we are diving deep into AI-Assisted Coding.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind ai-assisted coding.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Copilot ParadigmWriting Code with Natural Language\n\n\nUp to this point, you have been writing your own Python code to manage the Gemini SDK. Now, we reverse the paradigm: you will use AI (like Cursor, GitHub Copilot, or Gemini in your IDE) to write the code for you.\n\n\nInstead of thinking about syntax (for i in range()), you must think about architecture. AI-assisted coding requires you to write extensive comments describing the input, the logic, and the expected output. The AI acts as your hands, typing out the implementation while you review and guide.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Community Manager Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered AI-Assisted Coding. Tomorrow, we will build upon this by exploring Test-Driven Vibe Coding.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 1: AI-Assisted Coding"
@@ -1428,7 +1428,7 @@
     "href": "en/week3/day1.html#hands-on-exercise",
     "title": "Day 1: AI-Assisted Coding",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use an IDE (like Cursor) to refactor the Community Manager Agent code using just natural language ‘vibes’ to improve modularity.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 3: Advanced & Deploy",
       "Day 1: AI-Assisted Coding"
@@ -1778,56 +1778,56 @@
   {
     "objectID": "en/week2/day6.html",
     "href": "en/week2/day6.html",
-    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 2: Sacristan Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: sacristan agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nProject: The Sacristan AgentTool ArsenalThe Goal\n\n\nA “Sacristan” is someone who takes care of a church—keeping it organized and clean. For your mini-project, you will build a “Sacristan Agent” for your local computer.\n\n\nYou will equip your agent with the following Python tools:\n\nlist_directory(path)\nread_file(path)\nwrite_file(path, content)\n\n\n\nYou will prompt your Sacristan Agent to: “Look in the ./data folder, read all the text files, summarize their contents, and write a new file called summary.md.” This project proves you can build an AI that autonomously manages your file system!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 2: Sacristan Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 2: Community Manager Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nProject: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Sacristan Agent"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
     "objectID": "en/week2/day6.html#learning-objectives",
     "href": "en/week2/day6.html#learning-objectives",
-    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: sacristan agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Sacristan Agent"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
     "objectID": "en/week2/day6.html#core-concepts",
     "href": "en/week2/day6.html#core-concepts",
-    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Project: The Sacristan AgentTool ArsenalThe Goal\n\n\nA “Sacristan” is someone who takes care of a church—keeping it organized and clean. For your mini-project, you will build a “Sacristan Agent” for your local computer.\n\n\nYou will equip your agent with the following Python tools:\n\nlist_directory(path)\nread_file(path)\nwrite_file(path, content)\n\n\n\nYou will prompt your Sacristan Agent to: “Look in the ./data folder, read all the text files, summarize their contents, and write a new file called summary.md.” This project proves you can build an AI that autonomously manages your file system!",
+    "text": "Project: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Sacristan Agent"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
     "objectID": "en/week2/day6.html#hands-on-exercise",
     "href": "en/week2/day6.html#hands-on-exercise",
-    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Sacristan Agent"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
     "objectID": "en/week2/day6.html#wrap-up",
     "href": "en/week2/day6.html#wrap-up",
-    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Today we covered Mini-Project 2: Sacristan Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Sacristan Agent"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
@@ -1888,56 +1888,56 @@
   {
     "objectID": "fr/week3/day5.html",
     "href": "fr/week3/day5.html",
-    "title": "Jour 5: Intégration de l’Agent Sacristain",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Intégration de l’Agent Sacristain.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent sacristain.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nConnecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Sacristain. Vous exposerez un point de terminaison REST qui accepte le message de l’utilisateur, le transmet à la boucle de l’Agent et renvoie la réponse finale au frontend.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Intégration de l’Agent Sacristain. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Intégration de l’Agent CM.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nConnecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent Sacristain"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
     "objectID": "fr/week3/day5.html#objectifs-dapprentissage",
     "href": "fr/week3/day5.html#objectifs-dapprentissage",
-    "title": "Jour 5: Intégration de l’Agent Sacristain",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent sacristain.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent Sacristain"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
     "objectID": "fr/week3/day5.html#concepts-clés",
     "href": "fr/week3/day5.html#concepts-clés",
-    "title": "Jour 5: Intégration de l’Agent Sacristain",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Connecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Sacristain. Vous exposerez un point de terminaison REST qui accepte le message de l’utilisateur, le transmet à la boucle de l’Agent et renvoie la réponse finale au frontend.",
+    "text": "Connecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent Sacristain"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
     "objectID": "fr/week3/day5.html#exercice-pratique",
     "href": "fr/week3/day5.html#exercice-pratique",
-    "title": "Jour 5: Intégration de l’Agent Sacristain",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
     "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent Sacristain"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
     "objectID": "fr/week3/day5.html#conclusion",
     "href": "fr/week3/day5.html#conclusion",
-    "title": "Jour 5: Intégration de l’Agent Sacristain",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Intégration de l’Agent Sacristain. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent Sacristain"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
@@ -2000,7 +2000,7 @@
     "href": "fr/week3/day3.html",
     "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Bienvenue au Jour 3. Aujourd’hui, nous plongeons dans Architecture Système.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nArchitecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Sacristain. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 3. Aujourd’hui, nous plongeons dans Architecture Système.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nArchitecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 3: Architecture Système"
@@ -2022,7 +2022,7 @@
     "href": "fr/week3/day3.html#concepts-clés",
     "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Architecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence.",
+    "text": "Architecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 3: Architecture Système"
@@ -2033,7 +2033,7 @@
     "href": "fr/week3/day3.html#exercice-pratique",
     "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Sacristain. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
       "Jour 3: Architecture Système"
@@ -2240,7 +2240,7 @@
     "href": "fr/week2/day5.html",
     "title": "Jour 5: Workflows Agentiques",
     "section": "",
-    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Workflows Agentiques.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière workflows agentiques.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nWorkflows Agentiques\n\n\nAu lieu d’un seul agent massif qui essaie de tout faire, le Vibe Coding privilégie les workflows où plusieurs agents spécialisés collaborent.\n\nLe Planificateur : Décompose la tâche complexe en étapes.\nLe Chercheur : Navigue sur le web pour trouver des données.\nLe Codeur : Écrit un script basé sur ces données.\n\nEn séparant les responsabilités, vous réduisez considérablement les hallucinations et améliorez la robustesse du système.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez un workflow avec un agent Planificateur (qui décompose une tâche) et un agent Exécuteur (qui écrit le code). Exécutez-les en séquence.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant Mini-Projet 2 : Agent Sacristain.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Workflows Agentiques.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière workflows agentiques.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nWorkflows Agentiques\n\n\nAu lieu d’un seul agent massif qui essaie de tout faire, le Vibe Coding privilégie les workflows où plusieurs agents spécialisés collaborent.\n\nLe Planificateur : Décompose la tâche complexe en étapes.\nLe Chercheur : Navigue sur le web pour trouver des données.\nLe Codeur : Écrit un script basé sur ces données.\n\nEn séparant les responsabilités, vous réduisez considérablement les hallucinations et améliorez la robustesse du système.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez un workflow avec un agent Planificateur (qui décompose une tâche) et un agent Exécuteur (qui écrit le code). Exécutez-les en séquence.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant Mini-Projet 2 : Agent Community Manager.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 2 : Agents",
       "Jour 5: Workflows Agentiques"
@@ -2284,7 +2284,7 @@
     "href": "fr/week2/day5.html#conclusion",
     "title": "Jour 5: Workflows Agentiques",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant Mini-Projet 2 : Agent Sacristain.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant Mini-Projet 2 : Agent Community Manager.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 2 : Agents",
       "Jour 5: Workflows Agentiques"
@@ -2295,7 +2295,7 @@
     "href": "fr/week2/day7.html",
     "title": "Jour 7: Révision & Repos",
     "section": "",
-    "text": "Bienvenue au Jour 7. Aujourd’hui, nous plongeons dans Révision & Repos.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière révision & repos.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nGestion Robuste des Erreurs\n\n\nLors de la construction d’agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant). Vous devez implémenter des blocs try/except dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l’erreur à l’IA pour qu’elle puisse réaliser son erreur et essayer une approche différente !\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Passez en revue les logs d’exécution des ‘tools’ de l’Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l’agent essaie de lire un fichier inexistant ou d’écrire des données non valides.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Révision & Repos. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 7. Aujourd’hui, nous plongeons dans Révision & Repos.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière révision & repos.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nModes de Défaillance AgentiquesGestion Robuste des Erreurs\n\n\nLors de la construction d’agents qui appellent des API externes, ils échoueront inévitablement. Ils pourraient être bloqués par la modération de contenu, ou atteindre une limite de quota d’API.\n\n\nAujourd’hui, vous allez passer en revue les logs d’exécution de votre Agent Community Manager. Vous devez implémenter des blocs try/except dans vos outils Python. Par exemple, si Imagen rejette un prompt d’image pour des raisons de sécurité, votre code ne doit pas planter. Au lieu de cela, il doit renvoyer l’erreur à l’IA pour qu’elle comprenne son erreur, réécrive un prompt plus sûr, et réessaie !\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Passez en revue les logs d’exécution des ‘tools’ de l’Agent. Ajoutez une gestion des erreurs pour les cas où l’agent atteint une limite de quota API ou un blocage de modération de contenu.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Révision & Repos. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 2 : Agents",
       "Jour 7: Révision & Repos"
@@ -2317,7 +2317,7 @@
     "href": "fr/week2/day7.html#concepts-clés",
     "title": "Jour 7: Révision & Repos",
     "section": "",
-    "text": "Gestion Robuste des Erreurs\n\n\nLors de la construction d’agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant). Vous devez implémenter des blocs try/except dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l’erreur à l’IA pour qu’elle puisse réaliser son erreur et essayer une approche différente !",
+    "text": "Modes de Défaillance AgentiquesGestion Robuste des Erreurs\n\n\nLors de la construction d’agents qui appellent des API externes, ils échoueront inévitablement. Ils pourraient être bloqués par la modération de contenu, ou atteindre une limite de quota d’API.\n\n\nAujourd’hui, vous allez passer en revue les logs d’exécution de votre Agent Community Manager. Vous devez implémenter des blocs try/except dans vos outils Python. Par exemple, si Imagen rejette un prompt d’image pour des raisons de sécurité, votre code ne doit pas planter. Au lieu de cela, il doit renvoyer l’erreur à l’IA pour qu’elle comprenne son erreur, réécrive un prompt plus sûr, et réessaie !",
     "crumbs": [
       "Semaine 2 : Agents",
       "Jour 7: Révision & Repos"
@@ -2328,7 +2328,7 @@
     "href": "fr/week2/day7.html#exercice-pratique",
     "title": "Jour 7: Révision & Repos",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Passez en revue les logs d’exécution des ‘tools’ de l’Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l’agent essaie de lire un fichier inexistant ou d’écrire des données non valides.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Passez en revue les logs d’exécution des ‘tools’ de l’Agent. Ajoutez une gestion des erreurs pour les cas où l’agent atteint une limite de quota API ou un blocage de modération de contenu.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 2 : Agents",
       "Jour 7: Révision & Repos"
@@ -2415,7 +2415,7 @@
     "href": "fr/index.html",
     "title": "Bienvenue dans Vibe Coding",
     "section": "",
-    "text": "Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heures par jour), vous apprendrez à utiliser Google AI Studio, le SDK Python Gemini et le langage naturel pour créer de puissants agents et applications d’IA.\nIl ne s’agit pas seulement d’écrire du code, mais de diriger une IA pour qu’elle l’écrive avec vous.\n\n\n\nSemaine 1 : Maîtriser l’art du “Prompt Engineering” avancé et des “Structured Outputs”.\nSemaine 2 : Donner à votre IA des “tools”, de la mémoire et une agentivité pour accomplir des tâches réelles.\nSemaine 3 : Créer des applications full-stack et déployer votre “Agent Sacristain” intelligent.\n\n Commencer votre voyage →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prérequis\n\n\n\n\nPython installé (&gt;= 3.10)\nUn compte Google pour Google AI Studio\nUn IDE (VS Code ou Cursor)\nUne compréhension de base de la logique de programmation\n\n\n\n\n\n\n\n\n\nTip⏱️ Temps requis\n\n\n\nSeulement 2 heures par jour. Nous nous concentrons sur les concepts à fort impact et des mini-projets pratiques pour consolider votre compréhension.",
+    "text": "Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heures par jour), vous apprendrez à utiliser Google AI Studio, le SDK Python Gemini et le langage naturel pour créer de puissants agents et applications d’IA.\nIl ne s’agit pas seulement d’écrire du code, mais de diriger une IA pour qu’elle l’écrive avec vous.\n\n\n\nSemaine 1 : Maîtriser l’art du “Prompt Engineering” avancé et des “Structured Outputs”.\nSemaine 2 : Donner à votre IA des “tools”, de la mémoire et une agentivité pour accomplir des tâches réelles.\nSemaine 3 : Créer des applications full-stack et déployer votre “Agent Community Manager” intelligent.\n\n Commencer votre voyage →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prérequis\n\n\n\n\nPython installé (&gt;= 3.10)\nUn compte Google pour Google AI Studio\nUn IDE (VS Code ou Cursor)\nUne compréhension de base de la logique de programmation\n\n\n\n\n\n\n\n\n\nTip⏱️ Temps requis\n\n\n\nSeulement 2 heures par jour. Nous nous concentrons sur les concepts à fort impact et des mini-projets pratiques pour consolider votre compréhension.",
     "crumbs": [
       "Bienvenue dans Vibe Coding"
     ]
@@ -2425,7 +2425,7 @@
     "href": "fr/index.html#le-futur-du-code-est-là",
     "title": "Bienvenue dans Vibe Coding",
     "section": "",
-    "text": "Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heures par jour), vous apprendrez à utiliser Google AI Studio, le SDK Python Gemini et le langage naturel pour créer de puissants agents et applications d’IA.\nIl ne s’agit pas seulement d’écrire du code, mais de diriger une IA pour qu’elle l’écrive avec vous.\n\n\n\nSemaine 1 : Maîtriser l’art du “Prompt Engineering” avancé et des “Structured Outputs”.\nSemaine 2 : Donner à votre IA des “tools”, de la mémoire et une agentivité pour accomplir des tâches réelles.\nSemaine 3 : Créer des applications full-stack et déployer votre “Agent Sacristain” intelligent.\n\n Commencer votre voyage →",
+    "text": "Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heures par jour), vous apprendrez à utiliser Google AI Studio, le SDK Python Gemini et le langage naturel pour créer de puissants agents et applications d’IA.\nIl ne s’agit pas seulement d’écrire du code, mais de diriger une IA pour qu’elle l’écrive avec vous.\n\n\n\nSemaine 1 : Maîtriser l’art du “Prompt Engineering” avancé et des “Structured Outputs”.\nSemaine 2 : Donner à votre IA des “tools”, de la mémoire et une agentivité pour accomplir des tâches réelles.\nSemaine 3 : Créer des applications full-stack et déployer votre “Agent Community Manager” intelligent.\n\n Commencer votre voyage →",
     "crumbs": [
       "Bienvenue dans Vibe Coding"
     ]
