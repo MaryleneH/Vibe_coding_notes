@@ -1,0 +1,45 @@
+---
+title: "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
+---
+
+# Génération d'Interfaces Utilisateur (UIs)
+
+Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Génération d'Interfaces Utilisateur (UIs)**.
+
+## 🎯 Objectifs d'Apprentissage
+
+À la fin de cette session, vous serez capable de :
+1. Comprendre les principes fondamentaux derrière génération d'interfaces utilisateur (uis).
+2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
+3. Terminer avec succès l'exercice pratique d'aujourd'hui.
+
+## 📖 Concepts Clés
+
+*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
+
+```python
+# Exemple : Configuration du SDK Gemini
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explique Génération d'Interfaces Utilisateur (UIs) en une phrase.")
+print(response.text)
+```
+
+## 💻 Exercice Pratique
+
+Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
+
+**Tâche :** Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.
+
+**Exigences :**
+- Utilisez le SDK Gemini ou AI Studio.
+- Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
+- Testez-le avec au moins deux cas limites différents.
+
+## ✅ Conclusion
+
+Aujourd'hui, nous avons couvert Génération d'Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant **Intégration de l'Agent Sacristain**.
+
+Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

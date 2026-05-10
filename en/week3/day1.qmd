@@ -1,0 +1,45 @@
+---
+title: "Day 1: AI-Assisted Coding"
+---
+
+# AI-Assisted Coding
+
+Welcome to **Day 1**. Today, we are diving deep into **AI-Assisted Coding**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind ai-assisted coding.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations)*
+
+```python
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain AI-Assisted Coding in one sentence.")
+print(response.text)
+```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+**Task:** Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language 'vibes' to improve modularity.
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered AI-Assisted Coding. Tomorrow, we will build upon this by exploring **Test-Driven Vibe Coding**.
+
+Make sure to click 'Mark as Complete' below to track your progress!

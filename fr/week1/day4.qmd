@@ -1,0 +1,45 @@
+---
+title: "Jour 4: Magie Multimodale"
+---
+
+# Magie Multimodale
+
+Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Magie Multimodale**.
+
+## 🎯 Objectifs d'Apprentissage
+
+À la fin de cette session, vous serez capable de :
+1. Comprendre les principes fondamentaux derrière magie multimodale.
+2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
+3. Terminer avec succès l'exercice pratique d'aujourd'hui.
+
+## 📖 Concepts Clés
+
+*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
+
+```python
+# Exemple : Configuration du SDK Gemini
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explique Magie Multimodale en une phrase.")
+print(response.text)
+```
+
+## 💻 Exercice Pratique
+
+Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
+
+**Tâche :** Passez l'image d'un croquis d'interface utilisateur (UI) fait à la main à Gemini et demandez-lui de générer le code HTML/CSS correspondant.
+
+**Exigences :**
+- Utilisez le SDK Gemini ou AI Studio.
+- Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
+- Testez-le avec au moins deux cas limites différents.
+
+## ✅ Conclusion
+
+Aujourd'hui, nous avons couvert Magie Multimodale. Demain, nous nous appuierons sur cela en explorant **Transition vers le Code**.
+
+Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

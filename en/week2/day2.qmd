@@ -1,0 +1,45 @@
+---
+title: "Day 2: Defining Tools"
+---
+
+# Defining Tools
+
+Welcome to **Day 2**. Today, we are diving deep into **Defining Tools**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind defining tools.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations)*
+
+```python
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain Defining Tools in one sentence.")
+print(response.text)
+```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+**Task:** Create an OpenAPI-style tool schema for a 'Calculator' function. Pass it to Gemini and test it with a complex math query.
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered Defining Tools. Tomorrow, we will build upon this by exploring **Building your First Agent**.
+
+Make sure to click 'Mark as Complete' below to track your progress!

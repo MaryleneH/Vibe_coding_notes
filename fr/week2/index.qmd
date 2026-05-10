@@ -1,0 +1,15 @@
+---
+title: "Semaine 2: Agents"
+---
+
+# Agents Aperçu
+
+Bienvenue dans la Semaine 2 ! 
+
+Cette semaine, nous allons nous concentrer sur **Agents**.
+
+### À quoi s'attendre
+- **Mini-Leçons Quotidiennes:** Segments de 2 heures axés sur un concept spécifique.
+- **Pratique:** Défis en fin de journée pour appliquer ce que vous avez appris.
+
+Plongeons dans le [Jour 1: Introduction au Function Calling](day1.qmd)!

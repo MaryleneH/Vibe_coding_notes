@@ -1,0 +1,45 @@
+---
+title: "Jour 6: Finalisation du Projet"
+---
+
+# Finalisation du Projet
+
+Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Finalisation du Projet**.
+
+## 🎯 Objectifs d'Apprentissage
+
+À la fin de cette session, vous serez capable de :
+1. Comprendre les principes fondamentaux derrière finalisation du projet.
+2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
+3. Terminer avec succès l'exercice pratique d'aujourd'hui.
+
+## 📖 Concepts Clés
+
+*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
+
+```python
+# Exemple : Configuration du SDK Gemini
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explique Finalisation du Projet en une phrase.")
+print(response.text)
+```
+
+## 💻 Exercice Pratique
+
+Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
+
+**Tâche :** Ajoutez un 'tool' 'Exporter vers Markdown' à votre agent et mettez à jour l'interface pour afficher visuellement les étapes de raisonnement interne de l'agent.
+
+**Exigences :**
+- Utilisez le SDK Gemini ou AI Studio.
+- Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
+- Testez-le avec au moins deux cas limites différents.
+
+## ✅ Conclusion
+
+Aujourd'hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant **Déploiement & Conclusion**.
+
+Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

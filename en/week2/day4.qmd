@@ -1,0 +1,45 @@
+---
+title: "Day 4: Context & Memory"
+---
+
+# Context & Memory
+
+Welcome to **Day 4**. Today, we are diving deep into **Context & Memory**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind context & memory.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations)*
+
+```python
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain Context & Memory in one sentence.")
+print(response.text)
+```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+**Task:** Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered Context & Memory. Tomorrow, we will build upon this by exploring **Agentic Workflows**.
+
+Make sure to click 'Mark as Complete' below to track your progress!

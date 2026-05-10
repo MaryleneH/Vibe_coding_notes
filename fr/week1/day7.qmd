@@ -1,0 +1,45 @@
+---
+title: "Jour 7: Révision & Repos"
+---
+
+# Révision & Repos
+
+Bienvenue au **Jour 7**. Aujourd'hui, nous plongeons dans **Révision & Repos**.
+
+## 🎯 Objectifs d'Apprentissage
+
+À la fin de cette session, vous serez capable de :
+1. Comprendre les principes fondamentaux derrière révision & repos.
+2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
+3. Terminer avec succès l'exercice pratique d'aujourd'hui.
+
+## 📖 Concepts Clés
+
+*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
+
+```python
+# Exemple : Configuration du SDK Gemini
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explique Révision & Repos en une phrase.")
+print(response.text)
+```
+
+## 💻 Exercice Pratique
+
+Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
+
+**Tâche :** Réfléchissez sur la Semaine 1. Refactorez votre générateur de flashcards pour améliorer le prompt, ajouter une gestion robuste des erreurs et gérer un score.
+
+**Exigences :**
+- Utilisez le SDK Gemini ou AI Studio.
+- Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
+- Testez-le avec au moins deux cas limites différents.
+
+## ✅ Conclusion
+
+Aujourd'hui, nous avons couvert Révision & Repos. Demain, nous nous appuierons sur cela en explorant **les sujets de la semaine prochaine**.
+
+Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

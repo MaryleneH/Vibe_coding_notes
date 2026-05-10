@@ -1,0 +1,45 @@
+---
+title: "Day 3: Building your First Agent"
+---
+
+# Building your First Agent
+
+Welcome to **Day 3**. Today, we are diving deep into **Building your First Agent**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind building your first agent.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations)*
+
+```python
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain Building your First Agent in one sentence.")
+print(response.text)
+```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+**Task:** Write a script where Gemini can call the 'Calculator' tool, execute the function locally, return the result to Gemini, and formulate a final answer.
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered Building your First Agent. Tomorrow, we will build upon this by exploring **Context & Memory**.
+
+Make sure to click 'Mark as Complete' below to track your progress!

@@ -1,0 +1,45 @@
+---
+title: "Jour 1: Codage Assisté par l'IA"
+---
+
+# Codage Assisté par l'IA
+
+Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **Codage Assisté par l'IA**.
+
+## 🎯 Objectifs d'Apprentissage
+
+À la fin de cette session, vous serez capable de :
+1. Comprendre les principes fondamentaux derrière codage assisté par l'ia.
+2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
+3. Terminer avec succès l'exercice pratique d'aujourd'hui.
+
+## 📖 Concepts Clés
+
+*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
+
+```python
+# Exemple : Configuration du SDK Gemini
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explique Codage Assisté par l'IA en une phrase.")
+print(response.text)
+```
+
+## 💻 Exercice Pratique
+
+Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
+
+**Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Sacristain en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.
+
+**Exigences :**
+- Utilisez le SDK Gemini ou AI Studio.
+- Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
+- Testez-le avec au moins deux cas limites différents.
+
+## ✅ Conclusion
+
+Aujourd'hui, nous avons couvert Codage Assisté par l'IA. Demain, nous nous appuierons sur cela en explorant **Test-Driven Vibe Coding**.
+
+Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

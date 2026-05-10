@@ -1,0 +1,15 @@
+---
+title: "Week 3: Advanced & Deploy"
+---
+
+# Advanced & Deploy Overview
+
+Welcome to Week 3 ! 
+
+This week, we will focus on **Advanced & Deploy**.
+
+### What to Expect
+- **Daily Mini-Lessons:** 2-hour segments focusing on a specific concept.
+- **Hands-on Practice:** End-of-day challenges to apply what you've learned.
+
+Let's dive into [Day 1: AI-Assisted Coding](day1.qmd)!

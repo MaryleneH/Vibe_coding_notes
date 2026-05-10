@@ -1,0 +1,45 @@
+---
+title: "Day 6: Mini-Project 2: Sacristan Agent"
+---
+
+# Mini-Project 2: Sacristan Agent
+
+Welcome to **Day 6**. Today, we are diving deep into **Mini-Project 2: Sacristan Agent**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind mini-project 2: sacristan agent.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations)*
+
+```python
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain Mini-Project 2: Sacristan Agent in one sentence.")
+print(response.text)
+```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+**Task:** Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered Mini-Project 2: Sacristan Agent. Tomorrow, we will build upon this by exploring **Review & Rest**.
+
+Make sure to click 'Mark as Complete' below to track your progress!
