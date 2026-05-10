@@ -1,0 +1,13 @@
+---
+title: "Day 6: Mini-Project 2: Sacristan Agent"
+---
+
+# Mini-Project 2: Sacristan Agent
+
+Content for week2, Day 6 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

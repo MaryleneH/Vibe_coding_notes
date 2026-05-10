@@ -1,0 +1,13 @@
+---
+title: "Day 5: Agentic Workflows"
+---
+
+# Agentic Workflows
+
+Content for week2, Day 5 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

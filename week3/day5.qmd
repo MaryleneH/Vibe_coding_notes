@@ -1,0 +1,13 @@
+---
+title: "Day 5: Integrating the Sacristan Agent"
+---
+
+# Integrating the Sacristan Agent
+
+Content for week3, Day 5 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

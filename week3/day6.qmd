@@ -1,0 +1,13 @@
+---
+title: "Day 6: Final Project Polish"
+---
+
+# Final Project Polish
+
+Content for week3, Day 6 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

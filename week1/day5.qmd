@@ -1,0 +1,13 @@
+---
+title: "Day 5: Transitioning to Code"
+---
+
+# Transitioning to Code
+
+Content for week1, Day 5 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

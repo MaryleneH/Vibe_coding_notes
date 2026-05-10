@@ -1,0 +1,13 @@
+---
+title: "Day 3: System Architecture"
+---
+
+# System Architecture
+
+Content for week3, Day 3 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

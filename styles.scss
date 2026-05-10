@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+$primary: #1a73e8; /* Google Blue */
+$body-bg: #f8f9fa;
+$font-family-sans-serif: 'Inter', 'Roboto', sans-serif;
+
+/*-- scss:rules --*/
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+}
+
+h1, h2, h3 {
+  color: #202124;
+  font-weight: 600;
+}
+
+.quarto-dark {
+  h1, h2, h3 {
+    color: #e8eaed;
+  }
+  .sidebar {
+    background-color: #202124;
+    border-right: 1px solid #3c4043;
+  }
+}

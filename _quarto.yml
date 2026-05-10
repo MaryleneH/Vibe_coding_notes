@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vibe Coding Mastery"
+  description: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
+  site-url: "https://your-github-username.github.io/vibe_coding_notes"
+  search: true
+  
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: week1/index.qmd
+        text: Week 1
+      - href: week2/index.qmd
+        text: Week 2
+      - href: week3/index.qmd
+        text: Week 3
+  
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Week 1: Foundations"
+        href: week1/index.qmd
+        contents:
+          - week1/day1.qmd
+          - week1/day2.qmd
+          - week1/day3.qmd
+          - week1/day4.qmd
+          - week1/day5.qmd
+          - week1/day6.qmd
+          - week1/day7.qmd
+      - section: "Week 2: Agents"
+        href: week2/index.qmd
+        contents:
+          - week2/day1.qmd
+          - week2/day2.qmd
+          - week2/day3.qmd
+          - week2/day4.qmd
+          - week2/day5.qmd
+          - week2/day6.qmd
+          - week2/day7.qmd
+      - section: "Week 3: Advanced & Deploy"
+        href: week3/index.qmd
+        contents:
+          - week3/day1.qmd
+          - week3/day2.qmd
+          - week3/day3.qmd
+          - week3/day4.qmd
+          - week3/day5.qmd
+          - week3/day6.qmd
+          - week3/day7.qmd
+
+  page-footer:
+    center: "Vibe Coding Mastery - 3 Week Journey"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cyborg, styles.scss]
+    css: styles.scss
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    highlight-style: github
+    include-after-body: progress.html

@@ -1,0 +1,13 @@
+---
+title: "Day 2: Advanced Prompt Engineering & Reasoning"
+---
+
+# Advanced Prompt Engineering & Reasoning
+
+Content for week1, Day 2 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

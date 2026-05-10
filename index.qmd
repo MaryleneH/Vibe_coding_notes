@@ -1,0 +1,21 @@
+---
+title: "Vibe Coding Mastery"
+subtitle: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
+---
+
+# Welcome to Vibe Coding
+
+This is a 21-day journey to becoming a "Vibe Coding" expert. You'll learn how to leverage Google AI Studio and the Gemini Python SDK to build real applications and AI agents from scratch.
+
+## 🗺️ Curriculum Overview
+
+- **[Week 1: Foundations](week1/index.qmd)** - Master advanced prompting and the Gemini API.
+- **[Week 2: Agents](week2/index.qmd)** - Teach Gemini to use tools and build your Sacristan Assistant.
+- **[Week 3: Advanced & Deploy](week3/index.qmd)** - AI-assisted coding, UIs, and deployment.
+
+**Prerequisites:** 
+- A basic understanding of logic. 
+- Python installed on your machine.
+- A Google account to access Google AI Studio.
+
+Get started by navigating to [Week 1, Day 1](week1/day1.qmd).

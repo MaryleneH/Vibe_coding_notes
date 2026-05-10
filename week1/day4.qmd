@@ -1,0 +1,13 @@
+---
+title: "Day 4: Multimodal Magic"
+---
+
+# Multimodal Magic
+
+Content for week1, Day 4 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

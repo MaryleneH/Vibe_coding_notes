@@ -1,0 +1,13 @@
+---
+title: "Day 1: Introduction to Function Calling"
+---
+
+# Introduction to Function Calling
+
+Content for week2, Day 1 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```

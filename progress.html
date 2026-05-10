@@ -1,0 +1,35 @@
+<div id="progress-container" style="margin-top: 50px; padding: 20px; border-top: 1px solid #ddd; text-align: center;">
+  <button id="mark-complete-btn" class="btn btn-primary" style="display:none;" onclick="toggleComplete()">Mark as Complete</button>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const path = window.location.pathname;
+    if (path.includes("day")) {
+      const btn = document.getElementById("mark-complete-btn");
+      if(btn) {
+          btn.style.display = "inline-block";
+          const isComplete = localStorage.getItem("completed_" + path);
+          if (isComplete === "true") {
+            btn.textContent = "✅ Completed";
+            btn.classList.replace("btn-primary", "btn-success");
+          }
+      }
+    }
+  });
+
+  function toggleComplete() {
+    const path = window.location.pathname;
+    const isComplete = localStorage.getItem("completed_" + path) === "true";
+    const btn = document.getElementById("mark-complete-btn");
+    
+    if (isComplete) {
+      localStorage.setItem("completed_" + path, "false");
+      btn.textContent = "Mark as Complete";
+      btn.classList.replace("btn-success", "btn-primary");
+    } else {
+      localStorage.setItem("completed_" + path, "true");
+      btn.textContent = "✅ Completed";
+      btn.classList.replace("btn-primary", "btn-success");
+    }
+  }
+</script>

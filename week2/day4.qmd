@@ -1,0 +1,13 @@
+---
+title: "Day 4: Context & Memory"
+---
+
+# Context & Memory
+
+Content for week2, Day 4 goes here.
+
+```python
+# Example python code block
+def hello_vibe():
+    print("Vibe Coding!")
+```
