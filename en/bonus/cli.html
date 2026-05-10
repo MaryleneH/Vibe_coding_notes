@@ -534,6 +534,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#gemini-cli-zero-to-hero-masterclass" id="toc-gemini-cli-zero-to-hero-masterclass" class="nav-link active" data-scroll-target="#gemini-cli-zero-to-hero-masterclass">Gemini CLI: Zero to Hero Masterclass</a>
   <ul class="collapse">
+  <li><a href="#the-power-of-the-cli" id="toc-the-power-of-the-cli" class="nav-link" data-scroll-target="#the-power-of-the-cli">The Power of the CLI</a></li>
   <li><a href="#a.-introduction-to-gemini-cli" id="toc-a.-introduction-to-gemini-cli" class="nav-link" data-scroll-target="#a.-introduction-to-gemini-cli">A. Introduction to Gemini CLI</a>
   <ul class="collapse">
   <li><a href="#what-is-gemini" id="toc-what-is-gemini" class="nav-link" data-scroll-target="#what-is-gemini">What is Gemini?</a></li>
@@ -595,14 +596,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="gemini-cli-zero-to-hero-masterclass" class="level1">
 <h1>Gemini CLI: Zero to Hero Masterclass</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/gemini_cli_hero.png" class="img-fluid figure-img" width="800"></p>
-<figcaption>Gemini CLI Hero</figcaption>
-</figure>
-</div>
+<p><img src="../../assets/gemini_cli_hero.png" alt="Gemini CLI Hero" style="width: 100%; max-width: 400px; border-radius: 12px; margin-bottom: 20px; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.2);"></p>
 <p>Welcome to the ultimate guide to the <strong>Gemini Command Line Interface (CLI)</strong>. Over the next 6-8 hours, you will transition from learning what the CLI is, to orchestrating complex, automated workflows directly from your terminal.</p>
+<section id="the-power-of-the-cli" class="level3">
+<h3 class="anchored" data-anchor-id="the-power-of-the-cli">The Power of the CLI</h3>
+<p>The Gemini CLI is a powerful tool designed to bring advanced AI capabilities directly into your terminal.</p>
+<p><strong>Why is it useful?</strong> It allows developers and system administrators to automate repetitive tasks, analyze local files, and chain AI commands together without having to write full Python or Node.js applications. It’s incredibly fast, requires zero boilerplate code, and integrates perfectly with your existing Bash or PowerShell scripts.</p>
+<p><strong>When to use it:</strong> - Quick, one-off tasks (e.g., “Summarize this error log”). - Automating local workflows (e.g., “Translate all markdown files in this folder”). - Piping output from other terminal tools directly into the AI.</p>
+<p><strong>When NOT to use it:</strong> - Building user-facing, full-stack applications (use the Gemini API instead). - Iterating on complex prompt design (Google AI Studio is better for visual prototyping). - Handling large-scale, distributed requests where database state and complex logic are required.</p>
+<p><strong>Key steps to mastery:</strong> 1. Master standard input/output (piping) to feed data to the model. 2. Understand how to inject context using the <code>--media</code> flag. 3. Learn to enforce structured outputs (JSON) so your scripts can safely parse the AI’s response. 4. Seamlessly integrate the CLI into standard Shell scripting (loops, variables, conditionals).</p>
 <hr>
+</section>
 <section id="a.-introduction-to-gemini-cli" class="level2">
 <h2 class="anchored" data-anchor-id="a.-introduction-to-gemini-cli">A. Introduction to Gemini CLI</h2>
 <section id="what-is-gemini" class="level3">
