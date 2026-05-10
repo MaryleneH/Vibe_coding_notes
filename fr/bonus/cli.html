@@ -107,6 +107,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.scss">
@@ -594,7 +597,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Gemini CLI : Masterclass de Zéro à Héros</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/gemini_cli_hero.png" class="img-fluid figure-img"></p>
+<p><img src="../../assets/gemini_cli_hero.png" class="img-fluid figure-img" width="800"></p>
 <figcaption>Gemini CLI Hero</figcaption>
 </figure>
 </div>
@@ -629,13 +632,24 @@ Tip
 </ul>
 </div>
 </div>
-<pre class="mermaid"><code>flowchart LR
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
     A[Utilisateur] --&gt;|Tâches Rapides| B(Gemini CLI)
     A --&gt;|Prototypage| C(Google AI Studio)
     A --&gt;|Création d'App| D(Gemini API)
     B --&gt; E[Google Cloud / Modèles]
     C --&gt; E
-    D --&gt; E</code></pre>
+    D --&gt; E
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 </section>
@@ -644,27 +658,38 @@ Tip
 <section id="installation-de-la-cli" class="level3">
 <h3 class="anchored" data-anchor-id="installation-de-la-cli">Installation de la CLI</h3>
 <p>Pour installer la CLI Gemini globalement via <code>npm</code> (Node Package Manager), exécutez :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">-g</span> @google/generative-ai-cli</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">-g</span> @google/generative-ai-cli</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="authentification-avec-google" class="level3">
 <h3 class="anchored" data-anchor-id="authentification-avec-google">Authentification avec Google</h3>
 <p>La CLI nécessite une clé API. Obtenez votre clé depuis <a href="https://aistudio.google.com/">Google AI Studio</a>, puis exportez-la comme variable d’environnement :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Mac/Linux</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">GEMINI_API_KEY</span><span class="op">=</span><span class="st">"votre-cle-api-ici"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Windows (PowerShell)</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:GEMINI_API_KEY=</span><span class="st">"votre-cle-api-ici"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Mac/Linux</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">GEMINI_API_KEY</span><span class="op">=</span><span class="st">"votre-cle-api-ici"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Windows (PowerShell)</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:GEMINI_API_KEY=</span><span class="st">"votre-cle-api-ici"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="aperçu-de-larchitecture" class="level3">
 <h3 class="anchored" data-anchor-id="aperçu-de-larchitecture">Aperçu de l’Architecture</h3>
-<pre class="mermaid"><code>sequenceDiagram
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
     participant Terminal
     participant CLI as Gemini CLI
     participant API as Gemini API
     Terminal-&gt;&gt;CLI: "gemini --prompt 'Bonjour'"
     CLI-&gt;&gt;API: Requête HTTP POST + Clé API
     API--&gt;&gt;CLI: Streaming de la Réponse
-    CLI--&gt;&gt;Terminal: Sortie Console</code></pre>
+    CLI--&gt;&gt;Terminal: Sortie Console
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 </section>
@@ -673,18 +698,18 @@ Tip
 <section id="exécuter-votre-première-commande" class="level3">
 <h3 class="anchored" data-anchor-id="exécuter-votre-première-commande">Exécuter votre première commande</h3>
 <p>Lançons un prompt simple :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Explique l'informatique quantique en une phrase."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Explique l'informatique quantique en une phrase."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Sortie :</strong> &gt; L’informatique quantique utilise les principes de la mécanique quantique pour traiter l’information de manière à résoudre certains problèmes complexes exponentiellement plus vite que les ordinateurs classiques.</p>
 </section>
 <section id="utiliser-des-prompts-texte-et-lentrée-standard" class="level3">
 <h3 class="anchored" data-anchor-id="utiliser-des-prompts-texte-et-lentrée-standard">Utiliser des prompts texte et l’entrée standard</h3>
 <p>Vous pouvez rediriger (pipe) la sortie d’autres commandes directement vers Gemini :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Traduire 'Hello World' en Français"</span> <span class="kw">|</span> <span class="ex">gemini</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Traduire 'Hello World' en Français"</span> <span class="kw">|</span> <span class="ex">gemini</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="utiliser-des-fichiers-comme-entrée" class="level3">
 <h3 class="anchored" data-anchor-id="utiliser-des-fichiers-comme-entrée">Utiliser des fichiers comme entrée</h3>
 <p>Vous voulez résumer un fichier local ? Utilisez le paramètre <code>--media</code> :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier log"</span> <span class="at">--media</span> error_log.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier log"</span> <span class="at">--media</span> error_log.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -693,17 +718,28 @@ Tip
 <section id="instructions-système" class="level3">
 <h3 class="anchored" data-anchor-id="instructions-système">Instructions Système</h3>
 <p>Les instructions système définissent le comportement du modèle pour toute la session.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris une fonction"</span> <span class="at">--system-instruction</span> <span class="st">"Tu es un développeur Python senior. Ne sors que du code brut, pas de formatage markdown."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris une fonction"</span> <span class="at">--system-instruction</span> <span class="st">"Tu es un développeur Python senior. Ne sors que du code brut, pas de formatage markdown."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="sorties-structurées" class="level3">
 <h3 class="anchored" data-anchor-id="sorties-structurées">Sorties Structurées</h3>
 <p>Vous pouvez forcer Gemini à retourner du JSON, ce qui est essentiel pour le scripting.</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Liste 3 couleurs"</span> <span class="at">--response-mime-type</span> application/json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<pre class="mermaid"><code>flowchart TD
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Liste 3 couleurs"</span> <span class="at">--response-mime-type</span> application/json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
     Prompt[Prompt Texte Brut] --&gt; System[Instructions Système Appliquées]
     System --&gt; Format[Format JSON Forcé]
     Format --&gt; Model[Gemini 1.5 Pro]
-    Model --&gt; Out[Sortie JSON Propre]</code></pre>
+    Model --&gt; Out[Sortie JSON Propre]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 </section>
@@ -712,11 +748,11 @@ Tip
 <p>Gemini 1.5 Pro dispose d’une fenêtre de contexte massive. Vous pouvez passer des images et de l’audio directement depuis votre disque dur !</p>
 <section id="compréhension-dimages" class="level3">
 <h3 class="anchored" data-anchor-id="compréhension-dimages">Compréhension d’Images</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Quel framework cette UI utilise-t-elle ?"</span> <span class="at">--media</span> screenshot.png</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Quel framework cette UI utilise-t-elle ?"</span> <span class="at">--media</span> screenshot.png</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="transcription-audio" class="level3">
 <h3 class="anchored" data-anchor-id="transcription-audio">Transcription Audio</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Transcrire cette réunion et lister les actions à mener."</span> <span class="at">--media</span> reunion.mp3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Transcrire cette réunion et lister les actions à mener."</span> <span class="at">--media</span> reunion.mp3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <blockquote class="blockquote">
 <p>[!WARNING] Considérations de Sécurité : La CLI respecte les règles de sécurité de Google. Si vous passez une image qui viole ces politiques, l’API retournera un bloc <code>FinishReason.SAFETY</code>.</p>
 </blockquote>
@@ -729,11 +765,11 @@ Tip
 <section id="exemple-résumer-tous-les-fichiers-dun-dossier" class="level3">
 <h3 class="anchored" data-anchor-id="exemple-résumer-tous-les-fichiers-dun-dossier">Exemple : Résumer tous les fichiers d’un dossier</h3>
 <p>Créez un script <code>resume.sh</code> :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="pp">*</span>.md<span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">echo</span> <span class="st">"Résumé de </span><span class="va">$file</span><span class="st">..."</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier en 1 point"</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$file</span><span class="st">"</span> <span class="op">&gt;&gt;</span> resumes.txt</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="pp">*</span>.md<span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">echo</span> <span class="st">"Résumé de </span><span class="va">$file</span><span class="st">..."</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier en 1 point"</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$file</span><span class="st">"</span> <span class="op">&gt;&gt;</span> resumes.txt</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -743,22 +779,33 @@ Tip
 <section id="étape-1-le-script" class="level3">
 <h3 class="anchored" data-anchor-id="étape-1-le-script">Étape 1 : Le Script</h3>
 <p>Créez <code>recherche.sh</code> :</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="va">FILE</span><span class="op">=</span><span class="va">$1</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"# Rapport de Recherche : </span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;</span> rapport.md</span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Génération des insights..."</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Analyse ce document et extrais les 3 insights principaux."</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;&gt;</span> rapport.md</span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Rapport généré !"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="va">FILE</span><span class="op">=</span><span class="va">$1</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"# Rapport de Recherche : </span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;</span> rapport.md</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Génération des insights..."</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Analyse ce document et extrais les 3 insights principaux."</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;&gt;</span> rapport.md</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Rapport généré !"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="étape-2-exécution" class="level3">
 <h3 class="anchored" data-anchor-id="étape-2-exécution">Étape 2 : Exécution</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x recherche.sh</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./recherche.sh</span> rapport_annuel.pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<pre class="mermaid"><code>stateDiagram-v2
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x recherche.sh</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./recherche.sh</span> rapport_annuel.pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">stateDiagram-v2
     [*] --&gt; LirePDF
     LirePDF --&gt; AnalyseGemini
     AnalyseGemini --&gt; GenererMarkdown
-    GenererMarkdown --&gt; [*]</code></pre>
+    GenererMarkdown --&gt; [*]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 </section>
@@ -772,18 +819,18 @@ Tip
 <li>Gemini CLI génère un script.</li>
 <li>Le script est formaté en JSON pour séparer les colonnes “Visuel” et “Audio”.</li>
 </ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris un script de Réel Instagram sur les outils IA. Fournis la sortie en JSON avec un tableau 'scenes' contenant 'visuel' et 'audio'."</span> <span class="at">--response-mime-type</span> application/json <span class="op">&gt;</span> script.json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris un script de Réel Instagram sur les outils IA. Fournis la sortie en JSON avec un tableau 'scenes' contenant 'visuel' et 'audio'."</span> <span class="at">--response-mime-type</span> application/json <span class="op">&gt;</span> script.json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="sortie-attendue" class="level3">
 <h3 class="anchored" data-anchor-id="sortie-attendue">Sortie Attendue</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"scenes"</span><span class="fu">:</span> <span class="ot">[</span></span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"visuel"</span><span class="fu">:</span> <span class="st">"Personne stressée devant un ordinateur."</span><span class="fu">,</span></span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"audio"</span><span class="fu">:</span> <span class="st">"Fatigué des tâches de codage répétitives ?"</span></span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"scenes"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"visuel"</span><span class="fu">:</span> <span class="st">"Personne stressée devant un ordinateur."</span><span class="fu">,</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"audio"</span><span class="fu">:</span> <span class="st">"Fatigué des tâches de codage répétitives ?"</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -794,12 +841,23 @@ Tip
 <li><strong>Débogage :</strong> Si la CLI échoue, ajoutez <code>--debug</code> pour voir la requête/réponse HTTP brute.</li>
 <li><strong>Structure du Workflow :</strong> Gardez vos instructions système dans un fichier texte séparé et lisez-les via <code>cat system.txt | gemini ...</code> pour garder vos commandes propres.</li>
 </ul>
-<pre class="mermaid"><code>flowchart LR
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
     A[Brouillon de Prompt] --&gt; B{Factuel ?}
     B --&gt;|Oui| C[Temp = 0]
     B --&gt;|Non| D[Temp = 0.7]
     C --&gt; E[Exécuter]
-    D --&gt; E</code></pre>
+    D --&gt; E
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 </section>
 <section id="j.-quiz-final-récapitulatif" class="level2">
@@ -820,9 +878,17 @@ Tip
 <li><code>--media</code></li>
 </ol></li>
 <li><ol start="3" type="A">
-<li><code>--image</code> <em>Solution : B</em></li>
+<li><code>--image</code></li>
 </ol></li>
 </ul></li>
+</ol>
+<details>
+<summary>
+<strong>Voir la solution</strong>
+</summary>
+<em>Solution : B</em>
+</details>
+<ol start="2" type="1">
 <li><strong>Comment forcer la CLI à retourner du JSON ?</strong>
 <ul>
 <li><ol type="A">
@@ -832,10 +898,16 @@ Tip
 <li><code>--format json</code></li>
 </ol></li>
 <li><ol start="3" type="A">
-<li><code>--response-mime-type application/json</code> <em>Solution : C</em></li>
+<li><code>--response-mime-type application/json</code></li>
 </ol></li>
 </ul></li>
 </ol>
+<details>
+<summary>
+<strong>Voir la solution</strong>
+</summary>
+<em>Solution : C</em>
+</details>
 
 
 </section>
