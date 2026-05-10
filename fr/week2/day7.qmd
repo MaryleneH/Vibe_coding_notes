@@ -18,9 +18,11 @@ Bienvenue au **Jour 7**. Aujourd'hui, nous plongeons dans **Révision & Repos**.
 
 
 ::: {.panel-tabset}
+## Modes de Défaillance Agentiques
+Lors de la construction d'agents qui appellent des API externes, ils échoueront inévitablement. Ils pourraient être bloqués par la modération de contenu, ou atteindre une limite de quota d'API.
+
 ## Gestion Robuste des Erreurs
-Lors de la construction d'agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant).
-Vous devez implémenter des blocs `try/except` dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l'erreur *à l'IA* pour qu'elle puisse réaliser son erreur et essayer une approche différente !
+Aujourd'hui, vous allez passer en revue les logs d'exécution de votre Agent Community Manager. Vous devez implémenter des blocs `try/except` dans vos outils Python. Par exemple, si Imagen rejette un prompt d'image pour des raisons de sécurité, votre code ne doit pas planter. Au lieu de cela, il doit renvoyer l'erreur *à l'IA* pour qu'elle comprenne son erreur, réécrive un prompt plus sûr, et réessaie !
 :::
 
 
@@ -28,7 +30,7 @@ Vous devez implémenter des blocs `try/except` dans vos outils Python. Ainsi, si
 
 Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
 
-**Tâche :** Passez en revue les logs d'exécution des 'tools' de l'Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l'agent essaie de lire un fichier inexistant ou d'écrire des données non valides.
+**Tâche :** Passez en revue les logs d'exécution des 'tools' de l'Agent. Ajoutez une gestion des erreurs pour les cas où l'agent atteint une limite de quota API ou un blocage de modération de contenu.
 
 **Exigences :**
 

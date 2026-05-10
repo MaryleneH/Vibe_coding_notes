@@ -22,7 +22,7 @@ By the end of this session, you will be able to:
 An Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.
 
 ## Visualizing with Mermaid.js
-Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: "Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Sacristan Agent." This allows you to rapidly prototype system designs.
+Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: "Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Community Manager Agent." This allows you to rapidly prototype system designs.
 :::
 
 
@@ -30,7 +30,7 @@ Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they
 
 It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
 
-**Task:** Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.
+**Task:** Design the architecture for a web-based version of the Community Manager Agent. Draw a mermaid.js diagram using Gemini.
 
 **Requirements:**
 

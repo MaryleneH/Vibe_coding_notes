@@ -1,16 +1,16 @@
 ---
-title: "Jour 5: Intégration de l'Agent Sacristain"
+title: "Jour 5: Intégration de l'Agent CM"
 ---
 
-# Intégration de l'Agent Sacristain
+# Intégration de l'Agent CM
 
-Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Intégration de l'Agent Sacristain**.
+Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Intégration de l'Agent CM**.
 
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
 
-1. Comprendre les principes fondamentaux derrière intégration de l'agent sacristain.
+1. Comprendre les principes fondamentaux derrière intégration de l'agent cm.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
 
@@ -22,7 +22,7 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Intégration de l'Ag
 Vous avez maintenant un backend Agent Python et une UI frontend générée par l'IA. Aujourd'hui, il s'agit de faire le pont.
 
 ## La Couche API
-Vous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Sacristain. Vous exposerez un point de terminaison REST qui accepte le message de l'utilisateur, le transmet à la boucle de l'Agent et renvoie la réponse finale au frontend.
+Vous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l'utilisateur, le transmet à la boucle de l'Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.
 :::
 
 
@@ -40,6 +40,6 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 
 ## ✅ Conclusion
 
-Aujourd'hui, nous avons couvert Intégration de l'Agent Sacristain. Demain, nous nous appuierons sur cela en explorant **Finalisation du Projet**.
+Aujourd'hui, nous avons couvert Intégration de l'Agent CM. Demain, nous nous appuierons sur cela en explorant **Finalisation du Projet**.
 
 Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

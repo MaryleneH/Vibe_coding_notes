@@ -19,10 +19,10 @@ Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Finalisation du Proj
 
 ::: {.panel-tabset}
 ## Finalisation du Projet
-Un bon produit se joue dans les détails. Votre Agent Sacristain fonctionne, mais comment est l'Expérience Utilisateur (UX) ?
+Un bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l'Expérience Utilisateur (UX) ?
 
 ## Exposer les "Pensées"
-Lorsqu'un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu'il transmette ses "pensées internes" (ex: 'Appel de read_file...') et les afficher dans l'UI comme état de chargement.
+Lorsqu'un Agent exécute des outils (comme générer une image ou synthétiser de l'audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu'il transmette ses "pensées internes" (ex: 'Appel d'Imagen pour générer l'arrière-plan...') et les afficher dans l'UI comme état de chargement.
 :::
 
 
@@ -30,7 +30,7 @@ Lorsqu'un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous 
 
 Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
 
-**Tâche :** Ajoutez un 'tool' 'Exporter vers Markdown' à votre agent et mettez à jour l'interface pour afficher visuellement les étapes de raisonnement interne de l'agent.
+**Tâche :** Ajoutez un 'tool' 'Assembler la Vidéo' à votre agent et mettez à jour l'interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.
 
 **Exigences :**
 

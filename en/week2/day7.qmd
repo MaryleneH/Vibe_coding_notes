@@ -19,10 +19,10 @@ By the end of this session, you will be able to:
 
 ::: {.panel-tabset}
 ## Agentic Failure Modes
-When building agents, they will inevitably fail. They might get stuck in an infinite loop calling the same tool, or they might try to read a file that doesn't exist.
+When building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.
 
 ## Robust Error Handling
-Today, you will review your Sacristan Agent's execution logs. You must implement `try/except` blocks in your Python tools so that if a tool fails (e.g., File Not Found), your code doesn't crash. Instead, your code should return the error *back to the AI* so the AI can realize its mistake and try a different approach!
+Today, you will review your Community Manager Agent's execution logs. You must implement `try/except` blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn't crash. Instead, your code should return the error *back to the AI* so the AI can realize its mistake, rewrite a safer prompt, and try again!
 :::
 
 
@@ -30,7 +30,7 @@ Today, you will review your Sacristan Agent's execution logs. You must implement
 
 It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
 
-**Task:** Review the Sacristan Agent's tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data.
+**Task:** Review the Community Manager Agent's tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.
 
 **Requirements:**
 

@@ -1,16 +1,16 @@
 ---
-title: "Jour 6: Mini-Projet 2 : Agent Sacristain"
+title: "Jour 6: Mini-Projet 2 : Agent Community Manager"
 ---
 
-# Mini-Projet 2 : Agent Sacristain
+# Mini-Projet 2 : Agent Community Manager
 
-Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Mini-Projet 2 : Agent Sacristain**.
+Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Mini-Projet 2 : Agent Community Manager**.
 
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
 
-1. Comprendre les principes fondamentaux derrière mini-projet 2 : agent sacristain.
+1. Comprendre les principes fondamentaux derrière mini-projet 2 : agent community manager.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
 
@@ -18,14 +18,19 @@ Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Mini-Projet 2 : Agen
 
 
 ::: {.panel-tabset}
-## Projet : L'Agent Sacristain
-Un "Sacristain" est quelqu'un qui s'occupe de l'organisation et de l'entretien. Pour votre mini-projet, vous allez construire un "Agent Sacristain" pour votre ordinateur.
+## Projet : L'Agent Community Manager
+Un Community Manager est la voix d'une marque. Pour votre mini-projet, vous allez construire un "Agent Community Manager" conçu pour un *nouvel auteur de romance*. Son but est de générer du contenu engageant pour Instagram.
 
 ## L'Arsenal d'Outils
-Vous l'équiperez d'outils Python pour : `list_directory(path)`, `read_file(path)` et `write_file(path, content)`.
+Vous l'équiperez d'outils Python connectés aux API Google Cloud :
+
+- `generate_script(topic)` : Utilise Gemini pour écrire le scénario d'un Réel Instagram captivant de 30 secondes.
+- `generate_image(prompt)` : Utilise Imagen 3 pour générer une image d'illustration.
+- `generate_audio(text)` : Utilise Google Cloud TTS pour générer la voix off.
 
 ## L'Objectif
-L'agent devra inspecter un dossier, résumer son contenu et générer un rapport Markdown de manière autonome !
+Vous demanderez à votre Agent : "Je sors un nouveau roman 'enemies-to-lovers'. Génère un Réel Instagram."
+L'Agent écrira le scénario de manière autonome, générera une belle image esthétique et produira le fichier audio. Ce projet prouve que vous pouvez construire une IA qui orchestre des workflows créatifs complexes !
 :::
 
 
@@ -33,7 +38,7 @@ L'agent devra inspecter un dossier, résumer son contenu et générer un rapport
 
 Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
 
-**Tâche :** Construisez le cœur de l'Agent Sacristain : donnez-lui des 'tools' pour lire des fichiers locaux, lister des répertoires et écrire de petites notes. Testez-le sur un répertoire factice.
+**Tâche :** Construisez le cœur de l'Agent Community Manager : donnez-lui des 'tools' pour appeler Gemini (scénario), Imagen (images) et Google TTS (voix off). Testez-le avec un prompt d'auteur de romance.
 
 **Exigences :**
 
@@ -43,6 +48,6 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 
 ## ✅ Conclusion
 
-Aujourd'hui, nous avons couvert Mini-Projet 2 : Agent Sacristain. Demain, nous nous appuierons sur cela en explorant **Révision & Repos**.
+Aujourd'hui, nous avons couvert Mini-Projet 2 : Agent Community Manager. Demain, nous nous appuierons sur cela en explorant **Révision & Repos**.
 
 Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

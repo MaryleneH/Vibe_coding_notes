@@ -27,7 +27,7 @@ When AI writes your code, the biggest danger is silent failure. The code might l
 An Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.
 
 ## Visualizing with Mermaid.js
-Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: "Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Sacristan Agent." This allows you to rapidly prototype system designs.
+Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: "Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Community Manager Agent." This allows you to rapidly prototype system designs.
 :::
 """,
     4: """
@@ -46,16 +46,16 @@ You are moving from a Backend Engineer to a Full-Stack Engineer by leveraging th
 Now you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.
 
 ## The API Layer
-You will use a lightweight framework like Flask or FastAPI to wrap your Sacristan Agent. You will expose a REST endpoint (e.g., `POST /chat`) that accepts the user's message from the UI, passes it to the Agent loop, and returns the Agent's final response back to the frontend.
+You will use a lightweight framework like Flask or FastAPI to wrap your Community Manager Agent. You will expose a REST endpoint (e.g., `POST /generate_video`) that accepts the user's prompt from the UI, passes it to the Agent loop, and returns the Agent's finalized video assets (script, images, audio) back to the frontend.
 :::
 """,
     6: """
 ::: {.panel-tabset}
 ## Final Project Polish
-A great product is all about the details. Your Sacristan Agent works, but how is the User Experience (UX)?
+A great product is all about the details. Your Community Manager Agent works, but how is the User Experience (UX)?
 
 ## Exposing the "Thoughts"
-When an Agent executes tools (like reading files), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its "internal thoughts" (e.g., 'Calling read_file...') and display them in the UI as a loading state. This dramatically improves the UX.
+When an Agent executes tools (like generating an image or synthesizing audio), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its "internal thoughts" (e.g., 'Calling Imagen to generate background...') and display them in the UI as a loading state. This dramatically improves the UX.
 :::
 """,
     7: """
@@ -98,7 +98,7 @@ Lorsque l'IA écrit votre code, le plus grand danger est l'échec silencieux (de
 Un script d'Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d'une architecture robuste.
 
 ## Visualisation avec Mermaid.js
-Parce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence.
+Parce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l'Agent Community Manager.
 :::
 """,
     4: """
@@ -117,16 +117,16 @@ Vous passez d'Ingénieur Backend à Ingénieur Full-Stack grâce à l'IA.
 Vous avez maintenant un backend Agent Python et une UI frontend générée par l'IA. Aujourd'hui, il s'agit de faire le pont.
 
 ## La Couche API
-Vous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Sacristain. Vous exposerez un point de terminaison REST qui accepte le message de l'utilisateur, le transmet à la boucle de l'Agent et renvoie la réponse finale au frontend.
+Vous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l'utilisateur, le transmet à la boucle de l'Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.
 :::
 """,
     6: """
 ::: {.panel-tabset}
 ## Finalisation du Projet
-Un bon produit se joue dans les détails. Votre Agent Sacristain fonctionne, mais comment est l'Expérience Utilisateur (UX) ?
+Un bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l'Expérience Utilisateur (UX) ?
 
 ## Exposer les "Pensées"
-Lorsqu'un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu'il transmette ses "pensées internes" (ex: 'Appel de read_file...') et les afficher dans l'UI comme état de chargement.
+Lorsqu'un Agent exécute des outils (comme générer une image ou synthétiser de l'audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu'il transmette ses "pensées internes" (ex: 'Appel d'Imagen pour générer l'arrière-plan...') et les afficher dans l'UI comme état de chargement.
 :::
 """,
     7: """

@@ -30,7 +30,7 @@ Instead of thinking about syntax (`for i in range()`), you must think about arch
 
 It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
 
-**Task:** Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language 'vibes' to improve modularity.
+**Task:** Use an IDE (like Cursor) to refactor the Community Manager Agent code using just natural language 'vibes' to improve modularity.
 
 **Requirements:**
 

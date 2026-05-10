@@ -43,6 +43,6 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 
 ## ✅ Conclusion
 
-Aujourd'hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant **Mini-Projet 2 : Agent Sacristain**.
+Aujourd'hui, nous avons couvert Workflows Agentiques. Demain, nous nous appuierons sur cela en explorant **Mini-Projet 2 : Agent Community Manager**.
 
 Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !

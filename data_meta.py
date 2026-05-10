@@ -17,7 +17,7 @@ This isn't just about writing code—it's about directing an AI to write it with
 
 - **Week 1:** Master the art of advanced prompting and structured outputs.
 - **Week 2:** Give your AI tools, memory, and agency to perform real-world tasks.
-- **Week 3:** Build full-stack applications and deploy your intelligent Sacristan Agent.
+- **Week 3:** Build full-stack applications and deploy your intelligent Community Manager Agent.
 
 <br>
 <a href="week1/day1.qmd" class="btn btn-primary btn-lg" style="border-radius: 50px; padding: 10px 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(26,115,232,0.4);">Start Your Journey →</a>
@@ -59,7 +59,7 @@ Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'ell
 
 - **Semaine 1 :** Maîtriser l'art du "Prompt Engineering" avancé et des "Structured Outputs".
 - **Semaine 2 :** Donner à votre IA des "tools", de la mémoire et une agentivité pour accomplir des tâches réelles.
-- **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Sacristain" intelligent.
+- **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Community Manager" intelligent.
 
 <br>
 <a href="week1/day1.qmd" class="btn btn-primary btn-lg" style="border-radius: 50px; padding: 10px 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(26,115,232,0.4);">Commencer votre voyage →</a>
@@ -85,14 +85,14 @@ Seulement **2 heures par jour**. Nous nous concentrons sur les concepts à fort 
 
 en_titles = {
     "week1": ["Foundations", "The Vibe Coding Mindset", "Advanced Prompt Engineering & Reasoning", "Structured Outputs", "Multimodal Magic", "Transitioning to Code", "Mini-Project 1", "Review & Rest"],
-    "week2": ["Agents", "Introduction to Function Calling", "Defining Tools", "Building your First Agent", "Context & Memory", "Agentic Workflows", "Mini-Project 2: Sacristan Agent", "Review & Rest"],
-    "week3": ["Advanced & Deploy", "AI-Assisted Coding", "Test-Driven Vibe Coding", "System Architecture", "Generating UIs", "Integrating the Sacristan Agent", "Final Project Polish", "Deploying & Wrap-up"]
+    "week2": ["Agents", "Introduction to Function Calling", "Defining Tools", "Building your First Agent", "Context & Memory", "Agentic Workflows", "Mini-Project 2: Community Manager Agent", "Review & Rest"],
+    "week3": ["Advanced & Deploy", "AI-Assisted Coding", "Test-Driven Vibe Coding", "System Architecture", "Generating UIs", "Integrating the CM Agent", "Final Project Polish", "Deploying & Wrap-up"]
 }
 
 fr_titles = {
     "week1": ["Fondations", "L'état d'esprit Vibe Coding", "Prompt Engineering Avancé & Raisonnement", "Structured Outputs", "Magie Multimodale", "Transition vers le Code", "Mini-Projet 1", "Révision & Repos"],
-    "week2": ["Agents", "Introduction au Function Calling", "Définition de Tools", "Construire votre Premier Agent", "Contexte & Mémoire", "Workflows Agentiques", "Mini-Projet 2 : Agent Sacristain", "Révision & Repos"],
-    "week3": ["Avancé & Déploiement", "Codage Assisté par l'IA", "Test-Driven Vibe Coding", "Architecture Système", "Génération d'Interfaces Utilisateur (UIs)", "Intégration de l'Agent Sacristain", "Finalisation du Projet", "Déploiement & Conclusion"]
+    "week2": ["Agents", "Introduction au Function Calling", "Définition de Tools", "Construire votre Premier Agent", "Contexte & Mémoire", "Workflows Agentiques", "Mini-Projet 2 : Agent Community Manager", "Révision & Repos"],
+    "week3": ["Avancé & Déploiement", "Codage Assisté par l'IA", "Test-Driven Vibe Coding", "Architecture Système", "Génération d'Interfaces Utilisateur (UIs)", "Intégration de l'Agent CM", "Finalisation du Projet", "Déploiement & Conclusion"]
 }
 
 en_exercises = {
@@ -113,17 +113,17 @@ en_exercises = {
         "**Task:** Write a script where Gemini can call the 'Calculator' tool, execute the function locally, return the result to Gemini, and formulate a final answer.",
         "**Task:** Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.",
         "**Task:** Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.",
-        "**Task:** Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.",
-        "**Task:** Review the Sacristan Agent's tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data."
+        "**Task:** Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.",
+        "**Task:** Review the Community Manager Agent's tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block."
     ],
     "week3": [
         "",
-        "**Task:** Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language 'vibes' to improve modularity.",
+        "**Task:** Use an IDE (like Cursor) to refactor the Community Manager Agent code using just natural language 'vibes' to improve modularity.",
         "**Task:** Write a natural language prompt that generates PyTest cases for your 'Calculator' tool. Then use Gemini to fix any failing tests.",
-        "**Task:** Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.",
+        "**Task:** Design the architecture for a web-based version of the Community Manager Agent. Draw a mermaid.js diagram using Gemini.",
         "**Task:** Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.",
         "**Task:** Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.",
-        "**Task:** Add an 'Export to Markdown' tool to your agent and update the UI to visually display the agent's internal thinking steps.",
+        "**Task:** Add an 'Assemble Video' tool to your agent and update the UI to visually display the generated script, image storyboards, and audio track.",
         "**Task:** Deploy your backend to a free service (e.g., Render) and your UI to GitHub Pages. Test the live agent in production!"
     ]
 }
@@ -146,17 +146,17 @@ fr_exercises = {
         "**Tâche :** Écrivez un script où Gemini peut appeler le 'tool' Calculatrice, exécuter la fonction localement, renvoyer le résultat à Gemini, et formuler une réponse finale.",
         "**Tâche :** Implémentez un tableau de boucle de discussion (chat loop) qui stocke les messages Utilisateur et Modèle, en passant tout l'historique à Gemini à chaque tour pour maintenir le contexte.",
         "**Tâche :** Concevez un workflow avec un agent Planificateur (qui décompose une tâche) et un agent Exécuteur (qui écrit le code). Exécutez-les en séquence.",
-        "**Tâche :** Construisez le cœur de l'Agent Sacristain : donnez-lui des 'tools' pour lire des fichiers locaux, lister des répertoires et écrire de petites notes. Testez-le sur un répertoire factice.",
-        "**Tâche :** Passez en revue les logs d'exécution des 'tools' de l'Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l'agent essaie de lire un fichier inexistant ou d'écrire des données non valides."
+        "**Tâche :** Construisez le cœur de l'Agent Community Manager : donnez-lui des 'tools' pour appeler Gemini (scénario), Imagen (images) et Google TTS (voix off). Testez-le avec un prompt d'auteur de romance.",
+        "**Tâche :** Passez en revue les logs d'exécution des 'tools' de l'Agent. Ajoutez une gestion des erreurs pour les cas où l'agent atteint une limite de quota API ou un blocage de modération de contenu."
     ],
     "week3": [
         "",
-        "**Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Sacristain en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.",
+        "**Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Community Manager en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.",
         "**Tâche :** Écrivez un prompt en langage naturel qui génère des cas de test PyTest pour votre 'tool' Calculatrice. Utilisez ensuite Gemini pour corriger les tests qui échouent.",
-        "**Tâche :** Concevez l'architecture d'une version web de l'Agent Sacristain. Dessinez un diagramme mermaid.js en utilisant Gemini.",
+        "**Tâche :** Concevez l'architecture d'une version web de l'Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.",
         "**Tâche :** Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.",
         "**Tâche :** Connectez l'interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.",
-        "**Tâche :** Ajoutez un 'tool' 'Exporter vers Markdown' à votre agent et mettez à jour l'interface pour afficher visuellement les étapes de raisonnement interne de l'agent.",
+        "**Tâche :** Ajoutez un 'tool' 'Assembler la Vidéo' à votre agent et mettez à jour l'interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.",
         "**Tâche :** Déployez votre backend sur un service gratuit (ex: Render) et votre UI sur GitHub Pages. Testez l'agent en production !"
     ]
 }

@@ -19,10 +19,10 @@ By the end of this session, you will be able to:
 
 ::: {.panel-tabset}
 ## Final Project Polish
-A great product is all about the details. Your Sacristan Agent works, but how is the User Experience (UX)?
+A great product is all about the details. Your Community Manager Agent works, but how is the User Experience (UX)?
 
 ## Exposing the "Thoughts"
-When an Agent executes tools (like reading files), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its "internal thoughts" (e.g., 'Calling read_file...') and display them in the UI as a loading state. This dramatically improves the UX.
+When an Agent executes tools (like generating an image or synthesizing audio), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its "internal thoughts" (e.g., 'Calling Imagen to generate background...') and display them in the UI as a loading state. This dramatically improves the UX.
 :::
 
 
@@ -30,7 +30,7 @@ When an Agent executes tools (like reading files), it can take several seconds. 
 
 It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
 
-**Task:** Add an 'Export to Markdown' tool to your agent and update the UI to visually display the agent's internal thinking steps.
+**Task:** Add an 'Assemble Video' tool to your agent and update the UI to visually display the generated script, image storyboards, and audio track.
 
 **Requirements:**
 

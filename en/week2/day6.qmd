@@ -1,16 +1,16 @@
 ---
-title: "Day 6: Mini-Project 2: Sacristan Agent"
+title: "Day 6: Mini-Project 2: Community Manager Agent"
 ---
 
-# Mini-Project 2: Sacristan Agent
+# Mini-Project 2: Community Manager Agent
 
-Welcome to **Day 6**. Today, we are diving deep into **Mini-Project 2: Sacristan Agent**.
+Welcome to **Day 6**. Today, we are diving deep into **Mini-Project 2: Community Manager Agent**.
 
 ## 🎯 Learning Objectives
 
 By the end of this session, you will be able to:
 
-1. Understand the core principles behind mini-project 2: sacristan agent.
+1. Understand the core principles behind mini-project 2: community manager agent.
 2. Implement these concepts using the Google Gemini ecosystem.
 3. Successfully complete today's hands-on exercise.
 
@@ -18,19 +18,19 @@ By the end of this session, you will be able to:
 
 
 ::: {.panel-tabset}
-## Project: The Sacristan Agent
-A "Sacristan" is someone who takes care of a church—keeping it organized and clean. For your mini-project, you will build a "Sacristan Agent" for your local computer.
+## Project: The Community Manager Agent
+A Community Manager is the voice of a brand. For your mini-project, you will build a "Community Manager Agent" tailored for a *new romance author*. Its goal is to generate engaging content for Instagram.
 
 ## Tool Arsenal
-You will equip your agent with the following Python tools:
+You will equip your agent with the following Python tools connected to Google Cloud APIs:
 
-- `list_directory(path)`
-- `read_file(path)`
-- `write_file(path, content)`
+- `generate_script(topic)`: Uses Gemini to write a high-converting, 30-second Instagram Reel script.
+- `generate_image(prompt)`: Uses Imagen 3 to generate a visual storyboard frame.
+- `generate_audio(text)`: Uses Google Cloud TTS to generate the voiceover track.
 
 ## The Goal
-You will prompt your Sacristan Agent to: "Look in the `./data` folder, read all the text files, summarize their contents, and write a new file called `summary.md`." 
-This project proves you can build an AI that autonomously manages your file system!
+You will prompt your Agent: "I'm releasing a new 'enemies-to-lovers' romance novel. Generate an Instagram Reel."
+The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!
 :::
 
 
@@ -38,7 +38,7 @@ This project proves you can build an AI that autonomously manages your file syst
 
 It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
 
-**Task:** Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.
+**Task:** Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.
 
 **Requirements:**
 
@@ -48,6 +48,6 @@ It's time to put theory into practice! Spend the next 45 minutes on the followin
 
 ## ✅ Wrap-up
 
-Today we covered Mini-Project 2: Sacristan Agent. Tomorrow, we will build upon this by exploring **Review & Rest**.
+Today we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring **Review & Rest**.
 
 Make sure to click 'Mark as Complete' below to track your progress!

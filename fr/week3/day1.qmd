@@ -30,7 +30,7 @@ Au lieu de penser à la syntaxe, vous devez penser à l'architecture. Le codage 
 
 Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
 
-**Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Sacristain en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.
+**Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Community Manager en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.
 
 **Exigences :**
 

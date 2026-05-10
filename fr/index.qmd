@@ -16,7 +16,7 @@ Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'ell
 
 - **Semaine 1 :** Maîtriser l'art du "Prompt Engineering" avancé et des "Structured Outputs".
 - **Semaine 2 :** Donner à votre IA des "tools", de la mémoire et une agentivité pour accomplir des tâches réelles.
-- **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Sacristain" intelligent.
+- **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Community Manager" intelligent.
 
 <br>
 <a href="week1/day1.qmd" class="btn btn-primary btn-lg" style="border-radius: 50px; padding: 10px 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(26,115,232,0.4);">Commencer votre voyage →</a>

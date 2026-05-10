@@ -22,7 +22,7 @@ Bienvenue au **Jour 3**. Aujourd'hui, nous plongeons dans **Architecture Systèm
 Un script d'Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d'une architecture robuste.
 
 ## Visualisation avec Mermaid.js
-Parce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence.
+Parce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l'Agent Community Manager.
 :::
 
 
@@ -30,7 +30,7 @@ Parce que les LLMs sont natifs du texte, ils sont incroyablement doués pour gé
 
 Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :
 
-**Tâche :** Concevez l'architecture d'une version web de l'Agent Sacristain. Dessinez un diagramme mermaid.js en utilisant Gemini.
+**Tâche :** Concevez l'architecture d'une version web de l'Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.
 
 **Exigences :**
 

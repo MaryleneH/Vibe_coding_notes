@@ -1,16 +1,16 @@
 ---
-title: "Day 5: Integrating the Sacristan Agent"
+title: "Day 5: Integrating the CM Agent"
 ---
 
-# Integrating the Sacristan Agent
+# Integrating the CM Agent
 
-Welcome to **Day 5**. Today, we are diving deep into **Integrating the Sacristan Agent**.
+Welcome to **Day 5**. Today, we are diving deep into **Integrating the CM Agent**.
 
 ## 🎯 Learning Objectives
 
 By the end of this session, you will be able to:
 
-1. Understand the core principles behind integrating the sacristan agent.
+1. Understand the core principles behind integrating the cm agent.
 2. Implement these concepts using the Google Gemini ecosystem.
 3. Successfully complete today's hands-on exercise.
 
@@ -22,7 +22,7 @@ By the end of this session, you will be able to:
 Now you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.
 
 ## The API Layer
-You will use a lightweight framework like Flask or FastAPI to wrap your Sacristan Agent. You will expose a REST endpoint (e.g., `POST /chat`) that accepts the user's message from the UI, passes it to the Agent loop, and returns the Agent's final response back to the frontend.
+You will use a lightweight framework like Flask or FastAPI to wrap your Community Manager Agent. You will expose a REST endpoint (e.g., `POST /generate_video`) that accepts the user's prompt from the UI, passes it to the Agent loop, and returns the Agent's finalized video assets (script, images, audio) back to the frontend.
 :::
 
 
@@ -40,6 +40,6 @@ It's time to put theory into practice! Spend the next 45 minutes on the followin
 
 ## ✅ Wrap-up
 
-Today we covered Integrating the Sacristan Agent. Tomorrow, we will build upon this by exploring **Final Project Polish**.
+Today we covered Integrating the CM Agent. Tomorrow, we will build upon this by exploring **Final Project Polish**.
 
 Make sure to click 'Mark as Complete' below to track your progress!

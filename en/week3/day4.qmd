@@ -41,6 +41,6 @@ It's time to put theory into practice! Spend the next 45 minutes on the followin
 
 ## ✅ Wrap-up
 
-Today we covered Generating UIs. Tomorrow, we will build upon this by exploring **Integrating the Sacristan Agent**.
+Today we covered Generating UIs. Tomorrow, we will build upon this by exploring **Integrating the CM Agent**.
 
 Make sure to click 'Mark as Complete' below to track your progress!

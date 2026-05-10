@@ -70,28 +70,28 @@ By separating concerns, you drastically reduce hallucinations and improve the ro
 """,
     6: """
 ::: {.panel-tabset}
-## Project: The Sacristan Agent
-A "Sacristan" is someone who takes care of a church—keeping it organized and clean. For your mini-project, you will build a "Sacristan Agent" for your local computer.
+## Project: The Community Manager Agent
+A Community Manager is the voice of a brand. For your mini-project, you will build a "Community Manager Agent" tailored for a *new romance author*. Its goal is to generate engaging content for Instagram.
 
 ## Tool Arsenal
-You will equip your agent with the following Python tools:
+You will equip your agent with the following Python tools connected to Google Cloud APIs:
 
-- `list_directory(path)`
-- `read_file(path)`
-- `write_file(path, content)`
+- `generate_script(topic)`: Uses Gemini to write a high-converting, 30-second Instagram Reel script.
+- `generate_image(prompt)`: Uses Imagen 3 to generate a visual storyboard frame.
+- `generate_audio(text)`: Uses Google Cloud TTS to generate the voiceover track.
 
 ## The Goal
-You will prompt your Sacristan Agent to: "Look in the `./data` folder, read all the text files, summarize their contents, and write a new file called `summary.md`." 
-This project proves you can build an AI that autonomously manages your file system!
+You will prompt your Agent: "I'm releasing a new 'enemies-to-lovers' romance novel. Generate an Instagram Reel."
+The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!
 :::
 """,
     7: """
 ::: {.panel-tabset}
 ## Agentic Failure Modes
-When building agents, they will inevitably fail. They might get stuck in an infinite loop calling the same tool, or they might try to read a file that doesn't exist.
+When building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.
 
 ## Robust Error Handling
-Today, you will review your Sacristan Agent's execution logs. You must implement `try/except` blocks in your Python tools so that if a tool fails (e.g., File Not Found), your code doesn't crash. Instead, your code should return the error *back to the AI* so the AI can realize its mistake and try a different approach!
+Today, you will review your Community Manager Agent's execution logs. You must implement `try/except` blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn't crash. Instead, your code should return the error *back to the AI* so the AI can realize its mistake, rewrite a safer prompt, and try again!
 :::
 """
 }
@@ -155,21 +155,28 @@ En séparant les responsabilités, vous réduisez considérablement les hallucin
 """,
     6: """
 ::: {.panel-tabset}
-## Projet : L'Agent Sacristain
-Un "Sacristain" est quelqu'un qui s'occupe de l'organisation et de l'entretien. Pour votre mini-projet, vous allez construire un "Agent Sacristain" pour votre ordinateur.
+## Projet : L'Agent Community Manager
+Un Community Manager est la voix d'une marque. Pour votre mini-projet, vous allez construire un "Agent Community Manager" conçu pour un *nouvel auteur de romance*. Son but est de générer du contenu engageant pour Instagram.
 
 ## L'Arsenal d'Outils
-Vous l'équiperez d'outils Python pour : `list_directory(path)`, `read_file(path)` et `write_file(path, content)`.
+Vous l'équiperez d'outils Python connectés aux API Google Cloud :
+
+- `generate_script(topic)` : Utilise Gemini pour écrire le scénario d'un Réel Instagram captivant de 30 secondes.
+- `generate_image(prompt)` : Utilise Imagen 3 pour générer une image d'illustration.
+- `generate_audio(text)` : Utilise Google Cloud TTS pour générer la voix off.
 
 ## L'Objectif
-L'agent devra inspecter un dossier, résumer son contenu et générer un rapport Markdown de manière autonome !
+Vous demanderez à votre Agent : "Je sors un nouveau roman 'enemies-to-lovers'. Génère un Réel Instagram."
+L'Agent écrira le scénario de manière autonome, générera une belle image esthétique et produira le fichier audio. Ce projet prouve que vous pouvez construire une IA qui orchestre des workflows créatifs complexes !
 :::
 """,
     7: """
 ::: {.panel-tabset}
+## Modes de Défaillance Agentiques
+Lors de la construction d'agents qui appellent des API externes, ils échoueront inévitablement. Ils pourraient être bloqués par la modération de contenu, ou atteindre une limite de quota d'API.
+
 ## Gestion Robuste des Erreurs
-Lors de la construction d'agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant).
-Vous devez implémenter des blocs `try/except` dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l'erreur *à l'IA* pour qu'elle puisse réaliser son erreur et essayer une approche différente !
+Aujourd'hui, vous allez passer en revue les logs d'exécution de votre Agent Community Manager. Vous devez implémenter des blocs `try/except` dans vos outils Python. Par exemple, si Imagen rejette un prompt d'image pour des raisons de sécurité, votre code ne doit pas planter. Au lieu de cela, il doit renvoyer l'erreur *à l'IA* pour qu'elle comprenne son erreur, réécrive un prompt plus sûr, et réessaie !
 :::
 """
 }

@@ -41,6 +41,6 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 
 ## ✅ Conclusion
 
-Aujourd'hui, nous avons couvert Génération d'Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant **Intégration de l'Agent Sacristain**.
+Aujourd'hui, nous avons couvert Génération d'Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant **Intégration de l'Agent CM**.
 
 Assurez-vous de cliquer sur 'Mark as Complete' ci-dessous pour suivre vos progrès !
