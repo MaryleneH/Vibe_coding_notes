@@ -602,9 +602,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="the-power-of-the-cli">The Power of the CLI</h3>
 <p>The Gemini CLI is a powerful tool designed to bring advanced AI capabilities directly into your terminal.</p>
 <p><strong>Why is it useful?</strong> It allows developers and system administrators to automate repetitive tasks, analyze local files, and chain AI commands together without having to write full Python or Node.js applications. It’s incredibly fast, requires zero boilerplate code, and integrates perfectly with your existing Bash or PowerShell scripts.</p>
-<p><strong>When to use it:</strong> - Quick, one-off tasks (e.g., “Summarize this error log”). - Automating local workflows (e.g., “Translate all markdown files in this folder”). - Piping output from other terminal tools directly into the AI.</p>
-<p><strong>When NOT to use it:</strong> - Building user-facing, full-stack applications (use the Gemini API instead). - Iterating on complex prompt design (Google AI Studio is better for visual prototyping). - Handling large-scale, distributed requests where database state and complex logic are required.</p>
-<p><strong>Key steps to mastery:</strong> 1. Master standard input/output (piping) to feed data to the model. 2. Understand how to inject context using the <code>--media</code> flag. 3. Learn to enforce structured outputs (JSON) so your scripts can safely parse the AI’s response. 4. Seamlessly integrate the CLI into standard Shell scripting (loops, variables, conditionals).</p>
+<p><strong>When to use it:</strong></p>
+<ul>
+<li>Quick, one-off tasks (e.g., “Summarize this error log”).</li>
+<li>Automating local workflows (e.g., “Translate all markdown files in this folder”).</li>
+<li>Piping output from other terminal tools directly into the AI.</li>
+</ul>
+<p><strong>When NOT to use it:</strong></p>
+<ul>
+<li>Building user-facing, full-stack applications (use the Gemini API instead).</li>
+<li>Iterating on complex prompt design (Google AI Studio is better for visual prototyping).</li>
+<li>Handling large-scale, distributed requests where database state and complex logic are required.</li>
+</ul>
+<p><strong>Key steps to mastery:</strong></p>
+<ol type="1">
+<li>Master standard input/output (piping) to feed data to the model.</li>
+<li>Understand how to inject context using the <code>--media</code> flag.</li>
+<li>Learn to enforce structured outputs (JSON) so your scripts can safely parse the AI’s response.</li>
+<li>Seamlessly integrate the CLI into standard Shell scripting (loops, variables, conditionals).</li>
+</ol>
 <hr>
 </section>
 <section id="a.-introduction-to-gemini-cli" class="level2">

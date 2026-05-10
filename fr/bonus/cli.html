@@ -602,9 +602,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="la-puissance-de-la-cli">La Puissance de la CLI</h3>
 <p>La CLI Gemini est un outil puissant conçu pour apporter des capacités d’IA avancées directement dans votre terminal.</p>
 <p><strong>Pourquoi est-ce utile ?</strong> Cela permet aux développeurs et aux administrateurs système d’automatiser des tâches répétitives, d’analyser des fichiers locaux et d’enchaîner des commandes d’IA sans avoir à écrire des applications complètes en Python ou Node.js. C’est incroyablement rapide, ne nécessite aucun boilerplate (code de base), et s’intègre parfaitement avec vos scripts Bash ou PowerShell existants.</p>
-<p><strong>Quand l’utiliser :</strong> - Tâches rapides et ponctuelles (ex: “Résume ce fichier log d’erreur”). - Automatisation de workflows locaux (ex: “Traduire tous les fichiers markdown de ce dossier”). - Redirection (piping) de la sortie d’autres outils du terminal directement vers l’IA.</p>
-<p><strong>Quand NE PAS l’utiliser :</strong> - Création d’applications full-stack destinées aux utilisateurs (utilisez l’API Gemini). - Itération sur la conception de prompts complexes (Google AI Studio est meilleur pour le prototypage visuel). - Gestion de requêtes à grande échelle et distribuées nécessitant un état en base de données et une logique complexe.</p>
-<p><strong>Étapes clés vers la maîtrise :</strong> 1. Maîtriser l’entrée/sortie standard (piping) pour fournir des données au modèle. 2. Comprendre comment injecter du contexte en utilisant le paramètre <code>--media</code>. 3. Apprendre à imposer des sorties structurées (JSON) pour que vos scripts puissent analyser la réponse de l’IA en toute sécurité. 4. Intégrer de manière transparente la CLI dans le scripting Shell standard (boucles, variables, conditions).</p>
+<p><strong>Quand l’utiliser :</strong></p>
+<ul>
+<li>Tâches rapides et ponctuelles (ex: “Résume ce fichier log d’erreur”).</li>
+<li>Automatisation de workflows locaux (ex: “Traduire tous les fichiers markdown de ce dossier”).</li>
+<li>Redirection (piping) de la sortie d’autres outils du terminal directement vers l’IA.</li>
+</ul>
+<p><strong>Quand NE PAS l’utiliser :</strong></p>
+<ul>
+<li>Création d’applications full-stack destinées aux utilisateurs (utilisez l’API Gemini).</li>
+<li>Itération sur la conception de prompts complexes (Google AI Studio est meilleur pour le prototypage visuel).</li>
+<li>Gestion de requêtes à grande échelle et distribuées nécessitant un état en base de données et une logique complexe.</li>
+</ul>
+<p><strong>Étapes clés vers la maîtrise :</strong></p>
+<ol type="1">
+<li>Maîtriser l’entrée/sortie standard (piping) pour fournir des données au modèle.</li>
+<li>Comprendre comment injecter du contexte en utilisant le paramètre <code>--media</code>.</li>
+<li>Apprendre à imposer des sorties structurées (JSON) pour que vos scripts puissent analyser la réponse de l’IA en toute sécurité.</li>
+<li>Intégrer de manière transparente la CLI dans le scripting Shell standard (boucles, variables, conditions).</li>
+</ol>
 <hr>
 </section>
 <section id="a.-introduction-à-gemini-cli" class="level2">
