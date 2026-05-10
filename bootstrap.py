@@ -195,7 +195,7 @@ body {
   --title-gradient: -webkit-linear-gradient(45deg, #1a73e8, #9333ea, #ec4899);
   --callout-bg: rgba(0,0,0,0.02);
   --callout-border: rgba(0,0,0,0.05);
-  --code-bg: #f8f9fa;
+  --code-bg: #1e1e1e;
   --inline-code-bg: rgba(0, 0, 0, 0.05);
   --inline-code-color: #d63384;
   --hover-shadow: rgba(26, 115, 232, 0.4);
@@ -269,14 +269,14 @@ pre.sourceCode {
 }
 
 code {
-  background-color: var(--inline-code-bg);
-  color: var(--inline-code-color);
+  background-color: var(--inline-code-bg) !important;
+  color: var(--inline-code-color) !important;
   border-radius: 4px;
   padding: 0.15em 0.3em;
 }
 pre code {
-  background-color: transparent;
-  color: inherit;
+  background-color: transparent !important;
+  color: inherit !important;
 }
 
 /* Micro-animations */
