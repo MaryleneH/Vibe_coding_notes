@@ -9,6 +9,7 @@ Bienvenue dans la Semaine 3 !
 Cette semaine, nous allons nous concentrer sur **Avancé & Déploiement**.
 
 ### À quoi s'attendre
+
 - **Mini-Leçons Quotidiennes:** Segments de 2 heures axés sur un concept spécifique.
 - **Pratique:** Défis en fin de journée pour appliquer ce que vous avez appris.
 

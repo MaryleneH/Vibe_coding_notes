@@ -9,6 +9,7 @@ Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Génération d'Inter
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière génération d'interfaces utilisateur (uis).
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.

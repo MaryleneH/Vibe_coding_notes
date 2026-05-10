@@ -9,6 +9,7 @@ Welcome to Week 3 !
 This week, we will focus on **Advanced & Deploy**.
 
 ### What to Expect
+
 - **Daily Mini-Lessons:** 2-hour segments focusing on a specific concept.
 - **Hands-on Practice:** End-of-day challenges to apply what you've learned.
 

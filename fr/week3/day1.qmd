@@ -9,6 +9,7 @@ Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **Codage Assisté par 
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière codage assisté par l'ia.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Utilisez un IDE (comme Cursor) pour refactorer le code de l'Agent Sacristain en utilisant uniquement des instructions en langage naturel ('vibes') afin d'améliorer la modularité.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.

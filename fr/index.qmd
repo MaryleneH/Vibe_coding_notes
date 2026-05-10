@@ -13,6 +13,7 @@ Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heur
 Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'elle l'écrive avec vous.
 
 ### Ce que vous allez accomplir
+
 - **Semaine 1 :** Maîtriser l'art du "Prompt Engineering" avancé et des "Structured Outputs".
 - **Semaine 2 :** Donner à votre IA des "tools", de la mémoire et une agentivité pour accomplir des tâches réelles.
 - **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Sacristain" intelligent.
@@ -24,6 +25,7 @@ Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'ell
 :::{.g-col-12 .g-col-md-4}
 :::{.callout-note appearance="simple" icon="false" style="border-radius: 15px; padding: 20px;"}
 ### 🛠️ Prérequis
+
 - Python installé (`>= 3.10`)
 - Un compte Google pour [Google AI Studio](https://aistudio.google.com/)
 - Un IDE (VS Code ou Cursor)

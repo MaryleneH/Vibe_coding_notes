@@ -9,6 +9,7 @@ Welcome to **Day 2**. Today, we are diving deep into **Advanced Prompt Engineeri
 ## 🎯 Learning Objectives
 
 By the end of this session, you will be able to:
+
 1. Understand the core principles behind advanced prompt engineering & reasoning.
 2. Implement these concepts using the Google Gemini ecosystem.
 3. Successfully complete today's hands-on exercise.
@@ -34,6 +35,7 @@ It's time to put theory into practice! Spend the next 45 minutes on the followin
 **Task:** Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.
 
 **Requirements:**
+
 - Use the Gemini SDK or AI Studio.
 - Ensure the output is well-formatted and handles errors gracefully.
 - Test it with at least two different edge cases.

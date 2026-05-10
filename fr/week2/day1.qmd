@@ -9,6 +9,7 @@ Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **Introduction au Func
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière introduction au function calling.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Définissez une fonction Python qui obtient la météo actuelle (simulée). Envoyez un prompt à Gemini et observez comment il construit une requête d'appel de fonction au lieu d'une réponse textuelle.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.

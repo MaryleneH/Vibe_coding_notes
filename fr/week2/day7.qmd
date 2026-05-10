@@ -9,6 +9,7 @@ Bienvenue au **Jour 7**. Aujourd'hui, nous plongeons dans **Révision & Repos**.
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière révision & repos.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Passez en revue les logs d'exécution des 'tools' de l'Agent Sacristain. Ajoutez une gestion des erreurs pour les cas où l'agent essaie de lire un fichier inexistant ou d'écrire des données non valides.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.

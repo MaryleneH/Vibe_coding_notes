@@ -9,6 +9,7 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Workflows Agentiques
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière workflows agentiques.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Concevez un workflow avec un agent Planificateur (qui décompose une tâche) et un agent Exécuteur (qui écrit le code). Exécutez-les en séquence.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.

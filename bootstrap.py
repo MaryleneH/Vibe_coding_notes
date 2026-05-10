@@ -168,6 +168,7 @@ Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), 
 This isn't just about writing code—it's about directing an AI to write it with you.
 
 ### What You'll Achieve
+
 - **Week 1:** Master the art of advanced prompting and structured outputs.
 - **Week 2:** Give your AI tools, memory, and agency to perform real-world tasks.
 - **Week 3:** Build full-stack applications and deploy your intelligent Sacristan Agent.
@@ -179,6 +180,7 @@ This isn't just about writing code—it's about directing an AI to write it with
 :::{.g-col-12 .g-col-md-4}
 :::{.callout-note appearance="simple" icon="false" style="border-radius: 15px; padding: 20px;"}
 ### 🛠️ Prerequisites
+
 - Python installed (`>= 3.10`)
 - A Google Account for [Google AI Studio](https://aistudio.google.com/)
 - An IDE (VS Code or Cursor)
@@ -248,6 +250,7 @@ Bienvenue dans le programme Vibe Coding Mastery. En seulement 3 semaines (2 heur
 Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'elle l'écrive avec vous.
 
 ### Ce que vous allez accomplir
+
 - **Semaine 1 :** Maîtriser l'art du "Prompt Engineering" avancé et des "Structured Outputs".
 - **Semaine 2 :** Donner à votre IA des "tools", de la mémoire et une agentivité pour accomplir des tâches réelles.
 - **Semaine 3 :** Créer des applications full-stack et déployer votre "Agent Sacristain" intelligent.
@@ -259,6 +262,7 @@ Il ne s'agit pas seulement d'écrire du code, mais de diriger une IA pour qu'ell
 :::{.g-col-12 .g-col-md-4}
 :::{.callout-note appearance="simple" icon="false" style="border-radius: 15px; padding: 20px;"}
 ### 🛠️ Prérequis
+
 - Python installé (`>= 3.10`)
 - Un compte Google pour [Google AI Studio](https://aistudio.google.com/)
 - Un IDE (VS Code ou Cursor)
@@ -334,6 +338,8 @@ body {
   --callout-bg: rgba(0,0,0,0.02);
   --callout-border: rgba(0,0,0,0.05);
   --code-bg: #f8f9fa;
+  --inline-code-bg: rgba(0, 0, 0, 0.05);
+  --inline-code-color: #d63384;
   --hover-shadow: rgba(26, 115, 232, 0.4);
 }
 
@@ -347,6 +353,8 @@ body {
   --callout-bg: rgba(255,255,255,0.03);
   --callout-border: rgba(255,255,255,0.08);
   --code-bg: #1e1e1e;
+  --inline-code-bg: rgba(255, 255, 255, 0.1);
+  --inline-code-color: #ff7eb6;
   --hover-shadow: rgba(138, 180, 248, 0.6);
 }
 
@@ -400,6 +408,17 @@ pre.sourceCode {
   border-radius: 12px;
   background-color: var(--code-bg) !important;
   border: 1px solid var(--glass-border);
+}
+
+code {
+  background-color: var(--inline-code-bg);
+  color: var(--inline-code-color);
+  border-radius: 4px;
+  padding: 0.15em 0.3em;
+}
+pre code {
+  background-color: transparent;
+  color: inherit;
 }
 
 /* Micro-animations */
@@ -500,6 +519,7 @@ title: "{w_str} {week_num}: {week_titles[0]}"
 {"This week, we will focus on" if lang=="en" else "Cette semaine, nous allons nous concentrer sur"} **{week_titles[0]}**.
 
 ### {"What to Expect" if lang=="en" else "À quoi s'attendre"}
+
 - **{"Daily Mini-Lessons" if lang=="en" else "Mini-Leçons Quotidiennes"}:** {"2-hour segments focusing on a specific concept." if lang=="en" else "Segments de 2 heures axés sur un concept spécifique."}
 - **{"Hands-on Practice" if lang=="en" else "Pratique"}:** {"End-of-day challenges to apply what you've learned." if lang=="en" else "Défis en fin de journée pour appliquer ce que vous avez appris."}
 
@@ -523,6 +543,7 @@ title: "{day_str} {day}: {day_title}"
 ## {learning_obj_title}
 
 {"By the end of this session, you will be able to:" if lang=="en" else "À la fin de cette session, vous serez capable de :"}
+
 1. {"Understand the core principles behind" if lang=="en" else "Comprendre les principes fondamentaux derrière"} {day_title.lower()}.
 2. {"Implement these concepts using the Google Gemini ecosystem." if lang=="en" else "Mettre en œuvre ces concepts via l'écosystème Google Gemini."}
 3. {"Successfully complete today's hands-on exercise." if lang=="en" else "Terminer avec succès l'exercice pratique d'aujourd'hui."}
@@ -548,6 +569,7 @@ print(response.text)
 {exercise_desc}
 
 **{"Requirements:" if lang=="en" else "Exigences :"}**
+
 - {"Use the Gemini SDK or AI Studio." if lang=="en" else "Utilisez le SDK Gemini ou AI Studio."}
 - {"Ensure the output is well-formatted and handles errors gracefully." if lang=="en" else "Assurez-vous que la sortie est bien formatée et gère les erreurs correctement."}
 - {"Test it with at least two different edge cases." if lang=="en" else "Testez-le avec au moins deux cas limites différents."}

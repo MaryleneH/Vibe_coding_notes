@@ -9,6 +9,7 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Transition vers le C
 ## 🎯 Objectifs d'Apprentissage
 
 À la fin de cette session, vous serez capable de :
+
 1. Comprendre les principes fondamentaux derrière transition vers le code.
 2. Mettre en œuvre ces concepts via l'écosystème Google Gemini.
 3. Terminer avec succès l'exercice pratique d'aujourd'hui.
@@ -34,6 +35,7 @@ Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minute
 **Tâche :** Écrivez un script Python utilisant le SDK Gemini qui prend une requête utilisateur et renvoie une réponse. Chargez vos clés API en toute sécurité en utilisant `dotenv`.
 
 **Exigences :**
+
 - Utilisez le SDK Gemini ou AI Studio.
 - Assurez-vous que la sortie est bien formatée et gère les erreurs correctement.
 - Testez-le avec au moins deux cas limites différents.
