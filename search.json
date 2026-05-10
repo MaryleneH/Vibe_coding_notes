@@ -461,593 +461,662 @@
     ]
   },
   {
-    "objectID": "fr/week3/day1.html",
-    "href": "fr/week3/day1.html",
-    "title": "Jour 1: Codage Assisté par l’IA",
+    "objectID": "fr/bonus/cli.html",
+    "href": "fr/bonus/cli.html",
+    "title": "Gemini - CLI",
     "section": "",
-    "text": "Bienvenue au Jour 1. Aujourd’hui, nous plongeons dans Codage Assisté par l’IA.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nLe Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "(Contenu détaillé à venir)",
+    "crumbs": [
+      "Bonus",
+      "Gemini - CLI"
+    ]
+  },
+  {
+    "objectID": "fr/bonus/antigravity.html",
+    "href": "fr/bonus/antigravity.html",
+    "title": "Antigravity",
+    "section": "",
+    "text": "(Contenu détaillé à venir)",
+    "crumbs": [
+      "Bonus",
+      "Antigravity"
+    ]
+  },
+  {
+    "objectID": "fr/week3/index.html",
+    "href": "fr/week3/index.html",
+    "title": "Semaine 3: Avancé & Déploiement",
+    "section": "",
+    "text": "Avancé & Déploiement Aperçu\nBienvenue dans la Semaine 3 !\nCette semaine, nous allons nous concentrer sur Avancé & Déploiement.\n\nÀ quoi s’attendre\n\nMini-Leçons Quotidiennes: Segments de 2 heures axés sur un concept spécifique.\nPratique: Défis en fin de journée pour appliquer ce que vous avez appris.\n\nPlongeons dans le Jour 1: Codage Assisté par l’IA!",
+    "crumbs": [
+      "Semaine 3 : Avancé & Déploiement"
+    ]
+  },
+  {
+    "objectID": "fr/week3/day3.html",
+    "href": "fr/week3/day3.html",
+    "title": "Jour 3: Architecture Système",
+    "section": "",
+    "text": "Bienvenue au Jour 3. Aujourd’hui, nous plongeons dans Architecture Système.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nArchitecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 1: Codage Assisté par l'IA"
+      "Jour 3: Architecture Système"
     ]
   },
   {
-    "objectID": "fr/week3/day1.html#objectifs-dapprentissage",
-    "href": "fr/week3/day1.html#objectifs-dapprentissage",
-    "title": "Jour 1: Codage Assisté par l’IA",
+    "objectID": "fr/week3/day3.html#objectifs-dapprentissage",
+    "href": "fr/week3/day3.html#objectifs-dapprentissage",
+    "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 1: Codage Assisté par l'IA"
+      "Jour 3: Architecture Système"
     ]
   },
   {
-    "objectID": "fr/week3/day1.html#concepts-clés",
-    "href": "fr/week3/day1.html#concepts-clés",
-    "title": "Jour 1: Codage Assisté par l’IA",
+    "objectID": "fr/week3/day3.html#concepts-clés",
+    "href": "fr/week3/day3.html#concepts-clés",
+    "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Le Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.",
+    "text": "Architecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 1: Codage Assisté par l'IA"
+      "Jour 3: Architecture Système"
     ]
   },
   {
-    "objectID": "fr/week3/day1.html#exercice-pratique",
-    "href": "fr/week3/day1.html#exercice-pratique",
-    "title": "Jour 1: Codage Assisté par l’IA",
+    "objectID": "fr/week3/day3.html#exercice-pratique",
+    "href": "fr/week3/day3.html#exercice-pratique",
+    "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 1: Codage Assisté par l'IA"
+      "Jour 3: Architecture Système"
     ]
   },
   {
-    "objectID": "fr/week3/day1.html#conclusion",
-    "href": "fr/week3/day1.html#conclusion",
-    "title": "Jour 1: Codage Assisté par l’IA",
+    "objectID": "fr/week3/day3.html#conclusion",
+    "href": "fr/week3/day3.html#conclusion",
+    "title": "Jour 3: Architecture Système",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 1: Codage Assisté par l'IA"
+      "Jour 3: Architecture Système"
     ]
   },
   {
-    "objectID": "fr/week3/day6.html",
-    "href": "fr/week3/day6.html",
-    "title": "Jour 6: Finalisation du Projet",
+    "objectID": "fr/week3/day7.html",
+    "href": "fr/week3/day7.html",
+    "title": "Jour 7: Déploiement & Conclusion",
     "section": "",
-    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Finalisation du Projet.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nFinalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 7. Aujourd’hui, nous plongeons dans Déploiement & Conclusion.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière déploiement & conclusion.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nDéploiement en ProductionSolutions d’Hébergement Gratuit\n\n\nIl est temps de partager votre création avec le monde ! Une application locale est un jouet ; une application déployée est un produit.\n\n\nVous apprendrez comment déployer votre backend FastAPI sur des services comme Render et comment héberger votre interface UI sur GitHub Pages. Félicitations ! Vous avez terminé le programme Vibe Coding Mastery. Vous êtes passé d’un codeur traditionnel à un Architecte IA Agentique.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Déployez votre backend sur un service gratuit (ex: Render) et votre UI sur GitHub Pages. Testez l’agent en production !\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Déploiement & Conclusion. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 6: Finalisation du Projet"
+      "Jour 7: Déploiement & Conclusion"
     ]
   },
   {
-    "objectID": "fr/week3/day6.html#objectifs-dapprentissage",
-    "href": "fr/week3/day6.html#objectifs-dapprentissage",
-    "title": "Jour 6: Finalisation du Projet",
+    "objectID": "fr/week3/day7.html#objectifs-dapprentissage",
+    "href": "fr/week3/day7.html#objectifs-dapprentissage",
+    "title": "Jour 7: Déploiement & Conclusion",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière déploiement & conclusion.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 6: Finalisation du Projet"
+      "Jour 7: Déploiement & Conclusion"
     ]
   },
   {
-    "objectID": "fr/week3/day6.html#concepts-clés",
-    "href": "fr/week3/day6.html#concepts-clés",
-    "title": "Jour 6: Finalisation du Projet",
+    "objectID": "fr/week3/day7.html#concepts-clés",
+    "href": "fr/week3/day7.html#concepts-clés",
+    "title": "Jour 7: Déploiement & Conclusion",
     "section": "",
-    "text": "Finalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.",
+    "text": "Déploiement en ProductionSolutions d’Hébergement Gratuit\n\n\nIl est temps de partager votre création avec le monde ! Une application locale est un jouet ; une application déployée est un produit.\n\n\nVous apprendrez comment déployer votre backend FastAPI sur des services comme Render et comment héberger votre interface UI sur GitHub Pages. Félicitations ! Vous avez terminé le programme Vibe Coding Mastery. Vous êtes passé d’un codeur traditionnel à un Architecte IA Agentique.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 6: Finalisation du Projet"
+      "Jour 7: Déploiement & Conclusion"
     ]
   },
   {
-    "objectID": "fr/week3/day6.html#exercice-pratique",
-    "href": "fr/week3/day6.html#exercice-pratique",
-    "title": "Jour 6: Finalisation du Projet",
+    "objectID": "fr/week3/day7.html#exercice-pratique",
+    "href": "fr/week3/day7.html#exercice-pratique",
+    "title": "Jour 7: Déploiement & Conclusion",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Déployez votre backend sur un service gratuit (ex: Render) et votre UI sur GitHub Pages. Testez l’agent en production !\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 6: Finalisation du Projet"
+      "Jour 7: Déploiement & Conclusion"
     ]
   },
   {
-    "objectID": "fr/week3/day6.html#conclusion",
-    "href": "fr/week3/day6.html#conclusion",
-    "title": "Jour 6: Finalisation du Projet",
+    "objectID": "fr/week3/day7.html#conclusion",
+    "href": "fr/week3/day7.html#conclusion",
+    "title": "Jour 7: Déploiement & Conclusion",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Déploiement & Conclusion. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 6: Finalisation du Projet"
+      "Jour 7: Déploiement & Conclusion"
     ]
   },
   {
-    "objectID": "fr/week3/day2.html",
-    "href": "fr/week3/day2.html",
-    "title": "Jour 2: Test-Driven Vibe Coding",
+    "objectID": "fr/week3/day5.html",
+    "href": "fr/week3/day5.html",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Bienvenue au Jour 2. Aujourd’hui, nous plongeons dans Test-Driven Vibe Coding.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière test-driven vibe coding.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nVibe Coding Dirigé par les Tests (TDD)Le Workflow\n\n\nLorsque l’IA écrit votre code, le plus grand danger est l’échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.\n\n\n\nDemandez à l’IA de générer des tests PyTest pour une fonction.\nDemandez à l’IA de générer la fonction.\nExécutez les tests. S’ils échouent, passez le journal d’erreurs à l’IA pour qu’elle corrige le code. Bouclez jusqu’à ce que tout passe !\n\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Écrivez un prompt en langage naturel qui génère des cas de test PyTest pour votre ‘tool’ Calculatrice. Utilisez ensuite Gemini pour corriger les tests qui échouent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Test-Driven Vibe Coding. Demain, nous nous appuierons sur cela en explorant Architecture Système.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Intégration de l’Agent CM.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nConnecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 2: Test-Driven Vibe Coding"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
-    "objectID": "fr/week3/day2.html#objectifs-dapprentissage",
-    "href": "fr/week3/day2.html#objectifs-dapprentissage",
-    "title": "Jour 2: Test-Driven Vibe Coding",
+    "objectID": "fr/week3/day5.html#objectifs-dapprentissage",
+    "href": "fr/week3/day5.html#objectifs-dapprentissage",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière test-driven vibe coding.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 2: Test-Driven Vibe Coding"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
-    "objectID": "fr/week3/day2.html#concepts-clés",
-    "href": "fr/week3/day2.html#concepts-clés",
-    "title": "Jour 2: Test-Driven Vibe Coding",
+    "objectID": "fr/week3/day5.html#concepts-clés",
+    "href": "fr/week3/day5.html#concepts-clés",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Vibe Coding Dirigé par les Tests (TDD)Le Workflow\n\n\nLorsque l’IA écrit votre code, le plus grand danger est l’échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.\n\n\n\nDemandez à l’IA de générer des tests PyTest pour une fonction.\nDemandez à l’IA de générer la fonction.\nExécutez les tests. S’ils échouent, passez le journal d’erreurs à l’IA pour qu’elle corrige le code. Bouclez jusqu’à ce que tout passe !",
+    "text": "Connecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 2: Test-Driven Vibe Coding"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
-    "objectID": "fr/week3/day2.html#exercice-pratique",
-    "href": "fr/week3/day2.html#exercice-pratique",
-    "title": "Jour 2: Test-Driven Vibe Coding",
+    "objectID": "fr/week3/day5.html#exercice-pratique",
+    "href": "fr/week3/day5.html#exercice-pratique",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Écrivez un prompt en langage naturel qui génère des cas de test PyTest pour votre ‘tool’ Calculatrice. Utilisez ensuite Gemini pour corriger les tests qui échouent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 2: Test-Driven Vibe Coding"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
-    "objectID": "fr/week3/day2.html#conclusion",
-    "href": "fr/week3/day2.html#conclusion",
-    "title": "Jour 2: Test-Driven Vibe Coding",
+    "objectID": "fr/week3/day5.html#conclusion",
+    "href": "fr/week3/day5.html#conclusion",
+    "title": "Jour 5: Intégration de l’Agent CM",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Test-Driven Vibe Coding. Demain, nous nous appuierons sur cela en explorant Architecture Système.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 2: Test-Driven Vibe Coding"
+      "Jour 5: Intégration de l'Agent CM"
     ]
   },
   {
-    "objectID": "fr/week3/day4.html",
-    "href": "fr/week3/day4.html",
-    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
+    "objectID": "en/week2/day1.html",
+    "href": "en/week2/day1.html",
+    "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "Bienvenue au Jour 4. Aujourd’hui, nous plongeons dans Génération d’Interfaces Utilisateur (UIs).\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nGénération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
-    "crumbs": [
-      "Semaine 3 : Avancé & Déploiement",
-      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
-    ]
-  },
-  {
-    "objectID": "fr/week3/day4.html#objectifs-dapprentissage",
-    "href": "fr/week3/day4.html#objectifs-dapprentissage",
-    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
-    "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
-    "crumbs": [
-      "Semaine 3 : Avancé & Déploiement",
-      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
-    ]
-  },
-  {
-    "objectID": "fr/week3/day4.html#concepts-clés",
-    "href": "fr/week3/day4.html#concepts-clés",
-    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
-    "section": "",
-    "text": "Génération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.",
-    "crumbs": [
-      "Semaine 3 : Avancé & Déploiement",
-      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
-    ]
-  },
-  {
-    "objectID": "fr/week3/day4.html#exercice-pratique",
-    "href": "fr/week3/day4.html#exercice-pratique",
-    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
-    "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
-    "crumbs": [
-      "Semaine 3 : Avancé & Déploiement",
-      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
-    ]
-  },
-  {
-    "objectID": "fr/week3/day4.html#conclusion",
-    "href": "fr/week3/day4.html#conclusion",
-    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
-    "section": "",
-    "text": "Aujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
-    "crumbs": [
-      "Semaine 3 : Avancé & Déploiement",
-      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
-    ]
-  },
-  {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Welcome to Vibe Coding",
-    "section": "",
-    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prerequisites\n\n\n\n\nPython installed (&gt;= 3.10)\nA Google Account for Google AI Studio\nAn IDE (VS Code or Cursor)\nA basic understanding of logic\n\n\n\n\n\n\n\n\n\nTip⏱️ Time Commitment\n\n\n\nJust 2 hours a day. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.",
-    "crumbs": [
-      "Welcome to Vibe Coding"
-    ]
-  },
-  {
-    "objectID": "en/index.html#the-future-of-coding-is-here",
-    "href": "en/index.html#the-future-of-coding-is-here",
-    "title": "Welcome to Vibe Coding",
-    "section": "",
-    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →",
-    "crumbs": [
-      "Welcome to Vibe Coding"
-    ]
-  },
-  {
-    "objectID": "en/week2/index.html",
-    "href": "en/week2/index.html",
-    "title": "Week 2: Agents",
-    "section": "",
-    "text": "Agents Overview\nWelcome to Week 2 !\nThis week, we will focus on Agents.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\n\nLet’s dive into Day 1: Introduction to Function Calling!",
-    "crumbs": [
-      "Week 2: Agents"
-    ]
-  },
-  {
-    "objectID": "en/week2/day3.html",
-    "href": "en/week2/day3.html",
-    "title": "Day 3: Building your First Agent",
-    "section": "",
-    "text": "Welcome to Day 3. Today, we are diving deep into Building your First Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind building your first agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Agentic LoopThe Core Logic\n\n\nAn AI Agent is simply a language model wrapped in a while loop with access to tools and memory.\n\n\n\nUser Prompt: The user asks a question (“What’s the weather in Paris and then calculate 25% of the temperature?”).\nAI Decision: The AI decides it needs to call get_weather(\"Paris\").\nExecution: Your Python script catches the function call request, executes the actual API call to a weather service, and gets 20°C.\nReturn: Your script sends 20°C back to the AI.\nAI Decision 2: The AI decides it now needs to call calculator(20, 0.25, 'multiply').\nExecution 2: Your script calculates 5 and returns it.\nFinal Answer: The AI reads the final result and outputs: “The weather is 20°C, and 25% of that is 5.”\n\nThis loop is the beating heart of all autonomous AI agents.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Building your First Agent. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 1. Today, we are diving deep into Introduction to Function Calling.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind introduction to function calling.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Limitation of TextIntroducing Function CallingThe Paradigm Shift\n\n\nSo far, you have built applications where the AI only responds with text or JSON. While powerful, this means the AI is trapped inside a box. It cannot read the current weather, it cannot execute code, and it cannot interact with the outside world.\n\n\nFunction Calling (or Tool Use) is the mechanism that allows an LLM to interact with external APIs and local code. Instead of the model returning a text string, you provide the model with a list of “tools” (functions) it can use. If the model determines it needs to use a tool to answer your prompt, it returns a function call request containing the necessary arguments.\n\n\nThis shifts the AI from a passive oracle into an active Agent. When the AI decides to call a function, your code executes the function locally, gets the result, and passes that result back to the AI so it can formulate a final answer.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Introduction to Function Calling. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 3: Building your First Agent"
+      "Day 1: Introduction to Function Calling"
     ]
   },
   {
-    "objectID": "en/week2/day3.html#learning-objectives",
-    "href": "en/week2/day3.html#learning-objectives",
-    "title": "Day 3: Building your First Agent",
+    "objectID": "en/week2/day1.html#learning-objectives",
+    "href": "en/week2/day1.html#learning-objectives",
+    "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind building your first agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind introduction to function calling.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 3: Building your First Agent"
+      "Day 1: Introduction to Function Calling"
     ]
   },
   {
-    "objectID": "en/week2/day3.html#core-concepts",
-    "href": "en/week2/day3.html#core-concepts",
-    "title": "Day 3: Building your First Agent",
+    "objectID": "en/week2/day1.html#core-concepts",
+    "href": "en/week2/day1.html#core-concepts",
+    "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "The Agentic LoopThe Core Logic\n\n\nAn AI Agent is simply a language model wrapped in a while loop with access to tools and memory.\n\n\n\nUser Prompt: The user asks a question (“What’s the weather in Paris and then calculate 25% of the temperature?”).\nAI Decision: The AI decides it needs to call get_weather(\"Paris\").\nExecution: Your Python script catches the function call request, executes the actual API call to a weather service, and gets 20°C.\nReturn: Your script sends 20°C back to the AI.\nAI Decision 2: The AI decides it now needs to call calculator(20, 0.25, 'multiply').\nExecution 2: Your script calculates 5 and returns it.\nFinal Answer: The AI reads the final result and outputs: “The weather is 20°C, and 25% of that is 5.”\n\nThis loop is the beating heart of all autonomous AI agents.",
+    "text": "The Limitation of TextIntroducing Function CallingThe Paradigm Shift\n\n\nSo far, you have built applications where the AI only responds with text or JSON. While powerful, this means the AI is trapped inside a box. It cannot read the current weather, it cannot execute code, and it cannot interact with the outside world.\n\n\nFunction Calling (or Tool Use) is the mechanism that allows an LLM to interact with external APIs and local code. Instead of the model returning a text string, you provide the model with a list of “tools” (functions) it can use. If the model determines it needs to use a tool to answer your prompt, it returns a function call request containing the necessary arguments.\n\n\nThis shifts the AI from a passive oracle into an active Agent. When the AI decides to call a function, your code executes the function locally, gets the result, and passes that result back to the AI so it can formulate a final answer.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 3: Building your First Agent"
+      "Day 1: Introduction to Function Calling"
     ]
   },
   {
-    "objectID": "en/week2/day3.html#hands-on-exercise",
-    "href": "en/week2/day3.html#hands-on-exercise",
-    "title": "Day 3: Building your First Agent",
+    "objectID": "en/week2/day1.html#hands-on-exercise",
+    "href": "en/week2/day1.html#hands-on-exercise",
+    "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 3: Building your First Agent"
+      "Day 1: Introduction to Function Calling"
     ]
   },
   {
-    "objectID": "en/week2/day3.html#wrap-up",
-    "href": "en/week2/day3.html#wrap-up",
-    "title": "Day 3: Building your First Agent",
+    "objectID": "en/week2/day1.html#wrap-up",
+    "href": "en/week2/day1.html#wrap-up",
+    "title": "Day 1: Introduction to Function Calling",
     "section": "",
-    "text": "Today we covered Building your First Agent. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Introduction to Function Calling. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 3: Building your First Agent"
+      "Day 1: Introduction to Function Calling"
     ]
   },
   {
-    "objectID": "en/week2/day7.html",
-    "href": "en/week2/day7.html",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week2/day6.html",
+    "href": "en/week2/day6.html",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nAgentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 2: Community Manager Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nProject: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 7: Review & Rest"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
-    "objectID": "en/week2/day7.html#learning-objectives",
-    "href": "en/week2/day7.html#learning-objectives",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week2/day6.html#learning-objectives",
+    "href": "en/week2/day6.html#learning-objectives",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 7: Review & Rest"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
-    "objectID": "en/week2/day7.html#core-concepts",
-    "href": "en/week2/day7.html#core-concepts",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week2/day6.html#core-concepts",
+    "href": "en/week2/day6.html#core-concepts",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Agentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!",
+    "text": "Project: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 7: Review & Rest"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
-    "objectID": "en/week2/day7.html#hands-on-exercise",
-    "href": "en/week2/day7.html#hands-on-exercise",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week2/day6.html#hands-on-exercise",
+    "href": "en/week2/day6.html#hands-on-exercise",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 7: Review & Rest"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
-    "objectID": "en/week2/day7.html#wrap-up",
-    "href": "en/week2/day7.html#wrap-up",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week2/day6.html#wrap-up",
+    "href": "en/week2/day6.html#wrap-up",
+    "title": "Day 6: Mini-Project 2: Community Manager Agent",
     "section": "",
-    "text": "Today we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 7: Review & Rest"
+      "Day 6: Mini-Project 2: Community Manager Agent"
     ]
   },
   {
-    "objectID": "en/week2/day5.html",
-    "href": "en/week2/day5.html",
-    "title": "Day 5: Agentic Workflows",
+    "objectID": "en/week2/day2.html",
+    "href": "en/week2/day2.html",
+    "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "Welcome to Day 5. Today, we are diving deep into Agentic Workflows.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSingle vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 2. Today, we are diving deep into Defining Tools.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind defining tools.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nHow does the AI know what tools exist?Writing Good DescriptionsThe Contract\n\n\nBefore an AI can call a tool, you must define it. In the Gemini API, this is done by passing an OpenAPI-style schema or using Python type hints to describe the function’s purpose, its arguments, and its expected output.\n\n\nThe most important part of defining a tool is the docstring or description. The AI relies entirely on your natural language description to decide when and how to use the tool. If you have a tool called get_weather, but the description is vague, the AI might hallucinate the arguments.\n\n\nDefining a tool is like signing a contract with the AI: “If you give me these specific JSON arguments, I will execute this logic and give you back the result.”\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Defining Tools. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 5: Agentic Workflows"
+      "Day 2: Defining Tools"
     ]
   },
   {
-    "objectID": "en/week2/day5.html#learning-objectives",
-    "href": "en/week2/day5.html#learning-objectives",
-    "title": "Day 5: Agentic Workflows",
+    "objectID": "en/week2/day2.html#learning-objectives",
+    "href": "en/week2/day2.html#learning-objectives",
+    "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind defining tools.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 5: Agentic Workflows"
+      "Day 2: Defining Tools"
     ]
   },
   {
-    "objectID": "en/week2/day5.html#core-concepts",
-    "href": "en/week2/day5.html#core-concepts",
-    "title": "Day 5: Agentic Workflows",
+    "objectID": "en/week2/day2.html#core-concepts",
+    "href": "en/week2/day2.html#core-concepts",
+    "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "Single vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.",
+    "text": "How does the AI know what tools exist?Writing Good DescriptionsThe Contract\n\n\nBefore an AI can call a tool, you must define it. In the Gemini API, this is done by passing an OpenAPI-style schema or using Python type hints to describe the function’s purpose, its arguments, and its expected output.\n\n\nThe most important part of defining a tool is the docstring or description. The AI relies entirely on your natural language description to decide when and how to use the tool. If you have a tool called get_weather, but the description is vague, the AI might hallucinate the arguments.\n\n\nDefining a tool is like signing a contract with the AI: “If you give me these specific JSON arguments, I will execute this logic and give you back the result.”",
     "crumbs": [
       "Week 2: Agents",
-      "Day 5: Agentic Workflows"
+      "Day 2: Defining Tools"
     ]
   },
   {
-    "objectID": "en/week2/day5.html#hands-on-exercise",
-    "href": "en/week2/day5.html#hands-on-exercise",
-    "title": "Day 5: Agentic Workflows",
+    "objectID": "en/week2/day2.html#hands-on-exercise",
+    "href": "en/week2/day2.html#hands-on-exercise",
+    "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 5: Agentic Workflows"
+      "Day 2: Defining Tools"
     ]
   },
   {
-    "objectID": "en/week2/day5.html#wrap-up",
-    "href": "en/week2/day5.html#wrap-up",
-    "title": "Day 5: Agentic Workflows",
+    "objectID": "en/week2/day2.html#wrap-up",
+    "href": "en/week2/day2.html#wrap-up",
+    "title": "Day 2: Defining Tools",
     "section": "",
-    "text": "Today we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Defining Tools. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 5: Agentic Workflows"
+      "Day 2: Defining Tools"
     ]
   },
   {
-    "objectID": "en/week1/index.html",
-    "href": "en/week1/index.html",
-    "title": "Week 1: Foundations",
+    "objectID": "en/week2/day4.html",
+    "href": "en/week2/day4.html",
+    "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "Foundations Overview\nWelcome to Week 1 !\nThis week, we will focus on Foundations.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\n\nLet’s dive into Day 1: The Vibe Coding Mindset!",
+    "text": "Welcome to Day 4. Today, we are diving deep into Context & Memory.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind context & memory.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Stateless Nature of LLMsBuilding MemoryContext Windows\n\n\nBy default, LLMs have amnesia. If you ask a question, and then ask a follow-up question, the model has no idea what you asked previously. Every API call is isolated.\n\n\nTo create a conversational agent, you must manually maintain the “Context”. This involves storing every user message and every model response in an array (or list) and passing the entire history back to the model on every single turn.\n\n\nModern models like Gemini 1.5 Pro have massive context windows (up to 2 million tokens), allowing them to remember entire books of history. However, managing this context efficiently in your code is crucial for performance and cost.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Context & Memory. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
-      "Week 1: Foundations"
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
     ]
   },
   {
-    "objectID": "en/week1/day3.html",
-    "href": "en/week1/day3.html",
-    "title": "Day 3: Structured Outputs",
+    "objectID": "en/week2/day4.html#learning-objectives",
+    "href": "en/week2/day4.html#learning-objectives",
+    "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "Welcome to Day 3. Today, we are diving deep into Structured Outputs.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind structured outputs.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Chaos of TextForcing JSON with GeminiWhy this is a Superpower\n\n\nLLMs naturally output unstructured text (Markdown, conversational filler, etc.). If you are building an application, you cannot programmatically parse a response that says: “Sure! Here is the data you requested: [data]”. You need predictable, parsable data structures like JSON.\n\n\nThe Gemini API allows you to explicitly enforce a response schema. This means you can guarantee that the model will return a perfectly formatted JSON object that matches your exact specifications.\n\n\nStructured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:\n\nSave it to a database.\nRender it in a React UI.\nPass it as arguments to another Python function. This is the foundational step toward building autonomous agents!\n\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Structured Outputs. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind context & memory.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
-      "Week 1: Foundations",
-      "Day 3: Structured Outputs"
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
     ]
   },
   {
-    "objectID": "en/week1/day3.html#learning-objectives",
-    "href": "en/week1/day3.html#learning-objectives",
-    "title": "Day 3: Structured Outputs",
+    "objectID": "en/week2/day4.html#core-concepts",
+    "href": "en/week2/day4.html#core-concepts",
+    "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind structured outputs.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "The Stateless Nature of LLMsBuilding MemoryContext Windows\n\n\nBy default, LLMs have amnesia. If you ask a question, and then ask a follow-up question, the model has no idea what you asked previously. Every API call is isolated.\n\n\nTo create a conversational agent, you must manually maintain the “Context”. This involves storing every user message and every model response in an array (or list) and passing the entire history back to the model on every single turn.\n\n\nModern models like Gemini 1.5 Pro have massive context windows (up to 2 million tokens), allowing them to remember entire books of history. However, managing this context efficiently in your code is crucial for performance and cost.",
     "crumbs": [
-      "Week 1: Foundations",
-      "Day 3: Structured Outputs"
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
     ]
   },
   {
-    "objectID": "en/week1/day3.html#core-concepts",
-    "href": "en/week1/day3.html#core-concepts",
-    "title": "Day 3: Structured Outputs",
+    "objectID": "en/week2/day4.html#hands-on-exercise",
+    "href": "en/week2/day4.html#hands-on-exercise",
+    "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "The Chaos of TextForcing JSON with GeminiWhy this is a Superpower\n\n\nLLMs naturally output unstructured text (Markdown, conversational filler, etc.). If you are building an application, you cannot programmatically parse a response that says: “Sure! Here is the data you requested: [data]”. You need predictable, parsable data structures like JSON.\n\n\nThe Gemini API allows you to explicitly enforce a response schema. This means you can guarantee that the model will return a perfectly formatted JSON object that matches your exact specifications.\n\n\nStructured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:\n\nSave it to a database.\nRender it in a React UI.\nPass it as arguments to another Python function. This is the foundational step toward building autonomous agents!",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
-      "Week 1: Foundations",
-      "Day 3: Structured Outputs"
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
     ]
   },
   {
-    "objectID": "en/week1/day3.html#hands-on-exercise",
-    "href": "en/week1/day3.html#hands-on-exercise",
-    "title": "Day 3: Structured Outputs",
+    "objectID": "en/week2/day4.html#wrap-up",
+    "href": "en/week2/day4.html#wrap-up",
+    "title": "Day 4: Context & Memory",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "Today we covered Context & Memory. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
-      "Week 1: Foundations",
-      "Day 3: Structured Outputs"
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
     ]
   },
   {
-    "objectID": "en/week1/day3.html#wrap-up",
-    "href": "en/week1/day3.html#wrap-up",
-    "title": "Day 3: Structured Outputs",
+    "objectID": "en/week1/day1.html",
+    "href": "en/week1/day1.html",
+    "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "Today we covered Structured Outputs. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
-    "crumbs": [
-      "Week 1: Foundations",
-      "Day 3: Structured Outputs"
-    ]
-  },
-  {
-    "objectID": "en/week1/day7.html",
-    "href": "en/week1/day7.html",
-    "title": "Day 7: Review & Rest",
-    "section": "",
-    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Power of IterationReviewing your Architecture\n\n\nA core tenet of Vibe Coding is that your first draft is rarely your final draft. Because code generation is so fast, the cost of refactoring drops to near zero.\n\n\nLook at the CLI app you built yesterday. How does it handle API timeouts? What if the user inputs gibberish? Today, your goal is to use Gemini to critique your own code and generate a more robust, error-handled version.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 1. Today, we are diving deep into The Vibe Coding Mindset.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind the vibe coding mindset.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Paradigm ShiftThe Role of the DirectorWhy “Vibe”?\n\n\nWelcome to the Vibe Coding mindset. Traditional software engineering demands that you type every single line of code, handle every semicolon, and construct logic manually. “Vibe coding” represents a paradigm shift where you transition from being a typist to a director.\nYou are no longer writing the code; you are defining the intent, the constraints, and the “vibe” of the application, while an AI model acts as your ultra-fast pair programmer.\n\n\nThink of a movie director. They don’t hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:\n\nYou provide the context: “We are building a web server.”\nYou define the rules: “It must use FastAPI and run on port 8000.”\nThe AI executes the vision: It generates the code instantly.\n\n\n\nThe term “vibe” refers to the intuition and high-level understanding of a system’s architecture. Because models like Gemini are incredibly adept at pattern matching, they don’t need you to explicitly define every variable. If you give them the right “vibe”—the architectural blueprint and the goal—they will synthesize the correct implementation.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered The Vibe Coding Mindset. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 7: Review & Rest"
+      "Day 1: The Vibe Coding Mindset"
     ]
   },
   {
-    "objectID": "en/week1/day7.html#learning-objectives",
-    "href": "en/week1/day7.html#learning-objectives",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week1/day1.html#learning-objectives",
+    "href": "en/week1/day1.html#learning-objectives",
+    "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind the vibe coding mindset.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 7: Review & Rest"
+      "Day 1: The Vibe Coding Mindset"
     ]
   },
   {
-    "objectID": "en/week1/day7.html#core-concepts",
-    "href": "en/week1/day7.html#core-concepts",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week1/day1.html#core-concepts",
+    "href": "en/week1/day1.html#core-concepts",
+    "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "The Power of IterationReviewing your Architecture\n\n\nA core tenet of Vibe Coding is that your first draft is rarely your final draft. Because code generation is so fast, the cost of refactoring drops to near zero.\n\n\nLook at the CLI app you built yesterday. How does it handle API timeouts? What if the user inputs gibberish? Today, your goal is to use Gemini to critique your own code and generate a more robust, error-handled version.",
+    "text": "The Paradigm ShiftThe Role of the DirectorWhy “Vibe”?\n\n\nWelcome to the Vibe Coding mindset. Traditional software engineering demands that you type every single line of code, handle every semicolon, and construct logic manually. “Vibe coding” represents a paradigm shift where you transition from being a typist to a director.\nYou are no longer writing the code; you are defining the intent, the constraints, and the “vibe” of the application, while an AI model acts as your ultra-fast pair programmer.\n\n\nThink of a movie director. They don’t hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:\n\nYou provide the context: “We are building a web server.”\nYou define the rules: “It must use FastAPI and run on port 8000.”\nThe AI executes the vision: It generates the code instantly.\n\n\n\nThe term “vibe” refers to the intuition and high-level understanding of a system’s architecture. Because models like Gemini are incredibly adept at pattern matching, they don’t need you to explicitly define every variable. If you give them the right “vibe”—the architectural blueprint and the goal—they will synthesize the correct implementation.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 7: Review & Rest"
+      "Day 1: The Vibe Coding Mindset"
     ]
   },
   {
-    "objectID": "en/week1/day7.html#hands-on-exercise",
-    "href": "en/week1/day7.html#hands-on-exercise",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week1/day1.html#hands-on-exercise",
+    "href": "en/week1/day1.html#hands-on-exercise",
+    "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 7: Review & Rest"
+      "Day 1: The Vibe Coding Mindset"
     ]
   },
   {
-    "objectID": "en/week1/day7.html#wrap-up",
-    "href": "en/week1/day7.html#wrap-up",
-    "title": "Day 7: Review & Rest",
+    "objectID": "en/week1/day1.html#wrap-up",
+    "href": "en/week1/day1.html#wrap-up",
+    "title": "Day 1: The Vibe Coding Mindset",
     "section": "",
-    "text": "Today we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered The Vibe Coding Mindset. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 7: Review & Rest"
+      "Day 1: The Vibe Coding Mindset"
     ]
   },
   {
-    "objectID": "en/week1/day5.html",
-    "href": "en/week1/day5.html",
-    "title": "Day 5: Transitioning to Code",
+    "objectID": "en/week1/day6.html",
+    "href": "en/week1/day6.html",
+    "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "Welcome to Day 5. Today, we are diving deep into Transitioning to Code.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind transitioning to code.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nMoving to the IDEThe Gemini SDKEnvironment Variables\n\n\nUntil now, you’ve likely been using web interfaces like Google AI Studio. Today, we transition to your Local Development Environment (IDE) like VS Code or Cursor.\n\n\nTo build real applications, your code needs to talk to the AI programmatically. We do this using the google-generativeai Python SDK.\n\n\nThe most critical part of this transition is security. Never hardcode your API keys. You will learn how to use .env files to securely load your credentials, ensuring that when you push your code to GitHub, your keys remain safe.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Transitioning to Code. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 1.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 1.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nPutting it TogetherThe Objective\n\n\nToday is about synthesis. You will combine your knowledge of the Gemini SDK, Prompt Engineering, and Structured Outputs to build a complete, functioning CLI (Command Line Interface) application.\n\n\nYou are no longer just writing snippets; you are architecting a loop. The application must:\n\nAccept user input.\nFormulate a prompt based on that input.\nCall the Gemini API and enforce a JSON schema.\nParse the JSON and display it beautifully to the user.\n\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 1. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 5: Transitioning to Code"
+      "Day 6: Mini-Project 1"
     ]
   },
   {
-    "objectID": "en/week1/day5.html#learning-objectives",
-    "href": "en/week1/day5.html#learning-objectives",
-    "title": "Day 5: Transitioning to Code",
+    "objectID": "en/week1/day6.html#learning-objectives",
+    "href": "en/week1/day6.html#learning-objectives",
+    "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind transitioning to code.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 1.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 5: Transitioning to Code"
+      "Day 6: Mini-Project 1"
     ]
   },
   {
-    "objectID": "en/week1/day5.html#core-concepts",
-    "href": "en/week1/day5.html#core-concepts",
-    "title": "Day 5: Transitioning to Code",
+    "objectID": "en/week1/day6.html#core-concepts",
+    "href": "en/week1/day6.html#core-concepts",
+    "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "Moving to the IDEThe Gemini SDKEnvironment Variables\n\n\nUntil now, you’ve likely been using web interfaces like Google AI Studio. Today, we transition to your Local Development Environment (IDE) like VS Code or Cursor.\n\n\nTo build real applications, your code needs to talk to the AI programmatically. We do this using the google-generativeai Python SDK.\n\n\nThe most critical part of this transition is security. Never hardcode your API keys. You will learn how to use .env files to securely load your credentials, ensuring that when you push your code to GitHub, your keys remain safe.",
+    "text": "Putting it TogetherThe Objective\n\n\nToday is about synthesis. You will combine your knowledge of the Gemini SDK, Prompt Engineering, and Structured Outputs to build a complete, functioning CLI (Command Line Interface) application.\n\n\nYou are no longer just writing snippets; you are architecting a loop. The application must:\n\nAccept user input.\nFormulate a prompt based on that input.\nCall the Gemini API and enforce a JSON schema.\nParse the JSON and display it beautifully to the user.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 5: Transitioning to Code"
+      "Day 6: Mini-Project 1"
     ]
   },
   {
-    "objectID": "en/week1/day5.html#hands-on-exercise",
-    "href": "en/week1/day5.html#hands-on-exercise",
-    "title": "Day 5: Transitioning to Code",
+    "objectID": "en/week1/day6.html#hands-on-exercise",
+    "href": "en/week1/day6.html#hands-on-exercise",
+    "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 5: Transitioning to Code"
+      "Day 6: Mini-Project 1"
     ]
   },
   {
-    "objectID": "en/week1/day5.html#wrap-up",
-    "href": "en/week1/day5.html#wrap-up",
-    "title": "Day 5: Transitioning to Code",
+    "objectID": "en/week1/day6.html#wrap-up",
+    "href": "en/week1/day6.html#wrap-up",
+    "title": "Day 6: Mini-Project 1",
     "section": "",
-    "text": "Today we covered Transitioning to Code. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Mini-Project 1. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 5: Transitioning to Code"
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "en/week1/day2.html",
+    "href": "en/week1/day2.html",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "Welcome to Day 2. Today, we are diving deep into Advanced Prompt Engineering & Reasoning.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind advanced prompt engineering & reasoning.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nBeyond Simple QuestionsFew-Shot PromptingChain-of-Thought (CoT)\n\n\nMany beginners treat AI like a search engine: “How do I reverse a string in Python?” While this works, it barely scratches the surface of what Large Language Models (LLMs) can do. Advanced Prompt Engineering is about structuring your instructions to maximize reasoning and accuracy.\n\n\nLLMs are few-shot learners. This means that instead of just giving an instruction, you provide examples of the input and the expected output. By providing examples, you constrain the model’s output format and give it a “pattern” to follow, drastically reducing hallucinations.\n\n\n“Chain-of-Thought” is a technique where you force the model to explain its reasoning step-by-step before it outputs the final answer. For example, instead of asking “Is 5423 prime?”, you prompt: “Think step-by-step. First, check if the number is even. Then, check divisibility up to its square root. Finally, state if it is prime.” This drastically improves logical accuracy in complex coding tasks.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Advanced Prompt Engineering & Reasoning. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "en/week1/day2.html#learning-objectives",
+    "href": "en/week1/day2.html#learning-objectives",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind advanced prompt engineering & reasoning.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "en/week1/day2.html#core-concepts",
+    "href": "en/week1/day2.html#core-concepts",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "Beyond Simple QuestionsFew-Shot PromptingChain-of-Thought (CoT)\n\n\nMany beginners treat AI like a search engine: “How do I reverse a string in Python?” While this works, it barely scratches the surface of what Large Language Models (LLMs) can do. Advanced Prompt Engineering is about structuring your instructions to maximize reasoning and accuracy.\n\n\nLLMs are few-shot learners. This means that instead of just giving an instruction, you provide examples of the input and the expected output. By providing examples, you constrain the model’s output format and give it a “pattern” to follow, drastically reducing hallucinations.\n\n\n“Chain-of-Thought” is a technique where you force the model to explain its reasoning step-by-step before it outputs the final answer. For example, instead of asking “Is 5423 prime?”, you prompt: “Think step-by-step. First, check if the number is even. Then, check divisibility up to its square root. Finally, state if it is prime.” This drastically improves logical accuracy in complex coding tasks.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "en/week1/day2.html#hands-on-exercise",
+    "href": "en/week1/day2.html#hands-on-exercise",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "en/week1/day2.html#wrap-up",
+    "href": "en/week1/day2.html#wrap-up",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "Today we covered Advanced Prompt Engineering & Reasoning. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "en/week1/day4.html",
+    "href": "en/week1/day4.html",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "Welcome to Day 4. Today, we are diving deep into Multimodal Magic.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind multimodal magic.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSeeing the WorldImage-to-CodeBeyond Images\n\n\nGemini isn’t just a text model; it is natively multimodal. It can “see” images, “listen” to audio, and “watch” video. This unlocks entirely new workflows for vibe coding.\n\n\nOne of the most powerful vibe coding techniques is drawing a user interface on a whiteboard or a piece of paper, taking a picture, and asking Gemini to write the HTML/CSS/JS for it.\n\n\nYou can also feed architectural diagrams to the model and ask it to generate the foundational boilerplate code. This bridges the gap between high-level system design and low-level implementation faster than ever before.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Multimodal Magic. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "en/week1/day4.html#learning-objectives",
+    "href": "en/week1/day4.html#learning-objectives",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind multimodal magic.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "en/week1/day4.html#core-concepts",
+    "href": "en/week1/day4.html#core-concepts",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "Seeing the WorldImage-to-CodeBeyond Images\n\n\nGemini isn’t just a text model; it is natively multimodal. It can “see” images, “listen” to audio, and “watch” video. This unlocks entirely new workflows for vibe coding.\n\n\nOne of the most powerful vibe coding techniques is drawing a user interface on a whiteboard or a piece of paper, taking a picture, and asking Gemini to write the HTML/CSS/JS for it.\n\n\nYou can also feed architectural diagrams to the model and ask it to generate the foundational boilerplate code. This bridges the gap between high-level system design and low-level implementation faster than ever before.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "en/week1/day4.html#hands-on-exercise",
+    "href": "en/week1/day4.html#hands-on-exercise",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "en/week1/day4.html#wrap-up",
+    "href": "en/week1/day4.html#wrap-up",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "Today we covered Multimodal Magic. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "crumbs": [
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "en/bonus/cli.html",
+    "href": "en/bonus/cli.html",
+    "title": "Gemini - CLI",
+    "section": "",
+    "text": "(Detailed content coming soon)",
+    "crumbs": [
+      "Bonus",
+      "Gemini - CLI"
+    ]
+  },
+  {
+    "objectID": "en/bonus/antigravity.html",
+    "href": "en/bonus/antigravity.html",
+    "title": "Antigravity",
+    "section": "",
+    "text": "(Detailed content coming soon)",
+    "crumbs": [
+      "Bonus",
+      "Antigravity"
     ]
   },
   {
@@ -1446,618 +1515,615 @@
     ]
   },
   {
-    "objectID": "en/week1/day4.html",
-    "href": "en/week1/day4.html",
-    "title": "Day 4: Multimodal Magic",
+    "objectID": "en/bonus/studio.html",
+    "href": "en/bonus/studio.html",
+    "title": "Google AI Studio",
     "section": "",
-    "text": "Welcome to Day 4. Today, we are diving deep into Multimodal Magic.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind multimodal magic.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSeeing the WorldImage-to-CodeBeyond Images\n\n\nGemini isn’t just a text model; it is natively multimodal. It can “see” images, “listen” to audio, and “watch” video. This unlocks entirely new workflows for vibe coding.\n\n\nOne of the most powerful vibe coding techniques is drawing a user interface on a whiteboard or a piece of paper, taking a picture, and asking Gemini to write the HTML/CSS/JS for it.\n\n\nYou can also feed architectural diagrams to the model and ask it to generate the foundational boilerplate code. This bridges the gap between high-level system design and low-level implementation faster than ever before.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Multimodal Magic. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "(Detailed content coming soon)",
+    "crumbs": [
+      "Bonus",
+      "Google AI Studio"
+    ]
+  },
+  {
+    "objectID": "en/week1/day5.html",
+    "href": "en/week1/day5.html",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "Welcome to Day 5. Today, we are diving deep into Transitioning to Code.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind transitioning to code.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nMoving to the IDEThe Gemini SDKEnvironment Variables\n\n\nUntil now, you’ve likely been using web interfaces like Google AI Studio. Today, we transition to your Local Development Environment (IDE) like VS Code or Cursor.\n\n\nTo build real applications, your code needs to talk to the AI programmatically. We do this using the google-generativeai Python SDK.\n\n\nThe most critical part of this transition is security. Never hardcode your API keys. You will learn how to use .env files to securely load your credentials, ensuring that when you push your code to GitHub, your keys remain safe.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Transitioning to Code. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 4: Multimodal Magic"
+      "Day 5: Transitioning to Code"
     ]
   },
   {
-    "objectID": "en/week1/day4.html#learning-objectives",
-    "href": "en/week1/day4.html#learning-objectives",
-    "title": "Day 4: Multimodal Magic",
+    "objectID": "en/week1/day5.html#learning-objectives",
+    "href": "en/week1/day5.html#learning-objectives",
+    "title": "Day 5: Transitioning to Code",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind multimodal magic.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind transitioning to code.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 4: Multimodal Magic"
+      "Day 5: Transitioning to Code"
     ]
   },
   {
-    "objectID": "en/week1/day4.html#core-concepts",
-    "href": "en/week1/day4.html#core-concepts",
-    "title": "Day 4: Multimodal Magic",
+    "objectID": "en/week1/day5.html#core-concepts",
+    "href": "en/week1/day5.html#core-concepts",
+    "title": "Day 5: Transitioning to Code",
     "section": "",
-    "text": "Seeing the WorldImage-to-CodeBeyond Images\n\n\nGemini isn’t just a text model; it is natively multimodal. It can “see” images, “listen” to audio, and “watch” video. This unlocks entirely new workflows for vibe coding.\n\n\nOne of the most powerful vibe coding techniques is drawing a user interface on a whiteboard or a piece of paper, taking a picture, and asking Gemini to write the HTML/CSS/JS for it.\n\n\nYou can also feed architectural diagrams to the model and ask it to generate the foundational boilerplate code. This bridges the gap between high-level system design and low-level implementation faster than ever before.",
+    "text": "Moving to the IDEThe Gemini SDKEnvironment Variables\n\n\nUntil now, you’ve likely been using web interfaces like Google AI Studio. Today, we transition to your Local Development Environment (IDE) like VS Code or Cursor.\n\n\nTo build real applications, your code needs to talk to the AI programmatically. We do this using the google-generativeai Python SDK.\n\n\nThe most critical part of this transition is security. Never hardcode your API keys. You will learn how to use .env files to securely load your credentials, ensuring that when you push your code to GitHub, your keys remain safe.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 4: Multimodal Magic"
+      "Day 5: Transitioning to Code"
     ]
   },
   {
-    "objectID": "en/week1/day4.html#hands-on-exercise",
-    "href": "en/week1/day4.html#hands-on-exercise",
-    "title": "Day 4: Multimodal Magic",
+    "objectID": "en/week1/day5.html#hands-on-exercise",
+    "href": "en/week1/day5.html#hands-on-exercise",
+    "title": "Day 5: Transitioning to Code",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using dotenv.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 4: Multimodal Magic"
+      "Day 5: Transitioning to Code"
     ]
   },
   {
-    "objectID": "en/week1/day4.html#wrap-up",
-    "href": "en/week1/day4.html#wrap-up",
-    "title": "Day 4: Multimodal Magic",
+    "objectID": "en/week1/day5.html#wrap-up",
+    "href": "en/week1/day5.html#wrap-up",
+    "title": "Day 5: Transitioning to Code",
     "section": "",
-    "text": "Today we covered Multimodal Magic. Tomorrow, we will build upon this by exploring Transitioning to Code.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Transitioning to Code. Tomorrow, we will build upon this by exploring Mini-Project 1.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 4: Multimodal Magic"
+      "Day 5: Transitioning to Code"
     ]
   },
   {
-    "objectID": "en/week1/day2.html",
-    "href": "en/week1/day2.html",
-    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "objectID": "en/week1/day7.html",
+    "href": "en/week1/day7.html",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Welcome to Day 2. Today, we are diving deep into Advanced Prompt Engineering & Reasoning.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind advanced prompt engineering & reasoning.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nBeyond Simple QuestionsFew-Shot PromptingChain-of-Thought (CoT)\n\n\nMany beginners treat AI like a search engine: “How do I reverse a string in Python?” While this works, it barely scratches the surface of what Large Language Models (LLMs) can do. Advanced Prompt Engineering is about structuring your instructions to maximize reasoning and accuracy.\n\n\nLLMs are few-shot learners. This means that instead of just giving an instruction, you provide examples of the input and the expected output. By providing examples, you constrain the model’s output format and give it a “pattern” to follow, drastically reducing hallucinations.\n\n\n“Chain-of-Thought” is a technique where you force the model to explain its reasoning step-by-step before it outputs the final answer. For example, instead of asking “Is 5423 prime?”, you prompt: “Think step-by-step. First, check if the number is even. Then, check divisibility up to its square root. Finally, state if it is prime.” This drastically improves logical accuracy in complex coding tasks.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Advanced Prompt Engineering & Reasoning. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Power of IterationReviewing your Architecture\n\n\nA core tenet of Vibe Coding is that your first draft is rarely your final draft. Because code generation is so fast, the cost of refactoring drops to near zero.\n\n\nLook at the CLI app you built yesterday. How does it handle API timeouts? What if the user inputs gibberish? Today, your goal is to use Gemini to critique your own code and generate a more robust, error-handled version.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 2: Advanced Prompt Engineering & Reasoning"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week1/day2.html#learning-objectives",
-    "href": "en/week1/day2.html#learning-objectives",
-    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "objectID": "en/week1/day7.html#learning-objectives",
+    "href": "en/week1/day7.html#learning-objectives",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind advanced prompt engineering & reasoning.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 2: Advanced Prompt Engineering & Reasoning"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week1/day2.html#core-concepts",
-    "href": "en/week1/day2.html#core-concepts",
-    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "objectID": "en/week1/day7.html#core-concepts",
+    "href": "en/week1/day7.html#core-concepts",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Beyond Simple QuestionsFew-Shot PromptingChain-of-Thought (CoT)\n\n\nMany beginners treat AI like a search engine: “How do I reverse a string in Python?” While this works, it barely scratches the surface of what Large Language Models (LLMs) can do. Advanced Prompt Engineering is about structuring your instructions to maximize reasoning and accuracy.\n\n\nLLMs are few-shot learners. This means that instead of just giving an instruction, you provide examples of the input and the expected output. By providing examples, you constrain the model’s output format and give it a “pattern” to follow, drastically reducing hallucinations.\n\n\n“Chain-of-Thought” is a technique where you force the model to explain its reasoning step-by-step before it outputs the final answer. For example, instead of asking “Is 5423 prime?”, you prompt: “Think step-by-step. First, check if the number is even. Then, check divisibility up to its square root. Finally, state if it is prime.” This drastically improves logical accuracy in complex coding tasks.",
+    "text": "The Power of IterationReviewing your Architecture\n\n\nA core tenet of Vibe Coding is that your first draft is rarely your final draft. Because code generation is so fast, the cost of refactoring drops to near zero.\n\n\nLook at the CLI app you built yesterday. How does it handle API timeouts? What if the user inputs gibberish? Today, your goal is to use Gemini to critique your own code and generate a more robust, error-handled version.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 2: Advanced Prompt Engineering & Reasoning"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week1/day2.html#hands-on-exercise",
-    "href": "en/week1/day2.html#hands-on-exercise",
-    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "objectID": "en/week1/day7.html#hands-on-exercise",
+    "href": "en/week1/day7.html#hands-on-exercise",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 2: Advanced Prompt Engineering & Reasoning"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week1/day2.html#wrap-up",
-    "href": "en/week1/day2.html#wrap-up",
-    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "objectID": "en/week1/day7.html#wrap-up",
+    "href": "en/week1/day7.html#wrap-up",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Today we covered Advanced Prompt Engineering & Reasoning. Tomorrow, we will build upon this by exploring Structured Outputs.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 2: Advanced Prompt Engineering & Reasoning"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week1/day6.html",
-    "href": "en/week1/day6.html",
-    "title": "Day 6: Mini-Project 1",
+    "objectID": "en/week1/day3.html",
+    "href": "en/week1/day3.html",
+    "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 1.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 1.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nPutting it TogetherThe Objective\n\n\nToday is about synthesis. You will combine your knowledge of the Gemini SDK, Prompt Engineering, and Structured Outputs to build a complete, functioning CLI (Command Line Interface) application.\n\n\nYou are no longer just writing snippets; you are architecting a loop. The application must:\n\nAccept user input.\nFormulate a prompt based on that input.\nCall the Gemini API and enforce a JSON schema.\nParse the JSON and display it beautifully to the user.\n\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 1. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 3. Today, we are diving deep into Structured Outputs.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind structured outputs.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Chaos of TextForcing JSON with GeminiWhy this is a Superpower\n\n\nLLMs naturally output unstructured text (Markdown, conversational filler, etc.). If you are building an application, you cannot programmatically parse a response that says: “Sure! Here is the data you requested: [data]”. You need predictable, parsable data structures like JSON.\n\n\nThe Gemini API allows you to explicitly enforce a response schema. This means you can guarantee that the model will return a perfectly formatted JSON object that matches your exact specifications.\n\n\nStructured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:\n\nSave it to a database.\nRender it in a React UI.\nPass it as arguments to another Python function. This is the foundational step toward building autonomous agents!\n\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Structured Outputs. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 6: Mini-Project 1"
+      "Day 3: Structured Outputs"
     ]
   },
   {
-    "objectID": "en/week1/day6.html#learning-objectives",
-    "href": "en/week1/day6.html#learning-objectives",
-    "title": "Day 6: Mini-Project 1",
+    "objectID": "en/week1/day3.html#learning-objectives",
+    "href": "en/week1/day3.html#learning-objectives",
+    "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 1.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind structured outputs.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 6: Mini-Project 1"
+      "Day 3: Structured Outputs"
     ]
   },
   {
-    "objectID": "en/week1/day6.html#core-concepts",
-    "href": "en/week1/day6.html#core-concepts",
-    "title": "Day 6: Mini-Project 1",
+    "objectID": "en/week1/day3.html#core-concepts",
+    "href": "en/week1/day3.html#core-concepts",
+    "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "Putting it TogetherThe Objective\n\n\nToday is about synthesis. You will combine your knowledge of the Gemini SDK, Prompt Engineering, and Structured Outputs to build a complete, functioning CLI (Command Line Interface) application.\n\n\nYou are no longer just writing snippets; you are architecting a loop. The application must:\n\nAccept user input.\nFormulate a prompt based on that input.\nCall the Gemini API and enforce a JSON schema.\nParse the JSON and display it beautifully to the user.",
+    "text": "The Chaos of TextForcing JSON with GeminiWhy this is a Superpower\n\n\nLLMs naturally output unstructured text (Markdown, conversational filler, etc.). If you are building an application, you cannot programmatically parse a response that says: “Sure! Here is the data you requested: [data]”. You need predictable, parsable data structures like JSON.\n\n\nThe Gemini API allows you to explicitly enforce a response schema. This means you can guarantee that the model will return a perfectly formatted JSON object that matches your exact specifications.\n\n\nStructured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:\n\nSave it to a database.\nRender it in a React UI.\nPass it as arguments to another Python function. This is the foundational step toward building autonomous agents!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 6: Mini-Project 1"
+      "Day 3: Structured Outputs"
     ]
   },
   {
-    "objectID": "en/week1/day6.html#hands-on-exercise",
-    "href": "en/week1/day6.html#hands-on-exercise",
-    "title": "Day 6: Mini-Project 1",
+    "objectID": "en/week1/day3.html#hands-on-exercise",
+    "href": "en/week1/day3.html#hands-on-exercise",
+    "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Force Gemini to output a strict JSON schema for a ‘User Profile’ including name, age, and occupation using the response_schema parameter.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 6: Mini-Project 1"
+      "Day 3: Structured Outputs"
     ]
   },
   {
-    "objectID": "en/week1/day6.html#wrap-up",
-    "href": "en/week1/day6.html#wrap-up",
-    "title": "Day 6: Mini-Project 1",
+    "objectID": "en/week1/day3.html#wrap-up",
+    "href": "en/week1/day3.html#wrap-up",
+    "title": "Day 3: Structured Outputs",
     "section": "",
-    "text": "Today we covered Mini-Project 1. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Structured Outputs. Tomorrow, we will build upon this by exploring Multimodal Magic.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 1: Foundations",
-      "Day 6: Mini-Project 1"
+      "Day 3: Structured Outputs"
     ]
   },
   {
-    "objectID": "en/week1/day1.html",
-    "href": "en/week1/day1.html",
-    "title": "Day 1: The Vibe Coding Mindset",
+    "objectID": "en/week1/index.html",
+    "href": "en/week1/index.html",
+    "title": "Week 1: Foundations",
     "section": "",
-    "text": "Welcome to Day 1. Today, we are diving deep into The Vibe Coding Mindset.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind the vibe coding mindset.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Paradigm ShiftThe Role of the DirectorWhy “Vibe”?\n\n\nWelcome to the Vibe Coding mindset. Traditional software engineering demands that you type every single line of code, handle every semicolon, and construct logic manually. “Vibe coding” represents a paradigm shift where you transition from being a typist to a director.\nYou are no longer writing the code; you are defining the intent, the constraints, and the “vibe” of the application, while an AI model acts as your ultra-fast pair programmer.\n\n\nThink of a movie director. They don’t hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:\n\nYou provide the context: “We are building a web server.”\nYou define the rules: “It must use FastAPI and run on port 8000.”\nThe AI executes the vision: It generates the code instantly.\n\n\n\nThe term “vibe” refers to the intuition and high-level understanding of a system’s architecture. Because models like Gemini are incredibly adept at pattern matching, they don’t need you to explicitly define every variable. If you give them the right “vibe”—the architectural blueprint and the goal—they will synthesize the correct implementation.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered The Vibe Coding Mindset. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Foundations Overview\nWelcome to Week 1 !\nThis week, we will focus on Foundations.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\n\nLet’s dive into Day 1: The Vibe Coding Mindset!",
     "crumbs": [
-      "Week 1: Foundations",
-      "Day 1: The Vibe Coding Mindset"
+      "Week 1: Foundations"
     ]
   },
   {
-    "objectID": "en/week1/day1.html#learning-objectives",
-    "href": "en/week1/day1.html#learning-objectives",
-    "title": "Day 1: The Vibe Coding Mindset",
+    "objectID": "en/week2/day5.html",
+    "href": "en/week2/day5.html",
+    "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind the vibe coding mindset.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
-    "crumbs": [
-      "Week 1: Foundations",
-      "Day 1: The Vibe Coding Mindset"
-    ]
-  },
-  {
-    "objectID": "en/week1/day1.html#core-concepts",
-    "href": "en/week1/day1.html#core-concepts",
-    "title": "Day 1: The Vibe Coding Mindset",
-    "section": "",
-    "text": "The Paradigm ShiftThe Role of the DirectorWhy “Vibe”?\n\n\nWelcome to the Vibe Coding mindset. Traditional software engineering demands that you type every single line of code, handle every semicolon, and construct logic manually. “Vibe coding” represents a paradigm shift where you transition from being a typist to a director.\nYou are no longer writing the code; you are defining the intent, the constraints, and the “vibe” of the application, while an AI model acts as your ultra-fast pair programmer.\n\n\nThink of a movie director. They don’t hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:\n\nYou provide the context: “We are building a web server.”\nYou define the rules: “It must use FastAPI and run on port 8000.”\nThe AI executes the vision: It generates the code instantly.\n\n\n\nThe term “vibe” refers to the intuition and high-level understanding of a system’s architecture. Because models like Gemini are incredibly adept at pattern matching, they don’t need you to explicitly define every variable. If you give them the right “vibe”—the architectural blueprint and the goal—they will synthesize the correct implementation.",
-    "crumbs": [
-      "Week 1: Foundations",
-      "Day 1: The Vibe Coding Mindset"
-    ]
-  },
-  {
-    "objectID": "en/week1/day1.html#hands-on-exercise",
-    "href": "en/week1/day1.html#hands-on-exercise",
-    "title": "Day 1: The Vibe Coding Mindset",
-    "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a natural language prompt that acts as a ‘Vibe Coding’ mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
-    "crumbs": [
-      "Week 1: Foundations",
-      "Day 1: The Vibe Coding Mindset"
-    ]
-  },
-  {
-    "objectID": "en/week1/day1.html#wrap-up",
-    "href": "en/week1/day1.html#wrap-up",
-    "title": "Day 1: The Vibe Coding Mindset",
-    "section": "",
-    "text": "Today we covered The Vibe Coding Mindset. Tomorrow, we will build upon this by exploring Advanced Prompt Engineering & Reasoning.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
-    "crumbs": [
-      "Week 1: Foundations",
-      "Day 1: The Vibe Coding Mindset"
-    ]
-  },
-  {
-    "objectID": "en/week2/day4.html",
-    "href": "en/week2/day4.html",
-    "title": "Day 4: Context & Memory",
-    "section": "",
-    "text": "Welcome to Day 4. Today, we are diving deep into Context & Memory.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind context & memory.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Stateless Nature of LLMsBuilding MemoryContext Windows\n\n\nBy default, LLMs have amnesia. If you ask a question, and then ask a follow-up question, the model has no idea what you asked previously. Every API call is isolated.\n\n\nTo create a conversational agent, you must manually maintain the “Context”. This involves storing every user message and every model response in an array (or list) and passing the entire history back to the model on every single turn.\n\n\nModern models like Gemini 1.5 Pro have massive context windows (up to 2 million tokens), allowing them to remember entire books of history. However, managing this context efficiently in your code is crucial for performance and cost.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Context & Memory. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 5. Today, we are diving deep into Agentic Workflows.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nSingle vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 4: Context & Memory"
+      "Day 5: Agentic Workflows"
     ]
   },
   {
-    "objectID": "en/week2/day4.html#learning-objectives",
-    "href": "en/week2/day4.html#learning-objectives",
-    "title": "Day 4: Context & Memory",
+    "objectID": "en/week2/day5.html#learning-objectives",
+    "href": "en/week2/day5.html#learning-objectives",
+    "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind context & memory.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind agentic workflows.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 4: Context & Memory"
+      "Day 5: Agentic Workflows"
     ]
   },
   {
-    "objectID": "en/week2/day4.html#core-concepts",
-    "href": "en/week2/day4.html#core-concepts",
-    "title": "Day 4: Context & Memory",
+    "objectID": "en/week2/day5.html#core-concepts",
+    "href": "en/week2/day5.html#core-concepts",
+    "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "The Stateless Nature of LLMsBuilding MemoryContext Windows\n\n\nBy default, LLMs have amnesia. If you ask a question, and then ask a follow-up question, the model has no idea what you asked previously. Every API call is isolated.\n\n\nTo create a conversational agent, you must manually maintain the “Context”. This involves storing every user message and every model response in an array (or list) and passing the entire history back to the model on every single turn.\n\n\nModern models like Gemini 1.5 Pro have massive context windows (up to 2 million tokens), allowing them to remember entire books of history. However, managing this context efficiently in your code is crucial for performance and cost.",
+    "text": "Single vs. Multi-AgentAgentic Workflows\n\n\nSo far, you’ve built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.\n\n\nInstead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.\n\nThe Planner: Takes the user’s complex request and breaks it down into 5 sequential steps.\nThe Researcher: Takes step 1, browses the web, and returns data.\nThe Coder: Takes the data and writes a script.\n\nBy separating concerns, you drastically reduce hallucinations and improve the robustness of the system.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 4: Context & Memory"
+      "Day 5: Agentic Workflows"
     ]
   },
   {
-    "objectID": "en/week2/day4.html#hands-on-exercise",
-    "href": "en/week2/day4.html#hands-on-exercise",
-    "title": "Day 4: Context & Memory",
+    "objectID": "en/week2/day5.html#hands-on-exercise",
+    "href": "en/week2/day5.html#hands-on-exercise",
+    "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 4: Context & Memory"
+      "Day 5: Agentic Workflows"
     ]
   },
   {
-    "objectID": "en/week2/day4.html#wrap-up",
-    "href": "en/week2/day4.html#wrap-up",
-    "title": "Day 4: Context & Memory",
+    "objectID": "en/week2/day5.html#wrap-up",
+    "href": "en/week2/day5.html#wrap-up",
+    "title": "Day 5: Agentic Workflows",
     "section": "",
-    "text": "Today we covered Context & Memory. Tomorrow, we will build upon this by exploring Agentic Workflows.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Agentic Workflows. Tomorrow, we will build upon this by exploring Mini-Project 2: Community Manager Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 4: Context & Memory"
+      "Day 5: Agentic Workflows"
     ]
   },
   {
-    "objectID": "en/week2/day2.html",
-    "href": "en/week2/day2.html",
-    "title": "Day 2: Defining Tools",
+    "objectID": "en/week2/day7.html",
+    "href": "en/week2/day7.html",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Welcome to Day 2. Today, we are diving deep into Defining Tools.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind defining tools.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nHow does the AI know what tools exist?Writing Good DescriptionsThe Contract\n\n\nBefore an AI can call a tool, you must define it. In the Gemini API, this is done by passing an OpenAPI-style schema or using Python type hints to describe the function’s purpose, its arguments, and its expected output.\n\n\nThe most important part of defining a tool is the docstring or description. The AI relies entirely on your natural language description to decide when and how to use the tool. If you have a tool called get_weather, but the description is vague, the AI might hallucinate the arguments.\n\n\nDefining a tool is like signing a contract with the AI: “If you give me these specific JSON arguments, I will execute this logic and give you back the result.”\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Defining Tools. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 7. Today, we are diving deep into Review & Rest.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nAgentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 2: Defining Tools"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week2/day2.html#learning-objectives",
-    "href": "en/week2/day2.html#learning-objectives",
-    "title": "Day 2: Defining Tools",
+    "objectID": "en/week2/day7.html#learning-objectives",
+    "href": "en/week2/day7.html#learning-objectives",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind defining tools.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind review & rest.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 2: Defining Tools"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week2/day2.html#core-concepts",
-    "href": "en/week2/day2.html#core-concepts",
-    "title": "Day 2: Defining Tools",
+    "objectID": "en/week2/day7.html#core-concepts",
+    "href": "en/week2/day7.html#core-concepts",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "How does the AI know what tools exist?Writing Good DescriptionsThe Contract\n\n\nBefore an AI can call a tool, you must define it. In the Gemini API, this is done by passing an OpenAPI-style schema or using Python type hints to describe the function’s purpose, its arguments, and its expected output.\n\n\nThe most important part of defining a tool is the docstring or description. The AI relies entirely on your natural language description to decide when and how to use the tool. If you have a tool called get_weather, but the description is vague, the AI might hallucinate the arguments.\n\n\nDefining a tool is like signing a contract with the AI: “If you give me these specific JSON arguments, I will execute this logic and give you back the result.”",
+    "text": "Agentic Failure ModesRobust Error Handling\n\n\nWhen building agents that call external APIs, they will inevitably fail. They might get blocked by content moderation, or they might hit an API quota limit.\n\n\nToday, you will review your Community Manager Agent’s execution logs. You must implement try/except blocks in your Python tools. For example, if Imagen rejects an image prompt for safety reasons, your code shouldn’t crash. Instead, your code should return the error back to the AI so the AI can realize its mistake, rewrite a safer prompt, and try again!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 2: Defining Tools"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week2/day2.html#hands-on-exercise",
-    "href": "en/week2/day2.html#hands-on-exercise",
-    "title": "Day 2: Defining Tools",
+    "objectID": "en/week2/day7.html#hands-on-exercise",
+    "href": "en/week2/day7.html#hands-on-exercise",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Create an OpenAPI-style tool schema for a ‘Calculator’ function. Pass it to Gemini and test it with a complex math query.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Review the Community Manager Agent’s tool execution logs. Add error handling for when the agent hits an API quota limit or a content moderation block.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 2: Defining Tools"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week2/day2.html#wrap-up",
-    "href": "en/week2/day2.html#wrap-up",
-    "title": "Day 2: Defining Tools",
+    "objectID": "en/week2/day7.html#wrap-up",
+    "href": "en/week2/day7.html#wrap-up",
+    "title": "Day 7: Review & Rest",
     "section": "",
-    "text": "Today we covered Defining Tools. Tomorrow, we will build upon this by exploring Building your First Agent.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Review & Rest. Tomorrow, we will build upon this by exploring the next week’s topics.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 2: Defining Tools"
+      "Day 7: Review & Rest"
     ]
   },
   {
-    "objectID": "en/week2/day6.html",
-    "href": "en/week2/day6.html",
-    "title": "Day 6: Mini-Project 2: Community Manager Agent",
+    "objectID": "en/week2/day3.html",
+    "href": "en/week2/day3.html",
+    "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "Welcome to Day 6. Today, we are diving deep into Mini-Project 2: Community Manager Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nProject: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Welcome to Day 3. Today, we are diving deep into Building your First Agent.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind building your first agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Agentic LoopThe Core Logic\n\n\nAn AI Agent is simply a language model wrapped in a while loop with access to tools and memory.\n\n\n\nUser Prompt: The user asks a question (“What’s the weather in Paris and then calculate 25% of the temperature?”).\nAI Decision: The AI decides it needs to call get_weather(\"Paris\").\nExecution: Your Python script catches the function call request, executes the actual API call to a weather service, and gets 20°C.\nReturn: Your script sends 20°C back to the AI.\nAI Decision 2: The AI decides it now needs to call calculator(20, 0.25, 'multiply').\nExecution 2: Your script calculates 5 and returns it.\nFinal Answer: The AI reads the final result and outputs: “The weather is 20°C, and 25% of that is 5.”\n\nThis loop is the beating heart of all autonomous AI agents.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Building your First Agent. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Community Manager Agent"
+      "Day 3: Building your First Agent"
     ]
   },
   {
-    "objectID": "en/week2/day6.html#learning-objectives",
-    "href": "en/week2/day6.html#learning-objectives",
-    "title": "Day 6: Mini-Project 2: Community Manager Agent",
+    "objectID": "en/week2/day3.html#learning-objectives",
+    "href": "en/week2/day3.html#learning-objectives",
+    "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind mini-project 2: community manager agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind building your first agent.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Community Manager Agent"
+      "Day 3: Building your First Agent"
     ]
   },
   {
-    "objectID": "en/week2/day6.html#core-concepts",
-    "href": "en/week2/day6.html#core-concepts",
-    "title": "Day 6: Mini-Project 2: Community Manager Agent",
+    "objectID": "en/week2/day3.html#core-concepts",
+    "href": "en/week2/day3.html#core-concepts",
+    "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "Project: The Community Manager AgentTool ArsenalThe Goal\n\n\nA Community Manager is the voice of a brand. For your mini-project, you will build a “Community Manager Agent” tailored for a new romance author. Its goal is to generate engaging content for Instagram.\n\n\nYou will equip your agent with the following Python tools connected to Google Cloud APIs:\n\ngenerate_script(topic): Uses Gemini to write a high-converting, 30-second Instagram Reel script.\ngenerate_image(prompt): Uses Imagen 3 to generate a visual storyboard frame.\ngenerate_audio(text): Uses Google Cloud TTS to generate the voiceover track.\n\n\n\nYou will prompt your Agent: “I’m releasing a new ‘enemies-to-lovers’ romance novel. Generate an Instagram Reel.” The Agent will autonomously write the script, generate a beautiful aesthetic background image, and produce the audio file. This project proves you can build an AI that orchestrates complex creative workflows!",
+    "text": "The Agentic LoopThe Core Logic\n\n\nAn AI Agent is simply a language model wrapped in a while loop with access to tools and memory.\n\n\n\nUser Prompt: The user asks a question (“What’s the weather in Paris and then calculate 25% of the temperature?”).\nAI Decision: The AI decides it needs to call get_weather(\"Paris\").\nExecution: Your Python script catches the function call request, executes the actual API call to a weather service, and gets 20°C.\nReturn: Your script sends 20°C back to the AI.\nAI Decision 2: The AI decides it now needs to call calculator(20, 0.25, 'multiply').\nExecution 2: Your script calculates 5 and returns it.\nFinal Answer: The AI reads the final result and outputs: “The weather is 20°C, and 25% of that is 5.”\n\nThis loop is the beating heart of all autonomous AI agents.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Community Manager Agent"
+      "Day 3: Building your First Agent"
     ]
   },
   {
-    "objectID": "en/week2/day6.html#hands-on-exercise",
-    "href": "en/week2/day6.html#hands-on-exercise",
-    "title": "Day 6: Mini-Project 2: Community Manager Agent",
+    "objectID": "en/week2/day3.html#hands-on-exercise",
+    "href": "en/week2/day3.html#hands-on-exercise",
+    "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Build the core of the Community Manager Agent: give it tools to call Gemini (for scripting), Imagen (for images), and Google TTS (for voiceover). Test it with a romance author prompt.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
+    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Write a script where Gemini can call the ‘Calculator’ tool, execute the function locally, return the result to Gemini, and formulate a final answer.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Community Manager Agent"
+      "Day 3: Building your First Agent"
     ]
   },
   {
-    "objectID": "en/week2/day6.html#wrap-up",
-    "href": "en/week2/day6.html#wrap-up",
-    "title": "Day 6: Mini-Project 2: Community Manager Agent",
+    "objectID": "en/week2/day3.html#wrap-up",
+    "href": "en/week2/day3.html#wrap-up",
+    "title": "Day 3: Building your First Agent",
     "section": "",
-    "text": "Today we covered Mini-Project 2: Community Manager Agent. Tomorrow, we will build upon this by exploring Review & Rest.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Today we covered Building your First Agent. Tomorrow, we will build upon this by exploring Context & Memory.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
     "crumbs": [
       "Week 2: Agents",
-      "Day 6: Mini-Project 2: Community Manager Agent"
+      "Day 3: Building your First Agent"
     ]
   },
   {
-    "objectID": "en/week2/day1.html",
-    "href": "en/week2/day1.html",
-    "title": "Day 1: Introduction to Function Calling",
+    "objectID": "en/week2/index.html",
+    "href": "en/week2/index.html",
+    "title": "Week 2: Agents",
     "section": "",
-    "text": "Welcome to Day 1. Today, we are diving deep into Introduction to Function Calling.\n\n\nBy the end of this session, you will be able to:\n\nUnderstand the core principles behind introduction to function calling.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.\n\n\n\n\n\nThe Limitation of TextIntroducing Function CallingThe Paradigm Shift\n\n\nSo far, you have built applications where the AI only responds with text or JSON. While powerful, this means the AI is trapped inside a box. It cannot read the current weather, it cannot execute code, and it cannot interact with the outside world.\n\n\nFunction Calling (or Tool Use) is the mechanism that allows an LLM to interact with external APIs and local code. Instead of the model returning a text string, you provide the model with a list of “tools” (functions) it can use. If the model determines it needs to use a tool to answer your prompt, it returns a function call request containing the necessary arguments.\n\n\nThis shifts the AI from a passive oracle into an active Agent. When the AI decides to call a function, your code executes the function locally, gets the result, and passes that result back to the AI so it can formulate a final answer.\n\n\n\n\n\n\nIt’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.\n\n\n\n\nToday we covered Introduction to Function Calling. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
+    "text": "Agents Overview\nWelcome to Week 2 !\nThis week, we will focus on Agents.\n\nWhat to Expect\n\nDaily Mini-Lessons: 2-hour segments focusing on a specific concept.\nHands-on Practice: End-of-day challenges to apply what you’ve learned.\n\nLet’s dive into Day 1: Introduction to Function Calling!",
     "crumbs": [
-      "Week 2: Agents",
-      "Day 1: Introduction to Function Calling"
+      "Week 2: Agents"
     ]
   },
   {
-    "objectID": "en/week2/day1.html#learning-objectives",
-    "href": "en/week2/day1.html#learning-objectives",
-    "title": "Day 1: Introduction to Function Calling",
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "By the end of this session, you will be able to:\n\nUnderstand the core principles behind introduction to function calling.\nImplement these concepts using the Google Gemini ecosystem.\nSuccessfully complete today’s hands-on exercise.",
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →\n\n\n\n\n\n\n\n\n\nNote🛠️ Prerequisites\n\n\n\n\nPython installed (&gt;= 3.10)\nA Google Account for Google AI Studio\nAn IDE (VS Code or Cursor)\nA basic understanding of logic\n\n\n\n\n\n\n\n\n\nTip⏱️ Time Commitment\n\n\n\nJust 2 hours a day. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.",
     "crumbs": [
-      "Week 2: Agents",
-      "Day 1: Introduction to Function Calling"
+      "Welcome to Vibe Coding"
     ]
   },
   {
-    "objectID": "en/week2/day1.html#core-concepts",
-    "href": "en/week2/day1.html#core-concepts",
-    "title": "Day 1: Introduction to Function Calling",
+    "objectID": "en/index.html#the-future-of-coding-is-here",
+    "href": "en/index.html#the-future-of-coding-is-here",
+    "title": "Welcome to Vibe Coding",
     "section": "",
-    "text": "The Limitation of TextIntroducing Function CallingThe Paradigm Shift\n\n\nSo far, you have built applications where the AI only responds with text or JSON. While powerful, this means the AI is trapped inside a box. It cannot read the current weather, it cannot execute code, and it cannot interact with the outside world.\n\n\nFunction Calling (or Tool Use) is the mechanism that allows an LLM to interact with external APIs and local code. Instead of the model returning a text string, you provide the model with a list of “tools” (functions) it can use. If the model determines it needs to use a tool to answer your prompt, it returns a function call request containing the necessary arguments.\n\n\nThis shifts the AI from a passive oracle into an active Agent. When the AI decides to call a function, your code executes the function locally, gets the result, and passes that result back to the AI so it can formulate a final answer.",
+    "text": "Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.\nThis isn’t just about writing code—it’s about directing an AI to write it with you.\n\n\n\nWeek 1: Master the art of advanced prompting and structured outputs.\nWeek 2: Give your AI tools, memory, and agency to perform real-world tasks.\nWeek 3: Build full-stack applications and deploy your intelligent Community Manager Agent.\n\n Start Your Journey →",
     "crumbs": [
-      "Week 2: Agents",
-      "Day 1: Introduction to Function Calling"
+      "Welcome to Vibe Coding"
     ]
   },
   {
-    "objectID": "en/week2/day1.html#hands-on-exercise",
-    "href": "en/week2/day1.html#hands-on-exercise",
-    "title": "Day 1: Introduction to Function Calling",
+    "objectID": "fr/week3/day4.html",
+    "href": "fr/week3/day4.html",
+    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "It’s time to put theory into practice! Spend the next 45 minutes on the following challenge:\nTask: Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.\nRequirements:\n\nUse the Gemini SDK or AI Studio.\nEnsure the output is well-formatted and handles errors gracefully.\nTest it with at least two different edge cases.",
-    "crumbs": [
-      "Week 2: Agents",
-      "Day 1: Introduction to Function Calling"
-    ]
-  },
-  {
-    "objectID": "en/week2/day1.html#wrap-up",
-    "href": "en/week2/day1.html#wrap-up",
-    "title": "Day 1: Introduction to Function Calling",
-    "section": "",
-    "text": "Today we covered Introduction to Function Calling. Tomorrow, we will build upon this by exploring Defining Tools.\nMake sure to click ‘Mark as Complete’ below to track your progress!",
-    "crumbs": [
-      "Week 2: Agents",
-      "Day 1: Introduction to Function Calling"
-    ]
-  },
-  {
-    "objectID": "fr/week3/day5.html",
-    "href": "fr/week3/day5.html",
-    "title": "Jour 5: Intégration de l’Agent CM",
-    "section": "",
-    "text": "Bienvenue au Jour 5. Aujourd’hui, nous plongeons dans Intégration de l’Agent CM.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nConnecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 4. Aujourd’hui, nous plongeons dans Génération d’Interfaces Utilisateur (UIs).\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nGénération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent CM"
+      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
     ]
   },
   {
-    "objectID": "fr/week3/day5.html#objectifs-dapprentissage",
-    "href": "fr/week3/day5.html#objectifs-dapprentissage",
-    "title": "Jour 5: Intégration de l’Agent CM",
+    "objectID": "fr/week3/day4.html#objectifs-dapprentissage",
+    "href": "fr/week3/day4.html#objectifs-dapprentissage",
+    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière intégration de l’agent cm.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière génération d’interfaces utilisateur (uis).\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent CM"
+      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
     ]
   },
   {
-    "objectID": "fr/week3/day5.html#concepts-clés",
-    "href": "fr/week3/day5.html#concepts-clés",
-    "title": "Jour 5: Intégration de l’Agent CM",
+    "objectID": "fr/week3/day4.html#concepts-clés",
+    "href": "fr/week3/day4.html#concepts-clés",
+    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "Connecter la StackLa Couche API\n\n\nVous avez maintenant un backend Agent Python et une UI frontend générée par l’IA. Aujourd’hui, il s’agit de faire le pont.\n\n\nVous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Community Manager. Vous exposerez un point de terminaison REST qui accepte le prompt de l’utilisateur, le transmet à la boucle de l’Agent et renvoie les assets vidéo finalisés (scénario, images, audio) au frontend.",
+    "text": "Génération d’Interfaces Utilisateur (UIs)Le Workflow\n\n\nLe développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.\n\n\nVous pouvez prendre une capture d’écran d’une application que vous aimez et demander à Gemini : “Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image.” Vous passez d’Ingénieur Backend à Ingénieur Full-Stack grâce à l’IA.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent CM"
+      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
     ]
   },
   {
-    "objectID": "fr/week3/day5.html#exercice-pratique",
-    "href": "fr/week3/day5.html#exercice-pratique",
-    "title": "Jour 5: Intégration de l’Agent CM",
+    "objectID": "fr/week3/day4.html#exercice-pratique",
+    "href": "fr/week3/day4.html#exercice-pratique",
+    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Connectez l’interface générée au backend Python de votre agent via un simple serveur REST Flask ou FastAPI.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Demandez à Gemini de générer une interface utilisateur frontend complète en React/Vite (ou simplement HTML/JS) pour interagir avec votre agent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent CM"
+      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
     ]
   },
   {
-    "objectID": "fr/week3/day5.html#conclusion",
-    "href": "fr/week3/day5.html#conclusion",
-    "title": "Jour 5: Intégration de l’Agent CM",
+    "objectID": "fr/week3/day4.html#conclusion",
+    "href": "fr/week3/day4.html#conclusion",
+    "title": "Jour 4: Génération d’Interfaces Utilisateur (UIs)",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Intégration de l’Agent CM. Demain, nous nous appuierons sur cela en explorant Finalisation du Projet.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Génération d’Interfaces Utilisateur (UIs). Demain, nous nous appuierons sur cela en explorant Intégration de l’Agent CM.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 5: Intégration de l'Agent CM"
+      "Jour 4: Génération d'Interfaces Utilisateur (UIs)"
     ]
   },
   {
-    "objectID": "fr/week3/day7.html",
-    "href": "fr/week3/day7.html",
-    "title": "Jour 7: Déploiement & Conclusion",
+    "objectID": "fr/week3/day2.html",
+    "href": "fr/week3/day2.html",
+    "title": "Jour 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "Bienvenue au Jour 7. Aujourd’hui, nous plongeons dans Déploiement & Conclusion.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière déploiement & conclusion.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nDéploiement en ProductionSolutions d’Hébergement Gratuit\n\n\nIl est temps de partager votre création avec le monde ! Une application locale est un jouet ; une application déployée est un produit.\n\n\nVous apprendrez comment déployer votre backend FastAPI sur des services comme Render et comment héberger votre interface UI sur GitHub Pages. Félicitations ! Vous avez terminé le programme Vibe Coding Mastery. Vous êtes passé d’un codeur traditionnel à un Architecte IA Agentique.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Déployez votre backend sur un service gratuit (ex: Render) et votre UI sur GitHub Pages. Testez l’agent en production !\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Déploiement & Conclusion. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 2. Aujourd’hui, nous plongeons dans Test-Driven Vibe Coding.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière test-driven vibe coding.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nVibe Coding Dirigé par les Tests (TDD)Le Workflow\n\n\nLorsque l’IA écrit votre code, le plus grand danger est l’échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.\n\n\n\nDemandez à l’IA de générer des tests PyTest pour une fonction.\nDemandez à l’IA de générer la fonction.\nExécutez les tests. S’ils échouent, passez le journal d’erreurs à l’IA pour qu’elle corrige le code. Bouclez jusqu’à ce que tout passe !\n\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Écrivez un prompt en langage naturel qui génère des cas de test PyTest pour votre ‘tool’ Calculatrice. Utilisez ensuite Gemini pour corriger les tests qui échouent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Test-Driven Vibe Coding. Demain, nous nous appuierons sur cela en explorant Architecture Système.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 7: Déploiement & Conclusion"
+      "Jour 2: Test-Driven Vibe Coding"
     ]
   },
   {
-    "objectID": "fr/week3/day7.html#objectifs-dapprentissage",
-    "href": "fr/week3/day7.html#objectifs-dapprentissage",
-    "title": "Jour 7: Déploiement & Conclusion",
+    "objectID": "fr/week3/day2.html#objectifs-dapprentissage",
+    "href": "fr/week3/day2.html#objectifs-dapprentissage",
+    "title": "Jour 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière déploiement & conclusion.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière test-driven vibe coding.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 7: Déploiement & Conclusion"
+      "Jour 2: Test-Driven Vibe Coding"
     ]
   },
   {
-    "objectID": "fr/week3/day7.html#concepts-clés",
-    "href": "fr/week3/day7.html#concepts-clés",
-    "title": "Jour 7: Déploiement & Conclusion",
+    "objectID": "fr/week3/day2.html#concepts-clés",
+    "href": "fr/week3/day2.html#concepts-clés",
+    "title": "Jour 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "Déploiement en ProductionSolutions d’Hébergement Gratuit\n\n\nIl est temps de partager votre création avec le monde ! Une application locale est un jouet ; une application déployée est un produit.\n\n\nVous apprendrez comment déployer votre backend FastAPI sur des services comme Render et comment héberger votre interface UI sur GitHub Pages. Félicitations ! Vous avez terminé le programme Vibe Coding Mastery. Vous êtes passé d’un codeur traditionnel à un Architecte IA Agentique.",
+    "text": "Vibe Coding Dirigé par les Tests (TDD)Le Workflow\n\n\nLorsque l’IA écrit votre code, le plus grand danger est l’échec silencieux (des bugs logiques subtils). Pour contrer cela, nous utilisons le Développement Dirigé par les Tests (TDD) combiné au Vibe Coding.\n\n\n\nDemandez à l’IA de générer des tests PyTest pour une fonction.\nDemandez à l’IA de générer la fonction.\nExécutez les tests. S’ils échouent, passez le journal d’erreurs à l’IA pour qu’elle corrige le code. Bouclez jusqu’à ce que tout passe !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 7: Déploiement & Conclusion"
+      "Jour 2: Test-Driven Vibe Coding"
     ]
   },
   {
-    "objectID": "fr/week3/day7.html#exercice-pratique",
-    "href": "fr/week3/day7.html#exercice-pratique",
-    "title": "Jour 7: Déploiement & Conclusion",
+    "objectID": "fr/week3/day2.html#exercice-pratique",
+    "href": "fr/week3/day2.html#exercice-pratique",
+    "title": "Jour 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Déployez votre backend sur un service gratuit (ex: Render) et votre UI sur GitHub Pages. Testez l’agent en production !\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Écrivez un prompt en langage naturel qui génère des cas de test PyTest pour votre ‘tool’ Calculatrice. Utilisez ensuite Gemini pour corriger les tests qui échouent.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 7: Déploiement & Conclusion"
+      "Jour 2: Test-Driven Vibe Coding"
     ]
   },
   {
-    "objectID": "fr/week3/day7.html#conclusion",
-    "href": "fr/week3/day7.html#conclusion",
-    "title": "Jour 7: Déploiement & Conclusion",
+    "objectID": "fr/week3/day2.html#conclusion",
+    "href": "fr/week3/day2.html#conclusion",
+    "title": "Jour 2: Test-Driven Vibe Coding",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Déploiement & Conclusion. Demain, nous nous appuierons sur cela en explorant les sujets de la semaine prochaine.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Test-Driven Vibe Coding. Demain, nous nous appuierons sur cela en explorant Architecture Système.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 7: Déploiement & Conclusion"
+      "Jour 2: Test-Driven Vibe Coding"
     ]
   },
   {
-    "objectID": "fr/week3/day3.html",
-    "href": "fr/week3/day3.html",
-    "title": "Jour 3: Architecture Système",
+    "objectID": "fr/week3/day6.html",
+    "href": "fr/week3/day6.html",
+    "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Bienvenue au Jour 3. Aujourd’hui, nous plongeons dans Architecture Système.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nArchitecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Bienvenue au Jour 6. Aujourd’hui, nous plongeons dans Finalisation du Projet.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nFinalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 3: Architecture Système"
+      "Jour 6: Finalisation du Projet"
     ]
   },
   {
-    "objectID": "fr/week3/day3.html#objectifs-dapprentissage",
-    "href": "fr/week3/day3.html#objectifs-dapprentissage",
-    "title": "Jour 3: Architecture Système",
+    "objectID": "fr/week3/day6.html#objectifs-dapprentissage",
+    "href": "fr/week3/day6.html#objectifs-dapprentissage",
+    "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière architecture système.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière finalisation du projet.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 3: Architecture Système"
+      "Jour 6: Finalisation du Projet"
     ]
   },
   {
-    "objectID": "fr/week3/day3.html#concepts-clés",
-    "href": "fr/week3/day3.html#concepts-clés",
-    "title": "Jour 3: Architecture Système",
+    "objectID": "fr/week3/day6.html#concepts-clés",
+    "href": "fr/week3/day6.html#concepts-clés",
+    "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Architecture SystèmeVisualisation avec Mermaid.js\n\n\nUn script d’Agent exécuté dans votre terminal est génial, mais un vrai produit a besoin d’une architecture robuste.\n\n\nParce que les LLMs sont natifs du texte, ils sont incroyablement doués pour générer du code Mermaid (un outil de diagramme basé sur Markdown). Vous pouvez prototyper rapidement des conceptions de systèmes en demandant à Gemini de générer des diagrammes de séquence illustrant un utilisateur interagissant avec un frontend React, qui appelle un backend FastAPI, qui déclenche l’Agent Community Manager.",
+    "text": "Finalisation du ProjetExposer les “Pensées”\n\n\nUn bon produit se joue dans les détails. Votre Agent Community Manager fonctionne, mais comment est l’Expérience Utilisateur (UX) ?\n\n\nLorsqu’un Agent exécute des outils (comme générer une image ou synthétiser de l’audio), cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu’il transmette ses “pensées internes” (ex: ‘Appel d’Imagen pour générer l’arrière-plan…’) et les afficher dans l’UI comme état de chargement.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 3: Architecture Système"
+      "Jour 6: Finalisation du Projet"
     ]
   },
   {
-    "objectID": "fr/week3/day3.html#exercice-pratique",
-    "href": "fr/week3/day3.html#exercice-pratique",
-    "title": "Jour 3: Architecture Système",
+    "objectID": "fr/week3/day6.html#exercice-pratique",
+    "href": "fr/week3/day6.html#exercice-pratique",
+    "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Concevez l’architecture d’une version web de l’Agent Community Manager. Dessinez un diagramme mermaid.js en utilisant Gemini.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Ajoutez un ‘tool’ ‘Assembler la Vidéo’ à votre agent et mettez à jour l’interface pour afficher visuellement le scénario généré, les images du storyboard et la piste audio.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 3: Architecture Système"
+      "Jour 6: Finalisation du Projet"
     ]
   },
   {
-    "objectID": "fr/week3/day3.html#conclusion",
-    "href": "fr/week3/day3.html#conclusion",
-    "title": "Jour 3: Architecture Système",
+    "objectID": "fr/week3/day6.html#conclusion",
+    "href": "fr/week3/day6.html#conclusion",
+    "title": "Jour 6: Finalisation du Projet",
     "section": "",
-    "text": "Aujourd’hui, nous avons couvert Architecture Système. Demain, nous nous appuierons sur cela en explorant Génération d’Interfaces Utilisateur (UIs).\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "text": "Aujourd’hui, nous avons couvert Finalisation du Projet. Demain, nous nous appuierons sur cela en explorant Déploiement & Conclusion.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
       "Semaine 3 : Avancé & Déploiement",
-      "Jour 3: Architecture Système"
+      "Jour 6: Finalisation du Projet"
     ]
   },
   {
-    "objectID": "fr/week3/index.html",
-    "href": "fr/week3/index.html",
-    "title": "Semaine 3: Avancé & Déploiement",
+    "objectID": "fr/week3/day1.html",
+    "href": "fr/week3/day1.html",
+    "title": "Jour 1: Codage Assisté par l’IA",
     "section": "",
-    "text": "Avancé & Déploiement Aperçu\nBienvenue dans la Semaine 3 !\nCette semaine, nous allons nous concentrer sur Avancé & Déploiement.\n\nÀ quoi s’attendre\n\nMini-Leçons Quotidiennes: Segments de 2 heures axés sur un concept spécifique.\nPratique: Défis en fin de journée pour appliquer ce que vous avez appris.\n\nPlongeons dans le Jour 1: Codage Assisté par l’IA!",
+    "text": "Bienvenue au Jour 1. Aujourd’hui, nous plongeons dans Codage Assisté par l’IA.\n\n\nÀ la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.\n\n\n\n\n\nLe Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.\n\n\n\n\n\n\nIl est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.\n\n\n\n\nAujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
     "crumbs": [
-      "Semaine 3 : Avancé & Déploiement"
+      "Semaine 3 : Avancé & Déploiement",
+      "Jour 1: Codage Assisté par l'IA"
+    ]
+  },
+  {
+    "objectID": "fr/week3/day1.html#objectifs-dapprentissage",
+    "href": "fr/week3/day1.html#objectifs-dapprentissage",
+    "title": "Jour 1: Codage Assisté par l’IA",
+    "section": "",
+    "text": "À la fin de cette session, vous serez capable de :\n\nComprendre les principes fondamentaux derrière codage assisté par l’ia.\nMettre en œuvre ces concepts via l’écosystème Google Gemini.\nTerminer avec succès l’exercice pratique d’aujourd’hui.",
+    "crumbs": [
+      "Semaine 3 : Avancé & Déploiement",
+      "Jour 1: Codage Assisté par l'IA"
+    ]
+  },
+  {
+    "objectID": "fr/week3/day1.html#concepts-clés",
+    "href": "fr/week3/day1.html#concepts-clés",
+    "title": "Jour 1: Codage Assisté par l’IA",
+    "section": "",
+    "text": "Le Paradigme du CopiloteÉcrire du Code en Langage Naturel\n\n\nJusqu’à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l’IA (comme Cursor ou GitHub Copilot) pour écrire le code pour vous.\n\n\nAu lieu de penser à la syntaxe, vous devez penser à l’architecture. Le codage assisté par l’IA exige que vous écriviez des commentaires détaillés décrivant l’entrée, la logique et la sortie attendue. L’IA agit comme vos mains, tapant l’implémentation pendant que vous guidez.",
+    "crumbs": [
+      "Semaine 3 : Avancé & Déploiement",
+      "Jour 1: Codage Assisté par l'IA"
+    ]
+  },
+  {
+    "objectID": "fr/week3/day1.html#exercice-pratique",
+    "href": "fr/week3/day1.html#exercice-pratique",
+    "title": "Jour 1: Codage Assisté par l’IA",
+    "section": "",
+    "text": "Il est temps de mettre la théorie en pratique ! Passez les 45 prochaines minutes sur le défi suivant :\nTâche : Utilisez un IDE (comme Cursor) pour refactorer le code de l’Agent Community Manager en utilisant uniquement des instructions en langage naturel (‘vibes’) afin d’améliorer la modularité.\nExigences :\n\nUtilisez le SDK Gemini ou AI Studio.\nAssurez-vous que la sortie est bien formatée et gère les erreurs correctement.\nTestez-le avec au moins deux cas limites différents.",
+    "crumbs": [
+      "Semaine 3 : Avancé & Déploiement",
+      "Jour 1: Codage Assisté par l'IA"
+    ]
+  },
+  {
+    "objectID": "fr/week3/day1.html#conclusion",
+    "href": "fr/week3/day1.html#conclusion",
+    "title": "Jour 1: Codage Assisté par l’IA",
+    "section": "",
+    "text": "Aujourd’hui, nous avons couvert Codage Assisté par l’IA. Demain, nous nous appuierons sur cela en explorant Test-Driven Vibe Coding.\nAssurez-vous de cliquer sur ‘Mark as Complete’ ci-dessous pour suivre vos progrès !",
+    "crumbs": [
+      "Semaine 3 : Avancé & Déploiement",
+      "Jour 1: Codage Assisté par l'IA"
+    ]
+  },
+  {
+    "objectID": "fr/bonus/studio.html",
+    "href": "fr/bonus/studio.html",
+    "title": "Google AI Studio",
+    "section": "",
+    "text": "(Contenu détaillé à venir)",
+    "crumbs": [
+      "Bonus",
+      "Google AI Studio"
     ]
   },
   {
