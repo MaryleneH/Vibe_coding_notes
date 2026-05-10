@@ -1,7 +1,7 @@
 en_bonus_cli = """
 # Gemini CLI: Zero to Hero Masterclass
 
-![Gemini CLI Hero](../../assets/gemini_cli_hero.png)
+![Gemini CLI Hero](../../assets/gemini_cli_hero.png){width=800px}
 
 Welcome to the ultimate guide to the **Gemini Command Line Interface (CLI)**. Over the next 6-8 hours, you will transition from learning what the CLI is, to orchestrating complex, automated workflows directly from your terminal.
 
@@ -23,7 +23,7 @@ The Gemini CLI brings the power of Gemini directly into your terminal. Instead o
 - **Gemini API (Python/Node):** Best for building full-stack applications with custom logic and persistent databases.
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A[User] -->|Quick Tasks| B(Gemini CLI)
     A -->|Prototyping| C(Google AI Studio)
@@ -57,7 +57,7 @@ $env:GEMINI_API_KEY="your-api-key-here"
 
 ### Architecture Overview
 
-```mermaid
+```{mermaid}
 sequenceDiagram
     participant Terminal
     participant CLI as Gemini CLI
@@ -114,7 +114,7 @@ You can force Gemini to return JSON, which is essential for scripting.
 gemini --prompt "List 3 colors" --response-mime-type application/json
 ```
 
-```mermaid
+```{mermaid}
 flowchart TD
     Prompt[Raw Text Prompt] --> System[System Instructions Applied]
     System --> Format[JSON Format Enforced]
@@ -182,7 +182,7 @@ chmod +x research.sh
 ./research.sh annual_report.pdf
 ```
 
-```mermaid
+```{mermaid}
 stateDiagram-v2
     [*] --> ReadPDF
     ReadPDF --> GeminiAnalysis
@@ -225,7 +225,7 @@ gemini --prompt "Write an Instagram reel script about AI tools. Provide the outp
 - **Debugging:** If the CLI fails, add `--debug` to see the raw HTTP request/response.
 - **Workflow Structure:** Keep your system instructions in a separate text file and read them via `cat system.txt | gemini ...` to keep your commands clean.
 
-```mermaid
+```{mermaid}
 flowchart LR
     A[Draft Prompt] --> B{Factual?}
     B -->|Yes| C[Set Temp = 0]
@@ -246,19 +246,27 @@ You have learned how to install the Gemini CLI, pipe data, use system instructio
    - A) `--file`
    - B) `--media`
    - C) `--image`
-   *Solution: B*
+   
+<details>
+<summary><strong>View Solution</strong></summary>
+*Solution: B*
+</details>
 
 2. **How do you force the CLI to return JSON?**
    - A) `--json`
    - B) `--format json`
    - C) `--response-mime-type application/json`
-   *Solution: C*
+   
+<details>
+<summary><strong>View Solution</strong></summary>
+*Solution: C*
+</details>
 """
 
 fr_bonus_cli = """
 # Gemini CLI : Masterclass de Zéro à Héros
 
-![Gemini CLI Hero](../../assets/gemini_cli_hero.png)
+![Gemini CLI Hero](../../assets/gemini_cli_hero.png){width=800px}
 
 Bienvenue dans le guide ultime de la **Command Line Interface (CLI) Gemini**. Au cours des 6 à 8 prochaines heures, vous passerez de la découverte de la CLI à l'orchestration de workflows automatisés complexes directement depuis votre terminal.
 
@@ -280,7 +288,7 @@ La CLI Gemini apporte la puissance de Gemini directement dans votre terminal. Au
 - **Gemini API (Python/Node) :** Idéal pour construire des applications full-stack avec une logique personnalisée et des bases de données.
 :::
 
-```mermaid
+```{mermaid}
 flowchart LR
     A[Utilisateur] -->|Tâches Rapides| B(Gemini CLI)
     A -->|Prototypage| C(Google AI Studio)
@@ -314,7 +322,7 @@ $env:GEMINI_API_KEY="votre-cle-api-ici"
 
 ### Aperçu de l'Architecture
 
-```mermaid
+```{mermaid}
 sequenceDiagram
     participant Terminal
     participant CLI as Gemini CLI
@@ -371,7 +379,7 @@ Vous pouvez forcer Gemini à retourner du JSON, ce qui est essentiel pour le scr
 gemini --prompt "Liste 3 couleurs" --response-mime-type application/json
 ```
 
-```mermaid
+```{mermaid}
 flowchart TD
     Prompt[Prompt Texte Brut] --> System[Instructions Système Appliquées]
     System --> Format[Format JSON Forcé]
@@ -439,7 +447,7 @@ chmod +x recherche.sh
 ./recherche.sh rapport_annuel.pdf
 ```
 
-```mermaid
+```{mermaid}
 stateDiagram-v2
     [*] --> LirePDF
     LirePDF --> AnalyseGemini
@@ -482,7 +490,7 @@ gemini --prompt "Écris un script de Réel Instagram sur les outils IA. Fournis 
 - **Débogage :** Si la CLI échoue, ajoutez `--debug` pour voir la requête/réponse HTTP brute.
 - **Structure du Workflow :** Gardez vos instructions système dans un fichier texte séparé et lisez-les via `cat system.txt | gemini ...` pour garder vos commandes propres.
 
-```mermaid
+```{mermaid}
 flowchart LR
     A[Brouillon de Prompt] --> B{Factuel ?}
     B -->|Oui| C[Temp = 0]
@@ -503,11 +511,19 @@ Vous avez appris à installer la CLI Gemini, rediriger des données, utiliser de
    - A) `--file`
    - B) `--media`
    - C) `--image`
-   *Solution : B*
+   
+<details>
+<summary><strong>Voir la solution</strong></summary>
+*Solution : B*
+</details>
 
 2. **Comment forcer la CLI à retourner du JSON ?**
    - A) `--json`
    - B) `--format json`
    - C) `--response-mime-type application/json`
-   *Solution : C*
+   
+<details>
+<summary><strong>Voir la solution</strong></summary>
+*Solution : C*
+</details>
 """
