@@ -1,5 +1,5 @@
-<div id="progress-container" style="margin-top: 50px; padding: 20px; border-top: 1px solid #ddd; text-align: center;">
-  <button id="mark-complete-btn" class="btn btn-primary" style="display:none;" onclick="toggleComplete()">Mark as Complete</button>
+<div id="progress-container" style="margin-top: 60px; padding: 30px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+  <button id="mark-complete-btn" class="btn btn-outline-primary" style="display:none; border-radius: 30px; padding: 10px 25px; font-weight: 600; transition: all 0.3s ease;" onclick="toggleComplete()">Mark as Complete</button>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -10,8 +10,9 @@
           btn.style.display = "inline-block";
           const isComplete = localStorage.getItem("completed_" + path);
           if (isComplete === "true") {
-            btn.textContent = "✅ Completed";
-            btn.classList.replace("btn-primary", "btn-success");
+            btn.innerHTML = "✨ Completed";
+            btn.classList.replace("btn-outline-primary", "btn-success");
+            btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
           }
       }
     }
@@ -24,12 +25,14 @@
     
     if (isComplete) {
       localStorage.setItem("completed_" + path, "false");
-      btn.textContent = "Mark as Complete";
-      btn.classList.replace("btn-success", "btn-primary");
+      btn.innerHTML = "Mark as Complete";
+      btn.classList.replace("btn-success", "btn-outline-primary");
+      btn.style.boxShadow = "none";
     } else {
       localStorage.setItem("completed_" + path, "true");
-      btn.textContent = "✅ Completed";
-      btn.classList.replace("btn-primary", "btn-success");
+      btn.innerHTML = "✨ Completed";
+      btn.classList.replace("btn-outline-primary", "btn-success");
+      btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
     }
   }
 </script>

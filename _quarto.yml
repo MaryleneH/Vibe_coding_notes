@@ -5,7 +5,7 @@ project:
 website:
   title: "Vibe Coding Mastery"
   description: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
-  site-url: "https://your-github-username.github.io/vibe_coding_notes"
+  site-url: "https://maryleneh.github.io/Vibe_coding_notes/"
   search: true
   
   navbar:
@@ -62,11 +62,11 @@ website:
 format:
   html:
     theme:
+      dark: [darkly, styles.scss]
       light: [cosmo, styles.scss]
-      dark: [cyborg, styles.scss]
     css: styles.scss
     toc: true
     toc-depth: 3
     code-copy: true
-    highlight-style: github
+    highlight-style: github-dark
     include-after-body: progress.html

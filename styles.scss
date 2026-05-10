@@ -1,29 +1,82 @@
 /*-- scss:defaults --*/
-$primary: #1a73e8; /* Google Blue */
-$body-bg: #f8f9fa;
-$font-family-sans-serif: 'Inter', 'Roboto', sans-serif;
+$primary: #8ab4f8; /* Soft Google Blue for Dark Mode */
+$body-bg: #121212; /* Deep space dark */
+$font-family-sans-serif: 'Outfit', 'Inter', 'Roboto', sans-serif;
+$link-color: #8ab4f8;
 
 /*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: $font-family-sans-serif;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+}
+
+/* Glassmorphism Navbar */
 .navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: rgba(18, 18, 18, 0.7) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
+/* Glassmorphism Sidebar */
 .sidebar {
-  background-color: #ffffff;
-  border-right: 1px solid #e0e0e0;
+  background: rgba(20, 20, 20, 0.6) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-h1, h2, h3 {
-  color: #202124;
+/* Typography & Colors */
+h1, h2, h3, h4, h5 {
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
+  background: -webkit-linear-gradient(45deg, #e8eaed, #8ab4f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
 }
 
-.quarto-dark {
-  h1, h2, h3 {
-    color: #e8eaed;
-  }
-  .sidebar {
-    background-color: #202124;
-    border-right: 1px solid #3c4043;
-  }
+/* Specific override for banner title to look amazing */
+.quarto-title-block .title {
+  font-weight: 800;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(45deg, #ffffff, #8ab4f8, #c58af9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Modern Card/Callout styles */
+.callout {
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Code Blocks */
+pre.sourceCode {
+  border-radius: 12px;
+  background-color: #1e1e1e !important;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Micro-animations */
+a {
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-shadow: 0 0 8px rgba(138, 180, 248, 0.5);
+}
+
+.btn-primary {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(138, 180, 248, 0.6) !important;
 }

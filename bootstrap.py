@@ -3,7 +3,7 @@ import os
 def create_file(path, content):
     os.makedirs(os.path.dirname(path) if os.path.dirname(path) else '.', exist_ok=True)
     with open(path, 'w', encoding='utf-8') as f:
-        f.write(content)
+        f.write(content.strip() + '\n')
 
 base_dir = r"c:\Users\maryl\2 - Side work\11 - My resume\vibe_coding_notes"
 
@@ -14,7 +14,7 @@ quarto_yml = """project:
 website:
   title: "Vibe Coding Mastery"
   description: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
-  site-url: "https://your-github-username.github.io/vibe_coding_notes"
+  site-url: "https://maryleneh.github.io/Vibe_coding_notes/"
   search: true
   
   navbar:
@@ -71,72 +71,142 @@ website:
 format:
   html:
     theme:
+      dark: [darkly, styles.scss]
       light: [cosmo, styles.scss]
-      dark: [cyborg, styles.scss]
     css: styles.scss
     toc: true
     toc-depth: 3
     code-copy: true
-    highlight-style: github
+    highlight-style: github-dark
     include-after-body: progress.html
 """
 
 index_qmd = """---
-title: "Vibe Coding Mastery"
-subtitle: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
+title: "Welcome to Vibe Coding"
+subtitle: "A 21-Day Journey to Agentic AI Mastery"
+page-layout: full
+title-block-banner: true
 ---
 
-# Welcome to Vibe Coding
+:::{.grid}
+:::{.g-col-12 .g-col-md-8}
+## 🚀 The Future of Coding is Here
+Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.
 
-This is a 21-day journey to becoming a "Vibe Coding" expert. You'll learn how to leverage Google AI Studio and the Gemini Python SDK to build real applications and AI agents from scratch.
+This isn't just about writing code—it's about directing an AI to write it with you.
 
-## 🗺️ Curriculum Overview
+### What You'll Achieve
+- **Week 1:** Master the art of advanced prompting and structured outputs.
+- **Week 2:** Give your AI tools, memory, and agency to perform real-world tasks.
+- **Week 3:** Build full-stack applications and deploy your intelligent Sacristan Agent.
 
-- **[Week 1: Foundations](week1/index.qmd)** - Master advanced prompting and the Gemini API.
-- **[Week 2: Agents](week2/index.qmd)** - Teach Gemini to use tools and build your Sacristan Assistant.
-- **[Week 3: Advanced & Deploy](week3/index.qmd)** - AI-assisted coding, UIs, and deployment.
+<br>
+<a href="week1/day1.qmd" class="btn btn-primary btn-lg" style="border-radius: 50px; padding: 10px 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(26,115,232,0.4);">Start Your Journey →</a>
+:::
 
-**Prerequisites:** 
-- A basic understanding of logic. 
-- Python installed on your machine.
-- A Google account to access Google AI Studio.
+:::{.g-col-12 .g-col-md-4}
+:::{.callout-note appearance="simple" icon="false" style="border-radius: 15px; padding: 20px;"}
+### 🛠️ Prerequisites
+- Python installed (`>= 3.10`)
+- A Google Account for [Google AI Studio](https://aistudio.google.com/)
+- An IDE (VS Code or Cursor)
+- A basic understanding of logic
+:::
 
-Get started by navigating to [Week 1, Day 1](week1/day1.qmd).
+:::{.callout-tip appearance="simple" icon="false" style="border-radius: 15px; padding: 20px; margin-top: 15px;"}
+### ⏱️ Time Commitment
+Just **2 hours a day**. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.
+:::
+:::
+:::
 """
 
 styles_scss = """/*-- scss:defaults --*/
-$primary: #1a73e8; /* Google Blue */
-$body-bg: #f8f9fa;
-$font-family-sans-serif: 'Inter', 'Roboto', sans-serif;
+$primary: #8ab4f8; /* Soft Google Blue for Dark Mode */
+$body-bg: #121212; /* Deep space dark */
+$font-family-sans-serif: 'Outfit', 'Inter', 'Roboto', sans-serif;
+$link-color: #8ab4f8;
 
 /*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: $font-family-sans-serif;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+}
+
+/* Glassmorphism Navbar */
 .navbar {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: rgba(18, 18, 18, 0.7) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
+/* Glassmorphism Sidebar */
 .sidebar {
-  background-color: #ffffff;
-  border-right: 1px solid #e0e0e0;
+  background: rgba(20, 20, 20, 0.6) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-h1, h2, h3 {
-  color: #202124;
+/* Typography & Colors */
+h1, h2, h3, h4, h5 {
+  font-family: 'Outfit', sans-serif;
   font-weight: 600;
+  background: -webkit-linear-gradient(45deg, #e8eaed, #8ab4f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
 }
 
-.quarto-dark {
-  h1, h2, h3 {
-    color: #e8eaed;
-  }
-  .sidebar {
-    background-color: #202124;
-    border-right: 1px solid #3c4043;
-  }
+/* Specific override for banner title to look amazing */
+.quarto-title-block .title {
+  font-weight: 800;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(45deg, #ffffff, #8ab4f8, #c58af9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Modern Card/Callout styles */
+.callout {
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Code Blocks */
+pre.sourceCode {
+  border-radius: 12px;
+  background-color: #1e1e1e !important;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Micro-animations */
+a {
+  transition: all 0.3s ease;
+}
+a:hover {
+  text-shadow: 0 0 8px rgba(138, 180, 248, 0.5);
+}
+
+.btn-primary {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(138, 180, 248, 0.6) !important;
 }
 """
 
-progress_html = """<div id="progress-container" style="margin-top: 50px; padding: 20px; border-top: 1px solid #ddd; text-align: center;">
-  <button id="mark-complete-btn" class="btn btn-primary" style="display:none;" onclick="toggleComplete()">Mark as Complete</button>
+progress_html = """<div id="progress-container" style="margin-top: 60px; padding: 30px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+  <button id="mark-complete-btn" class="btn btn-outline-primary" style="display:none; border-radius: 30px; padding: 10px 25px; font-weight: 600; transition: all 0.3s ease;" onclick="toggleComplete()">Mark as Complete</button>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -147,8 +217,9 @@ progress_html = """<div id="progress-container" style="margin-top: 50px; padding
           btn.style.display = "inline-block";
           const isComplete = localStorage.getItem("completed_" + path);
           if (isComplete === "true") {
-            btn.textContent = "✅ Completed";
-            btn.classList.replace("btn-primary", "btn-success");
+            btn.innerHTML = "✨ Completed";
+            btn.classList.replace("btn-outline-primary", "btn-success");
+            btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
           }
       }
     }
@@ -161,12 +232,14 @@ progress_html = """<div id="progress-container" style="margin-top: 50px; padding
     
     if (isComplete) {
       localStorage.setItem("completed_" + path, "false");
-      btn.textContent = "Mark as Complete";
-      btn.classList.replace("btn-success", "btn-primary");
+      btn.innerHTML = "Mark as Complete";
+      btn.classList.replace("btn-success", "btn-outline-primary");
+      btn.style.boxShadow = "none";
     } else {
       localStorage.setItem("completed_" + path, "true");
-      btn.textContent = "✅ Completed";
-      btn.classList.replace("btn-primary", "btn-success");
+      btn.innerHTML = "✨ Completed";
+      btn.classList.replace("btn-outline-primary", "btn-success");
+      btn.style.boxShadow = "0 0 15px rgba(52, 168, 83, 0.4)";
     }
   }
 </script>
@@ -183,6 +256,39 @@ create_file(os.path.join(base_dir, "index.qmd"), index_qmd)
 create_file(os.path.join(base_dir, "styles.scss"), styles_scss)
 create_file(os.path.join(base_dir, "progress.html"), progress_html)
 
+daily_exercises = {
+    "week1": [
+        "", # index 0 is not used
+        "**Task:** Write a natural language prompt that acts as a 'Vibe Coding' mentor. Have Gemini explain a complex sorting algorithm to you as if you were pair programming.",
+        "**Task:** Use few-shot prompting and chain-of-thought to solve a complex logic puzzle with Gemini. Provide at least 3 examples in your prompt.",
+        "**Task:** Force Gemini to output a strict JSON schema for a 'User Profile' including name, age, and occupation using the `response_schema` parameter.",
+        "**Task:** Pass an image of a handwritten UI sketch to Gemini and ask it to output the corresponding HTML/CSS.",
+        "**Task:** Write a Python script using the Gemini SDK that takes a user query and returns a response. Securely load your API keys using `dotenv`.",
+        "**Task:** Build a CLI flashcard generator. The user provides a topic, Gemini generates 5 Q&A pairs in JSON format, and your script quizzes the user interactively.",
+        "**Task:** Reflect on Week 1. Refactor your CLI flashcard generator to improve the prompt, add robust error handling, and support scoring."
+    ],
+    "week2": [
+        "",
+        "**Task:** Define a Python function that gets the current weather (mocked). Prompt Gemini and observe how it constructs a function call request instead of a text response.",
+        "**Task:** Create an OpenAPI-style tool schema for a 'Calculator' function. Pass it to Gemini and test it with a complex math query.",
+        "**Task:** Write a script where Gemini can call the 'Calculator' tool, execute the function locally, return the result to Gemini, and formulate a final answer.",
+        "**Task:** Implement a simple chat loop array that stores User and Model messages, passing the full history to Gemini on each turn to maintain context.",
+        "**Task:** Design a workflow with a Planner agent (breaks down a task) and an Executor agent (writes the code). Run them in sequence.",
+        "**Task:** Build the core of the Sacristan Agent: give it tools to read local files, list directories, and write small notes. Test it on a dummy directory.",
+        "**Task:** Review the Sacristan Agent's tool execution logs. Add error handling for when the agent tries to read a non-existent file or write invalid data."
+    ],
+    "week3": [
+        "",
+        "**Task:** Use an IDE (like Cursor) to refactor the Sacristan Agent code using just natural language 'vibes' to improve modularity.",
+        "**Task:** Write a natural language prompt that generates PyTest cases for your 'Calculator' tool. Then use Gemini to fix any failing tests.",
+        "**Task:** Design the architecture for a web-based version of the Sacristan Agent. Draw a mermaid.js diagram using Gemini.",
+        "**Task:** Prompt Gemini to generate a complete React/Vite (or simple HTML/JS) frontend UI for interacting with your agent.",
+        "**Task:** Connect your generated UI to your Python agent backend via a simple Flask or FastAPI REST server.",
+        "**Task:** Add an 'Export to Markdown' tool to your agent and update the UI to visually display the agent's internal thinking steps.",
+        "**Task:** Deploy your backend to a free service (e.g., Render) and your UI to GitHub Pages. Test the live agent in production!"
+    ]
+}
+
 for week in ["week1", "week2", "week3"]:
     week_dir = os.path.join(base_dir, week)
     titles = week_titles[week]
@@ -192,28 +298,77 @@ for week in ["week1", "week2", "week3"]:
 title: "{week.capitalize()}: {titles[0]}"
 ---
 
-# Overview
+# {titles[0]} Overview
 
-Welcome to {week.capitalize()}!
+Welcome to {week.capitalize()} of the Vibe Coding Mastery journey! 
 
+This week, we will focus on **{titles[0]}**. You'll explore how to guide AI models effectively and translate natural language instructions into functional code and tools.
+
+### What to Expect
+- **Daily Mini-Lessons:** 2-hour segments focusing on a specific concept.
+- **Hands-on Practice:** End-of-day challenges to apply what you've learned.
+- **Project Building:** We culminate the week with a mini-project.
+
+Let's dive into [Day 1: {titles[1]}](day1.qmd)!
 """
     create_file(os.path.join(week_dir, "index.qmd"), index_content)
     
     for day in range(1, 8):
         day_title = titles[day]
+        exercise_desc = daily_exercises[week][day]
+        next_day = titles[day+1] if day < 7 else 'the next week’s foundational topics'
+        
         day_content = f"""---
 title: "Day {day}: {day_title}"
 ---
 
 # {day_title}
 
-Content for {week}, Day {day} goes here.
+Welcome to **Day {day}**. Today, we are diving deep into **{day_title}**.
+
+## 🎯 Learning Objectives
+
+By the end of this session, you will be able to:
+1. Understand the core principles behind {day_title.lower()}.
+2. Implement these concepts using the Google Gemini ecosystem.
+3. Successfully complete today's hands-on exercise.
+
+## 📖 Core Concepts
+
+*(Replace this section with your detailed lecture notes, theory, and explanations regarding {day_title})*
+
+### Key Topic 1
+Explain the first major concept here. Use examples and diagrams where possible.
+
+### Key Topic 2
+Provide code snippets or prompts to demonstrate the idea:
 
 ```python
-# Example python code block
-def hello_vibe():
-    print("Vibe Coding!")
+# Example: Setting up the Gemini SDK
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+model = genai.GenerativeModel('gemini-1.5-pro')
+response = model.generate_content("Explain {day_title} in one sentence.")
+print(response.text)
 ```
+
+## 💻 Hands-on Exercise
+
+It's time to put theory into practice! Spend the next 45 minutes on the following challenge:
+
+{exercise_desc}
+
+**Requirements:**
+- Use the Gemini SDK or AI Studio.
+- Ensure the output is well-formatted and handles errors gracefully.
+- Test it with at least two different edge cases.
+
+## ✅ Wrap-up
+
+Today we covered {day_title}. This forms a crucial building block for our final Sacristan Agent project. Tomorrow, we will build upon this by exploring **{next_day}**.
+
+Make sure to click "Mark as Complete" below to track your progress!
 """
         create_file(os.path.join(week_dir, f"day{day}.qmd"), day_content)
 

@@ -2,7 +2,15 @@
 title: "Week1: Foundations"
 ---
 
-# Overview
+# Foundations Overview
 
-Welcome to Week1!
+Welcome to Week1 of the Vibe Coding Mastery journey! 
 
+This week, we will focus on **Foundations**. You'll explore how to guide AI models effectively and translate natural language instructions into functional code and tools.
+
+### What to Expect
+- **Daily Mini-Lessons:** 2-hour segments focusing on a specific concept.
+- **Hands-on Practice:** End-of-day challenges to apply what you've learned.
+- **Project Building:** We culminate the week with a mini-project.
+
+Let's dive into [Day 1: The Vibe Coding Mindset](day1.qmd)!

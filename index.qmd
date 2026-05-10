@@ -1,21 +1,38 @@
 ---
-title: "Vibe Coding Mastery"
-subtitle: "Learn to vibe code real apps and AI agents in 3 weeks using Google tools."
+title: "Welcome to Vibe Coding"
+subtitle: "A 21-Day Journey to Agentic AI Mastery"
+page-layout: full
+title-block-banner: true
 ---
 
-# Welcome to Vibe Coding
+:::{.grid}
+:::{.g-col-12 .g-col-md-8}
+## 🚀 The Future of Coding is Here
+Welcome to the Vibe Coding Mastery curriculum. In just 3 weeks (2 hours a day), you will learn how to leverage Google AI Studio, the Gemini Python SDK, and natural language to build powerful, real-world AI agents and applications.
 
-This is a 21-day journey to becoming a "Vibe Coding" expert. You'll learn how to leverage Google AI Studio and the Gemini Python SDK to build real applications and AI agents from scratch.
+This isn't just about writing code—it's about directing an AI to write it with you.
 
-## 🗺️ Curriculum Overview
+### What You'll Achieve
+- **Week 1:** Master the art of advanced prompting and structured outputs.
+- **Week 2:** Give your AI tools, memory, and agency to perform real-world tasks.
+- **Week 3:** Build full-stack applications and deploy your intelligent Sacristan Agent.
 
-- **[Week 1: Foundations](week1/index.qmd)** - Master advanced prompting and the Gemini API.
-- **[Week 2: Agents](week2/index.qmd)** - Teach Gemini to use tools and build your Sacristan Assistant.
-- **[Week 3: Advanced & Deploy](week3/index.qmd)** - AI-assisted coding, UIs, and deployment.
+<br>
+<a href="week1/day1.qmd" class="btn btn-primary btn-lg" style="border-radius: 50px; padding: 10px 30px; font-weight: 600; box-shadow: 0 4px 15px rgba(26,115,232,0.4);">Start Your Journey →</a>
+:::
 
-**Prerequisites:** 
-- A basic understanding of logic. 
-- Python installed on your machine.
-- A Google account to access Google AI Studio.
+:::{.g-col-12 .g-col-md-4}
+:::{.callout-note appearance="simple" icon="false" style="border-radius: 15px; padding: 20px;"}
+### 🛠️ Prerequisites
+- Python installed (`>= 3.10`)
+- A Google Account for [Google AI Studio](https://aistudio.google.com/)
+- An IDE (VS Code or Cursor)
+- A basic understanding of logic
+:::
 
-Get started by navigating to [Week 1, Day 1](week1/day1.qmd).
+:::{.callout-tip appearance="simple" icon="false" style="border-radius: 15px; padding: 20px; margin-top: 15px;"}
+### ⏱️ Time Commitment
+Just **2 hours a day**. We focus on high-impact concepts and hands-on mini-projects to solidify your understanding.
+:::
+:::
+:::
