@@ -9,6 +9,7 @@ from data_meta import (
 from data_w1 import en_concepts_w1, fr_concepts_w1
 from data_w2 import en_concepts_w2, fr_concepts_w2
 from data_w3 import en_concepts_w3, fr_concepts_w3
+from data_bonus_cli import en_bonus_cli, fr_bonus_cli
 
 def create_file(path, content):
     os.makedirs(os.path.dirname(path) if os.path.dirname(path) else '.', exist_ok=True)
@@ -450,7 +451,8 @@ title: "{day_str} {day}: {day_title}"
     # Generate Bonus Section
     bonus_dir = os.path.join(lang_dir, "bonus")
     bonus_intro = "*(Detailed content coming soon)*" if lang == "en" else "*(Contenu détaillé à venir)*"
-    create_file(os.path.join(bonus_dir, "cli.qmd"), f"---\ntitle: 'Gemini - CLI'\n---\n\n{bonus_intro}\n")
+    cli_content = en_bonus_cli if lang == "en" else fr_bonus_cli
+    create_file(os.path.join(bonus_dir, "cli.qmd"), cli_content)
     create_file(os.path.join(bonus_dir, "studio.qmd"), f"---\ntitle: 'Google AI Studio'\n---\n\n{bonus_intro}\n")
     create_file(os.path.join(bonus_dir, "antigravity.qmd"), f"---\ntitle: 'Antigravity'\n---\n\n{bonus_intro}\n")
 
