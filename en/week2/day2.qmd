@@ -16,17 +16,18 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## How does the AI know what tools exist?
+Before an AI can call a tool, you must define it. In the Gemini API, this is done by passing an OpenAPI-style schema or using Python type hints to describe the function's purpose, its arguments, and its expected output.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Defining Tools in one sentence.")
-print(response.text)
-```
+## Writing Good Descriptions
+The most important part of defining a tool is the **docstring or description**. The AI relies entirely on your natural language description to decide when and how to use the tool. If you have a tool called `get_weather`, but the description is vague, the AI might hallucinate the arguments.
+
+## The Contract
+Defining a tool is like signing a contract with the AI: "If you give me these specific JSON arguments, I will execute this logic and give you back the result."
+:::
+
 
 ## 💻 Hands-on Exercise
 

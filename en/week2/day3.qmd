@@ -16,17 +16,23 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Agentic Loop
+An AI Agent is simply a language model wrapped in a `while` loop with access to tools and memory. 
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Building your First Agent in one sentence.")
-print(response.text)
-```
+## The Core Logic
+1. **User Prompt:** The user asks a question ("What's the weather in Paris and then calculate 25% of the temperature?").
+2. **AI Decision:** The AI decides it needs to call `get_weather("Paris")`.
+3. **Execution:** Your Python script catches the function call request, executes the actual API call to a weather service, and gets `20°C`.
+4. **Return:** Your script sends `20°C` back to the AI.
+5. **AI Decision 2:** The AI decides it now needs to call `calculator(20, 0.25, 'multiply')`.
+6. **Execution 2:** Your script calculates `5` and returns it.
+7. **Final Answer:** The AI reads the final result and outputs: "The weather is 20°C, and 25% of that is 5."
+
+This loop is the beating heart of all autonomous AI agents.
+:::
+
 
 ## 💻 Hands-on Exercise
 

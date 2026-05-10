@@ -16,17 +16,23 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Paradigm Shift
+Welcome to the **Vibe Coding** mindset. Traditional software engineering demands that you type every single line of code, handle every semicolon, and construct logic manually. "Vibe coding" represents a paradigm shift where you transition from being a *typist* to a *director*.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain The Vibe Coding Mindset in one sentence.")
-print(response.text)
-```
+You are no longer writing the code; you are defining the intent, the constraints, and the "vibe" of the application, while an AI model acts as your ultra-fast pair programmer. 
+
+## The Role of the Director
+Think of a movie director. They don't hold the camera or record the audio themselves. Instead, they provide the vision. In vibe coding:
+1. **You provide the context:** "We are building a web server."
+2. **You define the rules:** "It must use FastAPI and run on port 8000."
+3. **The AI executes the vision:** It generates the code instantly.
+
+## Why "Vibe"?
+The term "vibe" refers to the intuition and high-level understanding of a system's architecture. Because models like Gemini are incredibly adept at pattern matching, they don't need you to explicitly define every variable. If you give them the right "vibe"—the architectural blueprint and the goal—they will synthesize the correct implementation.
+:::
+
 
 ## 💻 Hands-on Exercise
 

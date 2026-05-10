@@ -16,17 +16,13 @@ Bienvenue au **Jour 7**. Aujourd'hui, nous plongeons dans **Révision & Repos**.
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Gestion Robuste des Erreurs
+Lors de la construction d'agents, ils échoueront inévitablement (ex: essayer de lire un fichier inexistant).
+Vous devez implémenter des blocs `try/except` dans vos outils Python. Ainsi, si un outil échoue, votre code ne plante pas. Au lieu de cela, votre code renvoie l'erreur *à l'IA* pour qu'elle puisse réaliser son erreur et essayer une approche différente !
+:::
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Révision & Repos en une phrase.")
-print(response.text)
-```
 
 ## 💻 Exercice Pratique
 

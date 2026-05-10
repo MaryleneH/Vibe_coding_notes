@@ -16,17 +16,15 @@ Bienvenue au **Jour 7**. Aujourd'hui, nous plongeons dans **Révision & Repos**.
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Le Pouvoir de l'Itération
+Un principe fondamental du Vibe Coding est que votre premier jet est rarement votre jet final. Parce que la génération de code est si rapide, le coût du "refactoring" (remaniement du code) chute à presque zéro.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Révision & Repos en une phrase.")
-print(response.text)
-```
+## Révision de votre Architecture
+Aujourd'hui, votre objectif est d'utiliser Gemini pour *critiquer* votre propre code d'hier et générer une version plus robuste, avec une meilleure gestion des erreurs.
+:::
+
 
 ## 💻 Exercice Pratique
 

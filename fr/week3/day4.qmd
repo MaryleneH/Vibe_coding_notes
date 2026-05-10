@@ -16,17 +16,16 @@ Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Génération d'Inter
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Génération d'Interfaces Utilisateur (UIs)
+Le développement Frontend implique souvent des heures de réglages CSS. Avec le Vibe Coding, vous pouvez contourner cela.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Génération d'Interfaces Utilisateur (UIs) en une phrase.")
-print(response.text)
-```
+## Le Workflow
+Vous pouvez prendre une capture d'écran d'une application que vous aimez et demander à Gemini : "Construisez un composant React réactif utilisant Tailwind CSS qui ressemble à cette image."
+Vous passez d'Ingénieur Backend à Ingénieur Full-Stack grâce à l'IA.
+:::
+
 
 ## 💻 Exercice Pratique
 

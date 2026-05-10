@@ -16,17 +16,15 @@ Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Finalisation du Proj
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Finalisation du Projet
+Un bon produit se joue dans les détails. Votre Agent Sacristain fonctionne, mais comment est l'Expérience Utilisateur (UX) ?
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Finalisation du Projet en une phrase.")
-print(response.text)
-```
+## Exposer les "Pensées"
+Lorsqu'un Agent exécute des outils, cela peut prendre plusieurs secondes. Vous mettrez à jour votre Agent pour qu'il transmette ses "pensées internes" (ex: 'Appel de read_file...') et les afficher dans l'UI comme état de chargement.
+:::
+
 
 ## 💻 Exercice Pratique
 

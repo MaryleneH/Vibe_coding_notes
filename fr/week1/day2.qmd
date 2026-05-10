@@ -16,17 +16,18 @@ Bienvenue au **Jour 2**. Aujourd'hui, nous plongeons dans **Prompt Engineering A
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Au-delà des Questions Simples
+Beaucoup de débutants traitent l'IA comme un moteur de recherche. Bien que cela fonctionne, cela effleure à peine ce que les LLMs (Large Language Models) peuvent faire. L'Ingénierie de Prompt avancée (Prompt Engineering) consiste à structurer vos instructions pour maximiser le raisonnement et la précision.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Prompt Engineering Avancé & Raisonnement en une phrase.")
-print(response.text)
-```
+## Few-Shot Prompting
+Les LLMs sont capables d'apprendre avec peu d'exemples ("few-shot learners"). Cela signifie qu'au lieu de donner une simple instruction, vous fournissez des **exemples** d'entrées et de sorties attendues. Cela contraint le format de sortie du modèle et réduit considérablement les hallucinations.
+
+## Chain-of-Thought (CoT)
+La "Chaîne de Pensée" (Chain-of-Thought) est une technique où vous forcez le modèle à expliquer son raisonnement étape par étape *avant* de produire la réponse finale. Cela améliore considérablement la précision logique dans les tâches de codage complexes.
+:::
+
 
 ## 💻 Exercice Pratique
 

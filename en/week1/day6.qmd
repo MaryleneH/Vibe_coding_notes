@@ -16,17 +16,19 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Putting it Together
+Today is about synthesis. You will combine your knowledge of the Gemini SDK, Prompt Engineering, and Structured Outputs to build a complete, functioning CLI (Command Line Interface) application.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Mini-Project 1 in one sentence.")
-print(response.text)
-```
+## The Objective
+You are no longer just writing snippets; you are architecting a loop. The application must:
+1. Accept user input.
+2. Formulate a prompt based on that input.
+3. Call the Gemini API and enforce a JSON schema.
+4. Parse the JSON and display it beautifully to the user.
+:::
+
 
 ## 💻 Hands-on Exercise
 

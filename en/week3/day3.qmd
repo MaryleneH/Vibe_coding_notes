@@ -16,17 +16,15 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## System Architecture
+An Agent script running in your terminal is cool, but a real product needs a robust architecture. Today, we step back and design a full-stack system.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain System Architecture in one sentence.")
-print(response.text)
-```
+## Visualizing with Mermaid.js
+Mermaid is a markdown-based diagramming tool. Because LLMs are text-native, they are incredibly good at generating Mermaid code. You can prompt Gemini: "Generate a Mermaid sequence diagram showing a user interacting with a React frontend, which calls a FastAPI backend, which triggers the Sacristan Agent." This allows you to rapidly prototype system designs.
+:::
+
 
 ## 💻 Hands-on Exercise
 

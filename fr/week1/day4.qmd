@@ -16,17 +16,18 @@ Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Magie Multimodale**.
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Voir le Monde
+Gemini n'est pas seulement un modèle textuel ; il est nativement multimodal. Il peut "voir" des images, "écouter" de l'audio et "regarder" des vidéos. Cela débloque de tout nouveaux workflows pour le vibe coding.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Magie Multimodale en une phrase.")
-print(response.text)
-```
+## De l'Image au Code
+L'une des techniques de vibe coding les plus puissantes consiste à dessiner une interface utilisateur (UI) sur un tableau blanc, à prendre une photo et à demander à Gemini d'écrire le HTML/CSS/JS correspondant.
+
+## Au-delà des Images
+Vous pouvez également fournir des diagrammes architecturaux au modèle et lui demander de générer le code de base (boilerplate). Cela comble le fossé entre la conception système de haut niveau et l'implémentation de bas niveau plus rapidement que jamais.
+:::
+
 
 ## 💻 Exercice Pratique
 

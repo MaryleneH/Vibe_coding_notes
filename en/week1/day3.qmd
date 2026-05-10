@@ -16,17 +16,22 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Chaos of Text
+LLMs naturally output unstructured text (Markdown, conversational filler, etc.). If you are building an application, you cannot programmatically parse a response that says: "Sure! Here is the data you requested: [data]". You need predictable, parsable data structures like JSON.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Structured Outputs in one sentence.")
-print(response.text)
-```
+## Forcing JSON with Gemini
+The Gemini API allows you to explicitly enforce a response schema. This means you can guarantee that the model will return a perfectly formatted JSON object that matches your exact specifications.
+
+## Why this is a Superpower
+Structured outputs are the bridge between AI and traditional software. Once an AI outputs JSON, you can:
+- Save it to a database.
+- Render it in a React UI.
+- Pass it as arguments to another Python function.
+This is the foundational step toward building autonomous agents!
+:::
+
 
 ## 💻 Hands-on Exercise
 

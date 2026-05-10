@@ -16,17 +16,18 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Transition vers le C
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Passage à l'IDE
+Jusqu'à présent, vous avez probablement utilisé des interfaces web comme Google AI Studio. Aujourd'hui, nous passons à votre environnement de développement local (IDE) comme VS Code ou Cursor.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Transition vers le Code en une phrase.")
-print(response.text)
-```
+## Le SDK Gemini
+Pour créer de vraies applications, votre code doit communiquer avec l'IA de manière programmatique. Nous faisons cela en utilisant le SDK Python `google-generativeai`.
+
+## Variables d'Environnement
+La partie la plus critique de cette transition est la sécurité. **Ne codez jamais vos clés API en dur.** Vous apprendrez à utiliser des fichiers `.env` pour charger vos informations d'identification en toute sécurité.
+:::
+
 
 ## 💻 Exercice Pratique
 

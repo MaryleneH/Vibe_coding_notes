@@ -16,17 +16,20 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Single vs. Multi-Agent
+So far, you've built a single agent that tries to do everything. As tasks get more complex, a single prompt becomes too convoluted and prone to failure.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Agentic Workflows in one sentence.")
-print(response.text)
-```
+## Agentic Workflows
+Instead of one massive agent, Vibe Coding favors workflows where multiple specialized agents collaborate.
+- **The Planner:** Takes the user's complex request and breaks it down into 5 sequential steps.
+- **The Researcher:** Takes step 1, browses the web, and returns data.
+- **The Coder:** Takes the data and writes a script.
+
+By separating concerns, you drastically reduce hallucinations and improve the robustness of the system.
+:::
+
 
 ## 💻 Hands-on Exercise
 

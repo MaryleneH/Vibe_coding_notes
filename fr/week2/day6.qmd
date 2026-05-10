@@ -16,17 +16,18 @@ Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Mini-Projet 2 : Agen
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Projet : L'Agent Sacristain
+Un "Sacristain" est quelqu'un qui s'occupe de l'organisation et de l'entretien. Pour votre mini-projet, vous allez construire un "Agent Sacristain" pour votre ordinateur.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Mini-Projet 2 : Agent Sacristain en une phrase.")
-print(response.text)
-```
+## L'Arsenal d'Outils
+Vous l'équiperez d'outils Python pour : `list_directory(path)`, `read_file(path)` et `write_file(path, content)`.
+
+## L'Objectif
+L'agent devra inspecter un dossier, résumer son contenu et générer un rapport Markdown de manière autonome !
+:::
+
 
 ## 💻 Exercice Pratique
 

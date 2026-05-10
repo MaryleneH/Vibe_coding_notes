@@ -16,17 +16,23 @@ Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **L'état d'esprit Vib
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Le Changement de Paradigme
+Bienvenue dans l'état d'esprit **Vibe Coding**. L'ingénierie logicielle traditionnelle exige que vous tapiez chaque ligne de code, gériez chaque point-virgule et construisiez la logique manuellement. Le "vibe coding" représente un changement de paradigme où vous passez du rôle de *dactylographe* à celui de *réalisateur*.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique L'état d'esprit Vibe Coding en une phrase.")
-print(response.text)
-```
+Vous n'écrivez plus le code ; vous définissez l'intention, les contraintes et la "vibe" (l'ambiance/la direction) de l'application, tandis qu'un modèle d'IA agit comme votre binôme de programmation ultra-rapide.
+
+## Le Rôle du Réalisateur
+Pensez à un réalisateur de cinéma. Ils ne tiennent pas la caméra eux-mêmes. Au lieu de cela, ils fournissent la vision. Dans le vibe coding :
+1. **Vous fournissez le contexte :** "Nous construisons un serveur web."
+2. **Vous définissez les règles :** "Il doit utiliser FastAPI et s'exécuter sur le port 8000."
+3. **L'IA exécute la vision :** Elle génère le code instantanément.
+
+## Pourquoi "Vibe" ?
+Le terme "vibe" fait référence à l'intuition et à la compréhension de haut niveau de l'architecture d'un système. Étant donné que les modèles comme Gemini sont incroyablement doués pour la reconnaissance de modèles, ils n'ont pas besoin que vous définissiez explicitement chaque variable. Si vous leur donnez la bonne "vibe", ils synthétiseront l'implémentation correcte.
+:::
+
 
 ## 💻 Exercice Pratique
 

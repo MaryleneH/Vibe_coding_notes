@@ -16,17 +16,15 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Copilot Paradigm
+Up to this point, you have been writing your own Python code to manage the Gemini SDK. Now, we reverse the paradigm: you will use AI (like Cursor, GitHub Copilot, or Gemini in your IDE) to write the code *for* you.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain AI-Assisted Coding in one sentence.")
-print(response.text)
-```
+## Writing Code with Natural Language
+Instead of thinking about syntax (`for i in range()`), you must think about architecture. AI-assisted coding requires you to write extensive comments describing the input, the logic, and the expected output. The AI acts as your hands, typing out the implementation while you review and guide.
+:::
+
 
 ## 💻 Hands-on Exercise
 

@@ -16,17 +16,20 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Beyond Simple Questions
+Many beginners treat AI like a search engine: "How do I reverse a string in Python?" While this works, it barely scratches the surface of what Large Language Models (LLMs) can do. Advanced Prompt Engineering is about structuring your instructions to maximize reasoning and accuracy.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Advanced Prompt Engineering & Reasoning in one sentence.")
-print(response.text)
-```
+## Few-Shot Prompting
+LLMs are few-shot learners. This means that instead of just giving an instruction, you provide **examples** of the input and the expected output.
+By providing examples, you constrain the model's output format and give it a "pattern" to follow, drastically reducing hallucinations.
+
+## Chain-of-Thought (CoT)
+"Chain-of-Thought" is a technique where you force the model to explain its reasoning step-by-step *before* it outputs the final answer.
+For example, instead of asking "Is 5423 prime?", you prompt: "Think step-by-step. First, check if the number is even. Then, check divisibility up to its square root. Finally, state if it is prime." This drastically improves logical accuracy in complex coding tasks.
+:::
+
 
 ## 💻 Hands-on Exercise
 

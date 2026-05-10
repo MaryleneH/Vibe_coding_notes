@@ -16,17 +16,15 @@ Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **Codage Assisté par 
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Le Paradigme du Copilote
+Jusqu'à présent, vous avez écrit votre propre code Python pour gérer le SDK Gemini. Maintenant, nous inversons le paradigme : vous allez utiliser l'IA (comme Cursor ou GitHub Copilot) pour écrire le code *pour* vous.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Codage Assisté par l'IA en une phrase.")
-print(response.text)
-```
+## Écrire du Code en Langage Naturel
+Au lieu de penser à la syntaxe, vous devez penser à l'architecture. Le codage assisté par l'IA exige que vous écriviez des commentaires détaillés décrivant l'entrée, la logique et la sortie attendue. L'IA agit comme vos mains, tapant l'implémentation pendant que vous guidez.
+:::
+
 
 ## 💻 Exercice Pratique
 

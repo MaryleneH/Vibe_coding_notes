@@ -16,17 +16,15 @@ Bienvenue au **Jour 2**. Aujourd'hui, nous plongeons dans **Définition de Tools
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Comment l'IA connaît-elle les outils ?
+Avant qu'une IA puisse appeler un outil, vous devez le définir. Dans l'API Gemini, cela se fait en passant un schéma de type OpenAPI ou en utilisant les annotations de type Python (Type Hints) pour décrire le but de la fonction.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Définition de Tools en une phrase.")
-print(response.text)
-```
+## Écrire de Bonnes Descriptions
+La partie la plus importante de la définition d'un outil est sa **description (docstring)**. L'IA se fie entièrement à votre description en langage naturel pour décider quand et comment utiliser l'outil.
+:::
+
 
 ## 💻 Exercice Pratique
 

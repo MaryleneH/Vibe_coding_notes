@@ -16,17 +16,22 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Project: The Sacristan Agent
+A "Sacristan" is someone who takes care of a church—keeping it organized and clean. For your mini-project, you will build a "Sacristan Agent" for your local computer.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Mini-Project 2: Sacristan Agent in one sentence.")
-print(response.text)
-```
+## Tool Arsenal
+You will equip your agent with the following Python tools:
+- `list_directory(path)`
+- `read_file(path)`
+- `write_file(path, content)`
+
+## The Goal
+You will prompt your Sacristan Agent to: "Look in the `./data` folder, read all the text files, summarize their contents, and write a new file called `summary.md`." 
+This project proves you can build an AI that autonomously manages your file system!
+:::
+
 
 ## 💻 Hands-on Exercise
 

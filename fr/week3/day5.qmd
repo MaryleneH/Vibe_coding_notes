@@ -16,17 +16,15 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Intégration de l'Ag
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Connecter la Stack
+Vous avez maintenant un backend Agent Python et une UI frontend générée par l'IA. Aujourd'hui, il s'agit de faire le pont.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Intégration de l'Agent Sacristain en une phrase.")
-print(response.text)
-```
+## La Couche API
+Vous utiliserez un framework léger comme Flask ou FastAPI pour envelopper votre Agent Sacristain. Vous exposerez un point de terminaison REST qui accepte le message de l'utilisateur, le transmet à la boucle de l'Agent et renvoie la réponse finale au frontend.
+:::
+
 
 ## 💻 Exercice Pratique
 

@@ -16,17 +16,18 @@ Bienvenue au **Jour 1**. Aujourd'hui, nous plongeons dans **Introduction au Func
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## La Limite du Texte
+Jusqu'à présent, vous avez construit des applications où l'IA ne répond qu'avec du texte ou du JSON. Bien que puissant, cela signifie que l'IA est piégée dans une boîte. Elle ne peut pas lire la météo, exécuter du code ou interagir avec le monde extérieur.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Introduction au Function Calling en une phrase.")
-print(response.text)
-```
+## Introduction au Function Calling
+L'Appel de Fonctions (Function Calling, ou Tool Use) est le mécanisme qui permet à un LLM d'interagir avec des API externes et du code local. Au lieu que le modèle renvoie une chaîne de texte, vous lui fournissez une liste d'« outils » (fonctions) qu'il peut utiliser. S'il décide qu'il a besoin d'un outil, il renvoie une **requête d'appel de fonction** contenant les arguments nécessaires.
+
+## Le Changement de Paradigme
+Cela transforme l'IA d'un oracle passif en un Agent actif.
+:::
+
 
 ## 💻 Exercice Pratique
 

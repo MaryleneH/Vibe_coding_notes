@@ -16,17 +16,15 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Agentic Failure Modes
+When building agents, they will inevitably fail. They might get stuck in an infinite loop calling the same tool, or they might try to read a file that doesn't exist.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Review & Rest in one sentence.")
-print(response.text)
-```
+## Robust Error Handling
+Today, you will review your Sacristan Agent's execution logs. You must implement `try/except` blocks in your Python tools so that if a tool fails (e.g., File Not Found), your code doesn't crash. Instead, your code should return the error *back to the AI* so the AI can realize its mistake and try a different approach!
+:::
+
 
 ## 💻 Hands-on Exercise
 

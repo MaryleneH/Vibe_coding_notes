@@ -16,17 +16,18 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Limitation of Text
+So far, you have built applications where the AI only responds with text or JSON. While powerful, this means the AI is trapped inside a box. It cannot read the current weather, it cannot execute code, and it cannot interact with the outside world.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Introduction to Function Calling in one sentence.")
-print(response.text)
-```
+## Introducing Function Calling
+Function Calling (or Tool Use) is the mechanism that allows an LLM to interact with external APIs and local code. Instead of the model returning a text string, you provide the model with a list of "tools" (functions) it can use. If the model determines it needs to use a tool to answer your prompt, it returns a **function call request** containing the necessary arguments.
+
+## The Paradigm Shift
+This shifts the AI from a passive oracle into an active Agent. When the AI decides to call a function, your code executes the function locally, gets the result, and passes that result *back* to the AI so it can formulate a final answer.
+:::
+
 
 ## 💻 Hands-on Exercise
 

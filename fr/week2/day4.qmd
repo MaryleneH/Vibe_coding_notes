@@ -16,17 +16,15 @@ Bienvenue au **Jour 4**. Aujourd'hui, nous plongeons dans **Contexte & Mémoire*
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## La Nature "Stateless" des LLMs
+Par défaut, les LLMs sont amnésiques. Si vous posez une question, puis une question de suivi, le modèle ne se souvient pas de la première. Chaque appel API est isolé.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Contexte & Mémoire en une phrase.")
-print(response.text)
-```
+## Construire la Mémoire
+Pour créer un agent conversationnel, vous devez maintenir manuellement le "Contexte". Cela implique de stocker chaque message utilisateur et chaque réponse du modèle dans un tableau, et de renvoyer l'*historique complet* au modèle à chaque tour.
+:::
+
 
 ## 💻 Exercice Pratique
 

@@ -16,17 +16,16 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Power of Iteration
+A core tenet of Vibe Coding is that your first draft is rarely your final draft. Because code generation is so fast, the cost of refactoring drops to near zero.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Review & Rest in one sentence.")
-print(response.text)
-```
+## Reviewing your Architecture
+Look at the CLI app you built yesterday. How does it handle API timeouts? What if the user inputs gibberish? 
+Today, your goal is to use Gemini to *critique* your own code and generate a more robust, error-handled version.
+:::
+
 
 ## 💻 Hands-on Exercise
 

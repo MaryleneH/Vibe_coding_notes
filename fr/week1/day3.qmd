@@ -16,17 +16,21 @@ Bienvenue au **Jour 3**. Aujourd'hui, nous plongeons dans **Structured Outputs**
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Le Chaos du Texte
+Les LLMs produisent naturellement du texte non structuré (Markdown, remplissage conversationnel, etc.). Si vous construisez une application, vous ne pouvez pas analyser de manière programmatique une réponse de ce type. Vous avez besoin de structures de données prévisibles comme JSON.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Structured Outputs en une phrase.")
-print(response.text)
-```
+## Forcer le JSON avec Gemini
+L'API Gemini vous permet d'imposer explicitement un schéma de réponse ("Structured Outputs"). Cela signifie que vous pouvez garantir que le modèle renverra un objet JSON parfaitement formaté qui correspond à vos spécifications exactes.
+
+## Pourquoi c'est un Superpouvoir
+Les sorties structurées sont le pont entre l'IA et le logiciel traditionnel. Une fois qu'une IA produit du JSON, vous pouvez :
+- Le sauvegarder dans une base de données.
+- Le rendre dans une interface React.
+- Le passer comme argument à une autre fonction Python.
+:::
+
 
 ## 💻 Exercice Pratique
 

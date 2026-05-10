@@ -16,17 +16,16 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Deploying to Production
+It's time to share your creation with the world! A local app is a toy; a deployed app is a product.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Deploying & Wrap-up in one sentence.")
-print(response.text)
-```
+## Free Hosting Solutions
+You will learn how to deploy your FastAPI backend to services like Render or Heroku, and how to host your frontend UI on GitHub Pages or Vercel. 
+Congratulations! You have completed the Vibe Coding Mastery curriculum. You have transformed from a traditional coder into an Agentic AI Architect.
+:::
+
 
 ## 💻 Hands-on Exercise
 

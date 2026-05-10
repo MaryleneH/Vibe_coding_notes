@@ -16,17 +16,18 @@ Bienvenue au **Jour 5**. Aujourd'hui, nous plongeons dans **Workflows Agentiques
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Workflows Agentiques
+Au lieu d'un seul agent massif qui essaie de tout faire, le Vibe Coding privilégie les workflows où plusieurs agents spécialisés collaborent.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Workflows Agentiques en une phrase.")
-print(response.text)
-```
+- **Le Planificateur :** Décompose la tâche complexe en étapes.
+- **Le Chercheur :** Navigue sur le web pour trouver des données.
+- **Le Codeur :** Écrit un script basé sur ces données.
+
+En séparant les responsabilités, vous réduisez considérablement les hallucinations et améliorez la robustesse du système.
+:::
+
 
 ## 💻 Exercice Pratique
 

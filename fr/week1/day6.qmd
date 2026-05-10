@@ -16,17 +16,19 @@ Bienvenue au **Jour 6**. Aujourd'hui, nous plongeons dans **Mini-Projet 1**.
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## Tout Rassembler
+Aujourd'hui est consacré à la synthèse. Vous allez combiner vos connaissances du SDK Gemini, de l'Ingénierie de Prompt et des Sorties Structurées pour créer une application CLI (Interface en Ligne de Commande) complète et fonctionnelle.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Mini-Projet 1 en une phrase.")
-print(response.text)
-```
+## L'Objectif
+L'application doit :
+1. Accepter l'entrée de l'utilisateur.
+2. Formuler un prompt basé sur cette entrée.
+3. Appeler l'API Gemini et imposer un schéma JSON.
+4. Analyser le JSON et l'afficher joliment à l'utilisateur.
+:::
+
 
 ## 💻 Exercice Pratique
 

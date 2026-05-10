@@ -16,17 +16,18 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## The Stateless Nature of LLMs
+By default, LLMs have amnesia. If you ask a question, and then ask a follow-up question, the model has no idea what you asked previously. Every API call is isolated.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Context & Memory in one sentence.")
-print(response.text)
-```
+## Building Memory
+To create a conversational agent, you must manually maintain the "Context". This involves storing every user message and every model response in an array (or list) and passing the *entire history* back to the model on every single turn.
+
+## Context Windows
+Modern models like Gemini 1.5 Pro have massive context windows (up to 2 million tokens), allowing them to remember entire books of history. However, managing this context efficiently in your code is crucial for performance and cost.
+:::
+
 
 ## 💻 Hands-on Exercise
 

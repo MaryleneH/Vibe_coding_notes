@@ -16,17 +16,15 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Connecting the Stack
+Now you have a Python Agent backend and an AI-generated frontend UI. Today is about bridging the gap.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Integrating the Sacristan Agent in one sentence.")
-print(response.text)
-```
+## The API Layer
+You will use a lightweight framework like Flask or FastAPI to wrap your Sacristan Agent. You will expose a REST endpoint (e.g., `POST /chat`) that accepts the user's message from the UI, passes it to the Agent loop, and returns the Agent's final response back to the frontend.
+:::
+
 
 ## 💻 Hands-on Exercise
 

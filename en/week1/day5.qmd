@@ -16,17 +16,18 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Moving to the IDE
+Until now, you've likely been using web interfaces like Google AI Studio. Today, we transition to your Local Development Environment (IDE) like VS Code or Cursor.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Transitioning to Code in one sentence.")
-print(response.text)
-```
+## The Gemini SDK
+To build real applications, your code needs to talk to the AI programmatically. We do this using the `google-generativeai` Python SDK. 
+
+## Environment Variables
+The most critical part of this transition is security. **Never hardcode your API keys.** You will learn how to use `.env` files to securely load your credentials, ensuring that when you push your code to GitHub, your keys remain safe.
+:::
+
 
 ## 💻 Hands-on Exercise
 

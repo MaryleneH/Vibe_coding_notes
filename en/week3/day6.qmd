@@ -16,17 +16,15 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Final Project Polish
+A great product is all about the details. Your Sacristan Agent works, but how is the User Experience (UX)?
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Final Project Polish in one sentence.")
-print(response.text)
-```
+## Exposing the "Thoughts"
+When an Agent executes tools (like reading files), it can take several seconds. If the UI is static, the user thinks the app is broken. You will update your Agent to yield its "internal thoughts" (e.g., 'Calling read_file...') and display them in the UI as a loading state. This dramatically improves the UX.
+:::
+
 
 ## 💻 Hands-on Exercise
 

@@ -16,17 +16,18 @@ By the end of this session, you will be able to:
 
 ## 📖 Core Concepts
 
-*(Replace this section with your detailed lecture notes, theory, and explanations)*
 
-```python
-# Example: Setting up the Gemini SDK
-import google.generativeai as genai
+::: {.panel-tabset}
+## Seeing the World
+Gemini isn't just a text model; it is natively multimodal. It can "see" images, "listen" to audio, and "watch" video. This unlocks entirely new workflows for vibe coding.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explain Multimodal Magic in one sentence.")
-print(response.text)
-```
+## Image-to-Code
+One of the most powerful vibe coding techniques is drawing a user interface on a whiteboard or a piece of paper, taking a picture, and asking Gemini to write the HTML/CSS/JS for it. 
+
+## Beyond Images
+You can also feed architectural diagrams to the model and ask it to generate the foundational boilerplate code. This bridges the gap between high-level system design and low-level implementation faster than ever before.
+:::
+
 
 ## 💻 Hands-on Exercise
 

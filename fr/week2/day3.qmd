@@ -16,17 +16,19 @@ Bienvenue au **Jour 3**. Aujourd'hui, nous plongeons dans **Construire votre Pre
 
 ## 📖 Concepts Clés
 
-*(Remplacez cette section par vos notes de cours détaillées, la théorie et les explications)*
 
-```python
-# Exemple : Configuration du SDK Gemini
-import google.generativeai as genai
+::: {.panel-tabset}
+## La Boucle Agentique
+Un Agent IA est simplement un modèle de langage enveloppé dans une boucle `while` avec un accès à des outils et à de la mémoire.
 
-genai.configure(api_key="YOUR_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
-response = model.generate_content("Explique Construire votre Premier Agent en une phrase.")
-print(response.text)
-```
+## La Logique Principale
+1. **Prompt Utilisateur :** L'utilisateur pose une question.
+2. **Décision de l'IA :** L'IA décide d'appeler `get_weather("Paris")`.
+3. **Exécution :** Votre script Python exécute l'appel API réel et obtient `20°C`.
+4. **Retour :** Votre script renvoie `20°C` à l'IA.
+5. **Réponse Finale :** L'IA lit le résultat et formule sa réponse en langage naturel.
+:::
+
 
 ## 💻 Exercice Pratique
 
