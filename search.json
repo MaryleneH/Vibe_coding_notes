@@ -1,0 +1,301 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vibe Coding Mastery",
+    "section": "",
+    "text": "This is a 21-day journey to becoming a “Vibe Coding” expert. You’ll learn how to leverage Google AI Studio and the Gemini Python SDK to build real applications and AI agents from scratch.\n\n\n\nWeek 1: Foundations - Master advanced prompting and the Gemini API.\nWeek 2: Agents - Teach Gemini to use tools and build your Sacristan Assistant.\nWeek 3: Advanced & Deploy - AI-assisted coding, UIs, and deployment.\n\nPrerequisites: - A basic understanding of logic. - Python installed on your machine. - A Google account to access Google AI Studio.\nGet started by navigating to Week 1, Day 1."
+  },
+  {
+    "objectID": "index.html#curriculum-overview",
+    "href": "index.html#curriculum-overview",
+    "title": "Vibe Coding Mastery",
+    "section": "",
+    "text": "Week 1: Foundations - Master advanced prompting and the Gemini API.\nWeek 2: Agents - Teach Gemini to use tools and build your Sacristan Assistant.\nWeek 3: Advanced & Deploy - AI-assisted coding, UIs, and deployment.\n\nPrerequisites: - A basic understanding of logic. - Python installed on your machine. - A Google account to access Google AI Studio.\nGet started by navigating to Week 1, Day 1."
+  },
+  {
+    "objectID": "week2/index.html",
+    "href": "week2/index.html",
+    "title": "Week2: Agents",
+    "section": "",
+    "text": "Overview\nWelcome to Week2!",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents"
+    ]
+  },
+  {
+    "objectID": "week2/day3.html",
+    "href": "week2/day3.html",
+    "title": "Day 3: Building your First Agent",
+    "section": "",
+    "text": "Building your First Agent\nContent for week2, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 3: Building your First Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day7.html",
+    "href": "week2/day7.html",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "Review & Rest\nContent for week2, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week2/day5.html",
+    "href": "week2/day5.html",
+    "title": "Day 5: Agentic Workflows",
+    "section": "",
+    "text": "Agentic Workflows\nContent for week2, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 5: Agentic Workflows"
+    ]
+  },
+  {
+    "objectID": "week1/index.html",
+    "href": "week1/index.html",
+    "title": "Week1: Foundations",
+    "section": "",
+    "text": "Overview\nWelcome to Week1!",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations"
+    ]
+  },
+  {
+    "objectID": "week1/day3.html",
+    "href": "week1/day3.html",
+    "title": "Day 3: Structured Outputs",
+    "section": "",
+    "text": "Structured Outputs\nContent for week1, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 3: Structured Outputs"
+    ]
+  },
+  {
+    "objectID": "week1/day7.html",
+    "href": "week1/day7.html",
+    "title": "Day 7: Review & Rest",
+    "section": "",
+    "text": "Review & Rest\nContent for week1, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 7: Review & Rest"
+    ]
+  },
+  {
+    "objectID": "week1/day5.html",
+    "href": "week1/day5.html",
+    "title": "Day 5: Transitioning to Code",
+    "section": "",
+    "text": "Transitioning to Code\nContent for week1, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 5: Transitioning to Code"
+    ]
+  },
+  {
+    "objectID": "week3/index.html",
+    "href": "week3/index.html",
+    "title": "Week3: Advanced & Deploy",
+    "section": "",
+    "text": "Overview\nWelcome to Week3!",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy"
+    ]
+  },
+  {
+    "objectID": "week3/day3.html",
+    "href": "week3/day3.html",
+    "title": "Day 3: System Architecture",
+    "section": "",
+    "text": "System Architecture\nContent for week3, Day 3 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 3: System Architecture"
+    ]
+  },
+  {
+    "objectID": "week3/day7.html",
+    "href": "week3/day7.html",
+    "title": "Day 7: Deploying & Wrap-up",
+    "section": "",
+    "text": "Deploying & Wrap-up\nContent for week3, Day 7 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 7: Deploying & Wrap-up"
+    ]
+  },
+  {
+    "objectID": "week3/day5.html",
+    "href": "week3/day5.html",
+    "title": "Day 5: Integrating the Sacristan Agent",
+    "section": "",
+    "text": "Integrating the Sacristan Agent\nContent for week3, Day 5 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 5: Integrating the Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week3/day4.html",
+    "href": "week3/day4.html",
+    "title": "Day 4: Generating UIs",
+    "section": "",
+    "text": "Generating UIs\nContent for week3, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 4: Generating UIs"
+    ]
+  },
+  {
+    "objectID": "week3/day2.html",
+    "href": "week3/day2.html",
+    "title": "Day 2: Test-Driven Vibe Coding",
+    "section": "",
+    "text": "Test-Driven Vibe Coding\nContent for week3, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 2: Test-Driven Vibe Coding"
+    ]
+  },
+  {
+    "objectID": "week3/day6.html",
+    "href": "week3/day6.html",
+    "title": "Day 6: Final Project Polish",
+    "section": "",
+    "text": "Final Project Polish\nContent for week3, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 6: Final Project Polish"
+    ]
+  },
+  {
+    "objectID": "week3/day1.html",
+    "href": "week3/day1.html",
+    "title": "Day 1: AI-Assisted Coding",
+    "section": "",
+    "text": "AI-Assisted Coding\nContent for week3, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 3: Advanced & Deploy",
+      "Day 1: AI-Assisted Coding"
+    ]
+  },
+  {
+    "objectID": "week1/day4.html",
+    "href": "week1/day4.html",
+    "title": "Day 4: Multimodal Magic",
+    "section": "",
+    "text": "Multimodal Magic\nContent for week1, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 4: Multimodal Magic"
+    ]
+  },
+  {
+    "objectID": "week1/day2.html",
+    "href": "week1/day2.html",
+    "title": "Day 2: Advanced Prompt Engineering & Reasoning",
+    "section": "",
+    "text": "Advanced Prompt Engineering & Reasoning\nContent for week1, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 2: Advanced Prompt Engineering & Reasoning"
+    ]
+  },
+  {
+    "objectID": "week1/day6.html",
+    "href": "week1/day6.html",
+    "title": "Day 6: Mini-Project 1",
+    "section": "",
+    "text": "Mini-Project 1\nContent for week1, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 6: Mini-Project 1"
+    ]
+  },
+  {
+    "objectID": "week1/day1.html",
+    "href": "week1/day1.html",
+    "title": "Day 1: The Vibe Coding Mindset",
+    "section": "",
+    "text": "The Vibe Coding Mindset\nContent for week1, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 1: Foundations",
+      "Day 1: The Vibe Coding Mindset"
+    ]
+  },
+  {
+    "objectID": "week2/day4.html",
+    "href": "week2/day4.html",
+    "title": "Day 4: Context & Memory",
+    "section": "",
+    "text": "Context & Memory\nContent for week2, Day 4 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 4: Context & Memory"
+    ]
+  },
+  {
+    "objectID": "week2/day2.html",
+    "href": "week2/day2.html",
+    "title": "Day 2: Defining Tools",
+    "section": "",
+    "text": "Defining Tools\nContent for week2, Day 2 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 2: Defining Tools"
+    ]
+  },
+  {
+    "objectID": "week2/day6.html",
+    "href": "week2/day6.html",
+    "title": "Day 6: Mini-Project 2: Sacristan Agent",
+    "section": "",
+    "text": "Mini-Project 2: Sacristan Agent\nContent for week2, Day 6 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 6: Mini-Project 2: Sacristan Agent"
+    ]
+  },
+  {
+    "objectID": "week2/day1.html",
+    "href": "week2/day1.html",
+    "title": "Day 1: Introduction to Function Calling",
+    "section": "",
+    "text": "Introduction to Function Calling\nContent for week2, Day 1 goes here.\n# Example python code block\ndef hello_vibe():\n    print(\"Vibe Coding!\")",
+    "crumbs": [
+      "Home",
+      "Week 2: Agents",
+      "Day 1: Introduction to Function Calling"
+    ]
+  }
+]
