@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gemini - CLI – Vibe Coding Mastery</title>
+<title>cli – Vibe Coding Mastery</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -489,35 +524,323 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#gemini-cli-masterclass-de-zéro-à-héros" id="toc-gemini-cli-masterclass-de-zéro-à-héros" class="nav-link active" data-scroll-target="#gemini-cli-masterclass-de-zéro-à-héros">Gemini CLI : Masterclass de Zéro à Héros</a>
+  <ul class="collapse">
+  <li><a href="#a.-introduction-à-gemini-cli" id="toc-a.-introduction-à-gemini-cli" class="nav-link" data-scroll-target="#a.-introduction-à-gemini-cli">A. Introduction à Gemini CLI</a>
+  <ul class="collapse">
+  <li><a href="#quest-ce-que-gemini" id="toc-quest-ce-que-gemini" class="nav-link" data-scroll-target="#quest-ce-que-gemini">Qu’est-ce que Gemini ?</a></li>
+  <li><a href="#à-quoi-sert-la-cli" id="toc-à-quoi-sert-la-cli" class="nav-link" data-scroll-target="#à-quoi-sert-la-cli">À quoi sert la CLI ?</a></li>
+  <li><a href="#quand-utiliser-la-cli-vs-lapi-vs-studio" id="toc-quand-utiliser-la-cli-vs-lapi-vs-studio" class="nav-link" data-scroll-target="#quand-utiliser-la-cli-vs-lapi-vs-studio">Quand utiliser la CLI vs l’API vs Studio ?</a></li>
+  </ul></li>
+  <li><a href="#b.-installation-configuration" id="toc-b.-installation-configuration" class="nav-link" data-scroll-target="#b.-installation-configuration">B. Installation &amp; Configuration</a>
+  <ul class="collapse">
+  <li><a href="#installation-de-la-cli" id="toc-installation-de-la-cli" class="nav-link" data-scroll-target="#installation-de-la-cli">Installation de la CLI</a></li>
+  <li><a href="#authentification-avec-google" id="toc-authentification-avec-google" class="nav-link" data-scroll-target="#authentification-avec-google">Authentification avec Google</a></li>
+  <li><a href="#aperçu-de-larchitecture" id="toc-aperçu-de-larchitecture" class="nav-link" data-scroll-target="#aperçu-de-larchitecture">Aperçu de l’Architecture</a></li>
+  </ul></li>
+  <li><a href="#c.-premiers-pas-avec-gemini-cli" id="toc-c.-premiers-pas-avec-gemini-cli" class="nav-link" data-scroll-target="#c.-premiers-pas-avec-gemini-cli">C. Premiers Pas avec Gemini CLI</a>
+  <ul class="collapse">
+  <li><a href="#exécuter-votre-première-commande" id="toc-exécuter-votre-première-commande" class="nav-link" data-scroll-target="#exécuter-votre-première-commande">Exécuter votre première commande</a></li>
+  <li><a href="#utiliser-des-prompts-texte-et-lentrée-standard" id="toc-utiliser-des-prompts-texte-et-lentrée-standard" class="nav-link" data-scroll-target="#utiliser-des-prompts-texte-et-lentrée-standard">Utiliser des prompts texte et l’entrée standard</a></li>
+  <li><a href="#utiliser-des-fichiers-comme-entrée" id="toc-utiliser-des-fichiers-comme-entrée" class="nav-link" data-scroll-target="#utiliser-des-fichiers-comme-entrée">Utiliser des fichiers comme entrée</a></li>
+  </ul></li>
+  <li><a href="#d.-prompting-avancé-avec-la-cli" id="toc-d.-prompting-avancé-avec-la-cli" class="nav-link" data-scroll-target="#d.-prompting-avancé-avec-la-cli">D. Prompting Avancé avec la CLI</a>
+  <ul class="collapse">
+  <li><a href="#instructions-système" id="toc-instructions-système" class="nav-link" data-scroll-target="#instructions-système">Instructions Système</a></li>
+  <li><a href="#sorties-structurées" id="toc-sorties-structurées" class="nav-link" data-scroll-target="#sorties-structurées">Sorties Structurées</a></li>
+  </ul></li>
+  <li><a href="#e.-travailler-avec-fichiers-images-et-audio" id="toc-e.-travailler-avec-fichiers-images-et-audio" class="nav-link" data-scroll-target="#e.-travailler-avec-fichiers-images-et-audio">E. Travailler avec Fichiers, Images et Audio</a>
+  <ul class="collapse">
+  <li><a href="#compréhension-dimages" id="toc-compréhension-dimages" class="nav-link" data-scroll-target="#compréhension-dimages">Compréhension d’Images</a></li>
+  <li><a href="#transcription-audio" id="toc-transcription-audio" class="nav-link" data-scroll-target="#transcription-audio">Transcription Audio</a></li>
+  </ul></li>
+  <li><a href="#f.-construire-de-petits-outils-avec-gemini-cli" id="toc-f.-construire-de-petits-outils-avec-gemini-cli" class="nav-link" data-scroll-target="#f.-construire-de-petits-outils-avec-gemini-cli">F. Construire de Petits Outils avec Gemini CLI</a>
+  <ul class="collapse">
+  <li><a href="#exemple-résumer-tous-les-fichiers-dun-dossier" id="toc-exemple-résumer-tous-les-fichiers-dun-dossier" class="nav-link" data-scroll-target="#exemple-résumer-tous-les-fichiers-dun-dossier">Exemple : Résumer tous les fichiers d’un dossier</a></li>
+  </ul></li>
+  <li><a href="#g.-mini-projet-1-lassistant-de-recherche-en-ligne-de-commande" id="toc-g.-mini-projet-1-lassistant-de-recherche-en-ligne-de-commande" class="nav-link" data-scroll-target="#g.-mini-projet-1-lassistant-de-recherche-en-ligne-de-commande">G. Mini-Projet 1 : L’Assistant de Recherche en Ligne de Commande</a>
+  <ul class="collapse">
+  <li><a href="#étape-1-le-script" id="toc-étape-1-le-script" class="nav-link" data-scroll-target="#étape-1-le-script">Étape 1 : Le Script</a></li>
+  <li><a href="#étape-2-exécution" id="toc-étape-2-exécution" class="nav-link" data-scroll-target="#étape-2-exécution">Étape 2 : Exécution</a></li>
+  </ul></li>
+  <li><a href="#h.-mini-projet-2-générateur-de-contenu" id="toc-h.-mini-projet-2-générateur-de-contenu" class="nav-link" data-scroll-target="#h.-mini-projet-2-générateur-de-contenu">H. Mini-Projet 2 : Générateur de Contenu</a>
+  <ul class="collapse">
+  <li><a href="#le-workflow" id="toc-le-workflow" class="nav-link" data-scroll-target="#le-workflow">Le Workflow</a></li>
+  <li><a href="#sortie-attendue" id="toc-sortie-attendue" class="nav-link" data-scroll-target="#sortie-attendue">Sortie Attendue</a></li>
+  </ul></li>
+  <li><a href="#i.-bonnes-pratiques-optimisation" id="toc-i.-bonnes-pratiques-optimisation" class="nav-link" data-scroll-target="#i.-bonnes-pratiques-optimisation">I. Bonnes Pratiques &amp; Optimisation</a></li>
+  <li><a href="#j.-quiz-final-récapitulatif" id="toc-j.-quiz-final-récapitulatif" class="nav-link" data-scroll-target="#j.-quiz-final-récapitulatif">J. Quiz Final + Récapitulatif</a>
+  <ul class="collapse">
+  <li><a href="#récapitulatif" id="toc-récapitulatif" class="nav-link" data-scroll-target="#récapitulatif">Récapitulatif</a></li>
+  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../fr/bonus/cli.html">Bonus</a></li><li class="breadcrumb-item"><a href="../../fr/bonus/cli.html">Gemini - CLI</a></li></ol></nav></header>
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../fr/bonus/cli.html">Bonus</a></li><li class="breadcrumb-item"><a href="../../fr/bonus/cli.html">Gemini - CLI</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Gemini - CLI</h1>
+
+
+
+<section id="gemini-cli-masterclass-de-zéro-à-héros" class="level1">
+<h1>Gemini CLI : Masterclass de Zéro à Héros</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/gemini_cli_hero.png" class="img-fluid figure-img"></p>
+<figcaption>Gemini CLI Hero</figcaption>
+</figure>
 </div>
+<p>Bienvenue dans le guide ultime de la <strong>Command Line Interface (CLI) Gemini</strong>. Au cours des 6 à 8 prochaines heures, vous passerez de la découverte de la CLI à l’orchestration de workflows automatisés complexes directement depuis votre terminal.</p>
+<hr>
+<section id="a.-introduction-à-gemini-cli" class="level2">
+<h2 class="anchored" data-anchor-id="a.-introduction-à-gemini-cli">A. Introduction à Gemini CLI</h2>
+<section id="quest-ce-que-gemini" class="level3">
+<h3 class="anchored" data-anchor-id="quest-ce-que-gemini">Qu’est-ce que Gemini ?</h3>
+<p>Gemini est la famille de modèles d’IA la plus performante de Google, conçue pour être nativement multimodale (comprenant le texte, le code, les images et l’audio).</p>
+</section>
+<section id="à-quoi-sert-la-cli" class="level3">
+<h3 class="anchored" data-anchor-id="à-quoi-sert-la-cli">À quoi sert la CLI ?</h3>
+<p>La CLI Gemini apporte la puissance de Gemini directement dans votre terminal. Au lieu d’écrire un script Python complet pour interagir avec l’API, ou de cliquer dans une interface web, vous pouvez passer des fichiers, streamer des réponses et rediriger les sorties (pipe) directement dans votre shell.</p>
+</section>
+<section id="quand-utiliser-la-cli-vs-lapi-vs-studio" class="level3">
+<h3 class="anchored" data-anchor-id="quand-utiliser-la-cli-vs-lapi-vs-studio">Quand utiliser la CLI vs l’API vs Studio ?</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Google AI Studio :</strong> Idéal pour le prototypage, tester visuellement les prompts et ajuster les hyperparamètres.</li>
+<li><strong>Gemini CLI :</strong> Idéal pour l’automatisation quotidienne rapide (ex: résumer des fichiers locaux, écrire des scripts shell rapides, analyser des logs).</li>
+<li><strong>Gemini API (Python/Node) :</strong> Idéal pour construire des applications full-stack avec une logique personnalisée et des bases de données.</li>
+</ul>
+</div>
+</div>
+<pre class="mermaid"><code>flowchart LR
+    A[Utilisateur] --&gt;|Tâches Rapides| B(Gemini CLI)
+    A --&gt;|Prototypage| C(Google AI Studio)
+    A --&gt;|Création d'App| D(Gemini API)
+    B --&gt; E[Google Cloud / Modèles]
+    C --&gt; E
+    D --&gt; E</code></pre>
+<hr>
+</section>
+</section>
+<section id="b.-installation-configuration" class="level2">
+<h2 class="anchored" data-anchor-id="b.-installation-configuration">B. Installation &amp; Configuration</h2>
+<section id="installation-de-la-cli" class="level3">
+<h3 class="anchored" data-anchor-id="installation-de-la-cli">Installation de la CLI</h3>
+<p>Pour installer la CLI Gemini globalement via <code>npm</code> (Node Package Manager), exécutez :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install <span class="at">-g</span> @google/generative-ai-cli</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="authentification-avec-google" class="level3">
+<h3 class="anchored" data-anchor-id="authentification-avec-google">Authentification avec Google</h3>
+<p>La CLI nécessite une clé API. Obtenez votre clé depuis <a href="https://aistudio.google.com/">Google AI Studio</a>, puis exportez-la comme variable d’environnement :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Mac/Linux</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">GEMINI_API_KEY</span><span class="op">=</span><span class="st">"votre-cle-api-ici"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Sur Windows (PowerShell)</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="ex">:GEMINI_API_KEY=</span><span class="st">"votre-cle-api-ici"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="aperçu-de-larchitecture" class="level3">
+<h3 class="anchored" data-anchor-id="aperçu-de-larchitecture">Aperçu de l’Architecture</h3>
+<pre class="mermaid"><code>sequenceDiagram
+    participant Terminal
+    participant CLI as Gemini CLI
+    participant API as Gemini API
+    Terminal-&gt;&gt;CLI: "gemini --prompt 'Bonjour'"
+    CLI-&gt;&gt;API: Requête HTTP POST + Clé API
+    API--&gt;&gt;CLI: Streaming de la Réponse
+    CLI--&gt;&gt;Terminal: Sortie Console</code></pre>
+<hr>
+</section>
+</section>
+<section id="c.-premiers-pas-avec-gemini-cli" class="level2">
+<h2 class="anchored" data-anchor-id="c.-premiers-pas-avec-gemini-cli">C. Premiers Pas avec Gemini CLI</h2>
+<section id="exécuter-votre-première-commande" class="level3">
+<h3 class="anchored" data-anchor-id="exécuter-votre-première-commande">Exécuter votre première commande</h3>
+<p>Lançons un prompt simple :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Explique l'informatique quantique en une phrase."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Sortie :</strong> &gt; L’informatique quantique utilise les principes de la mécanique quantique pour traiter l’information de manière à résoudre certains problèmes complexes exponentiellement plus vite que les ordinateurs classiques.</p>
+</section>
+<section id="utiliser-des-prompts-texte-et-lentrée-standard" class="level3">
+<h3 class="anchored" data-anchor-id="utiliser-des-prompts-texte-et-lentrée-standard">Utiliser des prompts texte et l’entrée standard</h3>
+<p>Vous pouvez rediriger (pipe) la sortie d’autres commandes directement vers Gemini :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Traduire 'Hello World' en Français"</span> <span class="kw">|</span> <span class="ex">gemini</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="utiliser-des-fichiers-comme-entrée" class="level3">
+<h3 class="anchored" data-anchor-id="utiliser-des-fichiers-comme-entrée">Utiliser des fichiers comme entrée</h3>
+<p>Vous voulez résumer un fichier local ? Utilisez le paramètre <code>--media</code> :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier log"</span> <span class="at">--media</span> error_log.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="d.-prompting-avancé-avec-la-cli" class="level2">
+<h2 class="anchored" data-anchor-id="d.-prompting-avancé-avec-la-cli">D. Prompting Avancé avec la CLI</h2>
+<section id="instructions-système" class="level3">
+<h3 class="anchored" data-anchor-id="instructions-système">Instructions Système</h3>
+<p>Les instructions système définissent le comportement du modèle pour toute la session.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris une fonction"</span> <span class="at">--system-instruction</span> <span class="st">"Tu es un développeur Python senior. Ne sors que du code brut, pas de formatage markdown."</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="sorties-structurées" class="level3">
+<h3 class="anchored" data-anchor-id="sorties-structurées">Sorties Structurées</h3>
+<p>Vous pouvez forcer Gemini à retourner du JSON, ce qui est essentiel pour le scripting.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Liste 3 couleurs"</span> <span class="at">--response-mime-type</span> application/json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<pre class="mermaid"><code>flowchart TD
+    Prompt[Prompt Texte Brut] --&gt; System[Instructions Système Appliquées]
+    System --&gt; Format[Format JSON Forcé]
+    Format --&gt; Model[Gemini 1.5 Pro]
+    Model --&gt; Out[Sortie JSON Propre]</code></pre>
+<hr>
+</section>
+</section>
+<section id="e.-travailler-avec-fichiers-images-et-audio" class="level2">
+<h2 class="anchored" data-anchor-id="e.-travailler-avec-fichiers-images-et-audio">E. Travailler avec Fichiers, Images et Audio</h2>
+<p>Gemini 1.5 Pro dispose d’une fenêtre de contexte massive. Vous pouvez passer des images et de l’audio directement depuis votre disque dur !</p>
+<section id="compréhension-dimages" class="level3">
+<h3 class="anchored" data-anchor-id="compréhension-dimages">Compréhension d’Images</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Quel framework cette UI utilise-t-elle ?"</span> <span class="at">--media</span> screenshot.png</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="transcription-audio" class="level3">
+<h3 class="anchored" data-anchor-id="transcription-audio">Transcription Audio</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Transcrire cette réunion et lister les actions à mener."</span> <span class="at">--media</span> reunion.mp3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p>[!WARNING] Considérations de Sécurité : La CLI respecte les règles de sécurité de Google. Si vous passez une image qui viole ces politiques, l’API retournera un bloc <code>FinishReason.SAFETY</code>.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="f.-construire-de-petits-outils-avec-gemini-cli" class="level2">
+<h2 class="anchored" data-anchor-id="f.-construire-de-petits-outils-avec-gemini-cli">F. Construire de Petits Outils avec Gemini CLI</h2>
+<p>La vraie puissance de la CLI est l’automatisation. Vous pouvez encapsuler les commandes CLI dans des scripts Bash ou PowerShell.</p>
+<section id="exemple-résumer-tous-les-fichiers-dun-dossier" class="level3">
+<h3 class="anchored" data-anchor-id="exemple-résumer-tous-les-fichiers-dun-dossier">Exemple : Résumer tous les fichiers d’un dossier</h3>
+<p>Créez un script <code>resume.sh</code> :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> <span class="pp">*</span>.md<span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">echo</span> <span class="st">"Résumé de </span><span class="va">$file</span><span class="st">..."</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Résume ce fichier en 1 point"</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$file</span><span class="st">"</span> <span class="op">&gt;&gt;</span> resumes.txt</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="g.-mini-projet-1-lassistant-de-recherche-en-ligne-de-commande" class="level2">
+<h2 class="anchored" data-anchor-id="g.-mini-projet-1-lassistant-de-recherche-en-ligne-de-commande">G. Mini-Projet 1 : L’Assistant de Recherche en Ligne de Commande</h2>
+<p><strong>Objectif :</strong> Construire un script qui lit un document PDF, génère des insights clés et sauvegarde un rapport markdown final.</p>
+<section id="étape-1-le-script" class="level3">
+<h3 class="anchored" data-anchor-id="étape-1-le-script">Étape 1 : Le Script</h3>
+<p>Créez <code>recherche.sh</code> :</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="va">FILE</span><span class="op">=</span><span class="va">$1</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"# Rapport de Recherche : </span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;</span> rapport.md</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Génération des insights..."</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Analyse ce document et extrais les 3 insights principaux."</span> <span class="at">--media</span> <span class="st">"</span><span class="va">$FILE</span><span class="st">"</span> <span class="op">&gt;&gt;</span> rapport.md</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Rapport généré !"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="étape-2-exécution" class="level3">
+<h3 class="anchored" data-anchor-id="étape-2-exécution">Étape 2 : Exécution</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x recherche.sh</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="ex">./recherche.sh</span> rapport_annuel.pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<pre class="mermaid"><code>stateDiagram-v2
+    [*] --&gt; LirePDF
+    LirePDF --&gt; AnalyseGemini
+    AnalyseGemini --&gt; GenererMarkdown
+    GenererMarkdown --&gt; [*]</code></pre>
+<hr>
+</section>
+</section>
+<section id="h.-mini-projet-2-générateur-de-contenu" class="level2">
+<h2 class="anchored" data-anchor-id="h.-mini-projet-2-générateur-de-contenu">H. Mini-Projet 2 : Générateur de Contenu</h2>
+<p><strong>Objectif :</strong> Construire un workflow CLI avancé qui crée un script Instagram basé sur un sujet tendance.</p>
+<section id="le-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="le-workflow">Le Workflow</h3>
+<ol type="1">
+<li>L’utilisateur fournit un sujet.</li>
+<li>Gemini CLI génère un script.</li>
+<li>Le script est formaté en JSON pour séparer les colonnes “Visuel” et “Audio”.</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="ex">gemini</span> <span class="at">--prompt</span> <span class="st">"Écris un script de Réel Instagram sur les outils IA. Fournis la sortie en JSON avec un tableau 'scenes' contenant 'visuel' et 'audio'."</span> <span class="at">--response-mime-type</span> application/json <span class="op">&gt;</span> script.json</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="sortie-attendue" class="level3">
+<h3 class="anchored" data-anchor-id="sortie-attendue">Sortie Attendue</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"scenes"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"visuel"</span><span class="fu">:</span> <span class="st">"Personne stressée devant un ordinateur."</span><span class="fu">,</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"audio"</span><span class="fu">:</span> <span class="st">"Fatigué des tâches de codage répétitives ?"</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="i.-bonnes-pratiques-optimisation" class="level2">
+<h2 class="anchored" data-anchor-id="i.-bonnes-pratiques-optimisation">I. Bonnes Pratiques &amp; Optimisation</h2>
+<ul>
+<li><strong>Réduire les Hallucinations :</strong> Utilisez le paramètre <code>--temperature 0</code> pour les tâches factuelles et analytiques.</li>
+<li><strong>Débogage :</strong> Si la CLI échoue, ajoutez <code>--debug</code> pour voir la requête/réponse HTTP brute.</li>
+<li><strong>Structure du Workflow :</strong> Gardez vos instructions système dans un fichier texte séparé et lisez-les via <code>cat system.txt | gemini ...</code> pour garder vos commandes propres.</li>
+</ul>
+<pre class="mermaid"><code>flowchart LR
+    A[Brouillon de Prompt] --&gt; B{Factuel ?}
+    B --&gt;|Oui| C[Temp = 0]
+    B --&gt;|Non| D[Temp = 0.7]
+    C --&gt; E[Exécuter]
+    D --&gt; E</code></pre>
+<hr>
+</section>
+<section id="j.-quiz-final-récapitulatif" class="level2">
+<h2 class="anchored" data-anchor-id="j.-quiz-final-récapitulatif">J. Quiz Final + Récapitulatif</h2>
+<section id="récapitulatif" class="level3">
+<h3 class="anchored" data-anchor-id="récapitulatif">Récapitulatif</h3>
+<p>Vous avez appris à installer la CLI Gemini, rediriger des données, utiliser des instructions système, traiter des fichiers multimodaux et construire des scripts Bash automatisés.</p>
+</section>
+<section id="quiz" class="level3">
+<h3 class="anchored" data-anchor-id="quiz">Quiz</h3>
+<ol type="1">
+<li><strong>Quel paramètre est utilisé pour passer un fichier image local à la CLI ?</strong>
+<ul>
+<li><ol type="A">
+<li><code>--file</code></li>
+</ol></li>
+<li><ol start="2" type="A">
+<li><code>--media</code></li>
+</ol></li>
+<li><ol start="3" type="A">
+<li><code>--image</code> <em>Solution : B</em></li>
+</ol></li>
+</ul></li>
+<li><strong>Comment forcer la CLI à retourner du JSON ?</strong>
+<ul>
+<li><ol type="A">
+<li><code>--json</code></li>
+</ol></li>
+<li><ol start="2" type="A">
+<li><code>--format json</code></li>
+</ol></li>
+<li><ol start="3" type="A">
+<li><code>--response-mime-type application/json</code> <em>Solution : C</em></li>
+</ol></li>
+</ul></li>
+</ol>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><em>(Contenu détaillé à venir)</em></p>
-
-
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <div id="progress-container" style="margin-top: 60px; padding: 30px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
